@@ -1,1177 +1,1177 @@
 {
-  "label": "Jofi Channels",
+  "label": "Jofi_Channels",
   "channels": [
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "9X Jalwa (1080p)",
       "title": "9X Jalwa (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "&prive HD (1080p)",
       "title": "&prive HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18494"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "&xplor HD (1080p)",
       "title": "&xplor HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-209"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Aaj Tak (1080p)",
       "title": "Aaj Tak (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ABP Ananda (1080p)",
       "title": "ABP Ananda (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ABP Asmita (1080p)",
       "title": "ABP Asmita (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-asmita/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ABP Ganga (1080p)",
       "title": "ABP Ganga (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://abplivetv.akamaized.net/hls/live/2043013/ganga/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Argus News (1080p)",
       "title": "Argus News (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://live.argusnews.in/hls/argustv.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Asianet HD (1080p)",
       "title": "Asianet HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18551"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Asianet Movies HD (1080p)",
       "title": "Asianet Movies HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://live.dinesh29.com.np/stream/jiotvplus/asianetmovieshd/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "B4U Bhojpuri (1080p)",
       "title": "B4U Bhojpuri (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "B4U Movies India (1080p)",
       "title": "B4U Movies India (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "B4U Music (1080p)",
       "title": "B4U Music (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Bharat24 (1080p)",
       "title": "Bharat24 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://legitpro.co.in/bharat24live/bharat24live/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Chardikla Gurbaani TV (1080p)",
       "title": "Chardikla Gurbaani TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://chardikalatimestv.gigabitcdn.net/in-chardikala/chardikala-gurbani-tv/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Chardikla Time TV (1080p)",
       "title": "Chardikla Time TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://chardikalagurbanitv.gigabitcdn.net/in-chardikala/chardikala-timetv/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Chardikla Time TV North America (1080p)",
       "title": "Chardikla Time TV North America (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "CNBC TV18 (1080p)",
       "title": "CNBC TV18 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cnbc-tv18/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors (1080p)",
       "title": "Colors (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18890"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors (1080p)",
       "title": "Colors (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?extension=.m3u8&id=144"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Bangla (1080p)",
       "title": "Colors Bangla (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18236"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Bangla (1080p)",
       "title": "Colors Bangla (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?format=.m3u8&id=756"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Cineplex (1080p)",
       "title": "Colors Cineplex (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18296"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Gujarati (1080p)",
       "title": "Colors Gujarati (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18230"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Gujarati (1080p)",
       "title": "Colors Gujarati (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?format=.m3u8&id=196"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Infinity (1080p)",
       "title": "Colors Infinity (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18838"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Infinity (1080p)",
       "title": "Colors Infinity (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?format=.m3u8&id=1158"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Kannada (1080p)",
       "title": "Colors Kannada (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18219"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Kannada (1080p)",
       "title": "Colors Kannada (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?format=.m3u8&id=757"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Marathi (1080p)",
       "title": "Colors Marathi (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18233"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Marathi (1080p)",
       "title": "Colors Marathi (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?format=.m3u8&id=755"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Tamil (1080p)",
       "title": "Colors Tamil (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18225"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Colors Tamil (1080p)",
       "title": "Colors Tamil (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?format=.m3u8&id=429"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "DD National HD (1080p)",
       "title": "DD National HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "DD News (1080p)",
       "title": "DD News (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "DD Tamil (1080p)",
       "title": "DD Tamil (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Disney International HD (1080p)",
       "title": "Disney International HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://116.90.120.149:8000/play/a0e9/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Enlight News (1080p)",
       "title": "Enlight News (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://live.enlightnews.com/live/enlightnews/tracks-v1a1/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Epic TV (1080p)",
       "title": "Epic TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://epiconvh.akamaized.net/live/epic/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ETV Abhiruchi (1080p)",
       "title": "ETV Abhiruchi (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264-3_cloud-in/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ETV Andhra Pradesh (1080p)",
       "title": "ETV Andhra Pradesh (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ETV Cinema HD (1080p)",
       "title": "ETV Cinema HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ETV Plus HD (1080p)",
       "title": "ETV Plus HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d27tnkf60df3v4.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_PLUS_H264-3_cloud_in/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ETV Telangana (1080p)",
       "title": "ETV Telangana (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://dssp63pjfajz9.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264-3_cloud_in/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ETV Telugu HD (1080p)",
       "title": "ETV Telugu HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d2z3q47xzd535o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264-2_cloud_in/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Filamchi Bhojpuri (1080p)",
       "title": "Filamchi Bhojpuri (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://epiconvh.akamaized.net/live/filamchi/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Gemini Movies (1080p)",
       "title": "Gemini Movies (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18814"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Gemini Music (1080p)",
       "title": "Gemini Music (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18857"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Gemini TV (1080p)",
       "title": "Gemini TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://livestream10.sunnxt.com/DolbyVision/GeminiTV_HDR/GeminiTV_HDR_Endpoints/GeminiTV-HDR10-IN-index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Global Punjab (1080p)",
       "title": "Global Punjab (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Goa365 (1080p)",
       "title": "Goa365 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://ktismaservers.in:3086/live/goa365live.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Gubbare (1080p)",
       "title": "Gubbare (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://epiconvh.akamaized.net/live/gubbare/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Hamdard TV (1080p)",
       "title": "Hamdard TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://tv.hamdardtv.com/hamdard/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Hope Channel India (1080p)",
       "title": "Hope Channel India (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://videodelivery.net/98334a974d26e45759c6baa8bceabbcf/manifest/video.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "India TV (1080p)",
       "title": "India TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://poclive-indiatvnews.akamaized.net/hlslive/Admin/px0219297/live/digital/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Ishara TV (1080p)",
       "title": "Ishara TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://epiconvh.akamaized.net/live/ishaara/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Jalsha Movies HD (1080p)",
       "title": "Jalsha Movies HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://live.dinesh29.com.np/stream/jiotvplus/jalshamovieshd/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "K News India (1080p)",
       "title": "K News India (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://knews.livebox.co.in/youtubehls/live.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Kolkata TV (1080p)",
       "title": "Kolkata TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kolkata-tv/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "KTV (1080p)",
       "title": "KTV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18805"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Living India News (1080p)",
       "title": "Living India News (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/living-india-news/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Lok Sabha TV (1080p)",
       "title": "Lok Sabha TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Manorama News (1080p)",
       "title": "Manorama News (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Mastiii (1080p)",
       "title": "Mastiii (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Max Middle East (1080p)",
       "title": "Max Middle East (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18851"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Max Middle East (1080p)",
       "title": "Max Middle East (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://nxtlive.net/sliv/stream.php?e=.m3u8&id=94312380256"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Mazhavil Manorama HD (1080p)",
       "title": "Mazhavil Manorama HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://cdn-7.pishow.tv/live/1129/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Mercy TV (1080p)",
       "title": "Mercy TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Mh 1 News (1080p)",
       "title": "Mh 1 News (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://mhonenews.in/hls/stream.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "MNTV (1080p)",
       "title": "MNTV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://mntv.livebox.co.in/mntvhls/live.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "MNTV Music (1080p)",
       "title": "MNTV Music (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://mntv.livebox.co.in/musichls/live.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "MNX (1080p)",
       "title": "MNX (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18936"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Movies Now (1080p)",
       "title": "Movies Now (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18935"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Nazara (1080p)",
       "title": "Nazara (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://epiconvh.akamaized.net/live/nazara/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "NDTV Good Times (1080p)",
       "title": "NDTV Good Times (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "News Malayalam 24x7 (1080p)",
       "title": "News Malayalam 24x7 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-malayalam-24x7/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "News Nation (1080p)",
       "title": "News Nation (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "News Tamil 24x7 (1080p)",
       "title": "News Tamil 24x7 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-tamil-24x7/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Nick Jr India (1080p)",
       "title": "Nick Jr India (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Nick_Junior_voot_MOB/Fallback/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Nickelodeon Sonic Hindi (1080p)",
       "title": "Nickelodeon Sonic Hindi (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "NK TV 24x7 (1080p)",
       "title": "NK TV 24x7 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Power TV (1080p)",
       "title": "Power TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://liveboxvideoconference.livebox.co.in/PowersmartMediahls/powertvlive.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Pravah Picture HD (1080p)",
       "title": "Pravah Picture HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://live.dinesh29.com.np/stream/jiotvplus/starpravahpicturehd/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Pravasi Channel (1080p)",
       "title": "Pravasi Channel (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Prudent Media (1080p)",
       "title": "Prudent Media (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://prudentmcdn.rixcast.com/prudentm.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "PTC Punjabi (1080p)",
       "title": "PTC Punjabi (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "PTC Punjabi Gold (1080p)",
       "title": "PTC Punjabi Gold (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Punjabi Hits (1080p)",
       "title": "Punjabi Hits (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Republic Bangla (1080p)",
       "title": "Republic Bangla (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Republic Kannada (1080p)",
       "title": "Republic Kannada (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://vg-republictvlive.akamaized.net/ptnr-republicweb/title-Republic_TV_Kannada/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/1acd1ce1-c6a7-4ae4-afa1-133ffb111ebb/main.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sai TV (1080p)",
       "title": "Sai TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://account30.livebox.co.in/saitvhls/live.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Salvation TV (1080p)",
       "title": "Salvation TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://ktismaservers.in:3902/live/salvationtvlive.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Samachar Plus (1080p)",
       "title": "Samachar Plus (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://samacharplus.livebox.co.in/samacharplushls/live.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sanskar TV (1080p)",
       "title": "Sanskar TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sanskar UK (1080p)",
       "title": "Sanskar UK (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d34z4embz0hjf6.cloudfront.net/out/v1/7ac2789ff9a544a49337d1ffc54ce61c/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sanskar USA (1080p)",
       "title": "Sanskar USA (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sanskar Web TV (1080p)",
       "title": "Sanskar Web TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://deatfcv3xdvi3.cloudfront.net/out/v1/7a43dd2f64e34ec28da1b4bd6923251a/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Satsang TV (1080p)",
       "title": "Satsang TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Satsang Web TV (1080p)",
       "title": "Satsang Web TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Shekinah TV (1080p)",
       "title": "Shekinah TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://livetv.timeiptv.in/ShekinahNewsIndia/955ad3298db330b5ee880c2c9e6f23a0.sdp/chunks.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Shubh TV (1080p)",
       "title": "Shubh TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Entertainment Television (1080p)",
       "title": "Sony Entertainment Television (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://nxtlive.net/sliv/stream.php?e=.m3u8&id=0897686"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Kal (1080p)",
       "title": "Sony Kal (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Marathi (1080p)",
       "title": "Sony Marathi (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://nxtlive.net/sliv/stream.php?e=.m3u8&id=985980256"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Pal (1080p)",
       "title": "Sony Pal (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://nxtlive.net/sliv/stream.php?e=.m3u8&id=985663255656"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Pix (1080p)",
       "title": "Sony Pix (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18495"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony SAB (1080p)",
       "title": "Sony SAB (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://nxtlive.net/sliv/stream.php?e=.m3u8&id=0897678986"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Sports Ten 1 (1080p)",
       "title": "Sony Sports Ten 1 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18926"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Sports Ten 2 (1080p)",
       "title": "Sony Sports Ten 2 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18927"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Sports Ten 3 (1080p)",
       "title": "Sony Sports Ten 3 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18848"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Sports Ten 5 (1080p)",
       "title": "Sony Sports Ten 5 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18818"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sony Wah (1080p)",
       "title": "Sony Wah (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://nxtlive.net/sliv/stream.php?e=.m3u8&id=0898545986"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Bharat HD (1080p)",
       "title": "Star Bharat HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18555"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Gold HD (1080p)",
       "title": "Star Gold HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://116.90.120.149:8000/play/a0c2/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Gold Select HD (1080p)",
       "title": "Star Gold Select HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18429"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Jalsha HD (1080p)",
       "title": "Star Jalsha HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18237"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Maa HD (1080p)",
       "title": "Star Maa HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18846"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Movies HD (1080p)",
       "title": "Star Movies HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18301"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Movies Select HD (1080p)",
       "title": "Star Movies Select HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18548"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Pravah HD (1080p)",
       "title": "Star Pravah HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18447"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Sports 1 Hindi HD (1080p)",
       "title": "Star Sports 1 Hindi HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://116.90.120.149:8000/play/a0bv/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Sports 1 Tamil HD (1080p)",
       "title": "Star Sports 1 Tamil HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18844"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Sports 1 Telugu HD (1080p)",
       "title": "Star Sports 1 Telugu HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18881"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Sports 2 HD (1080p)",
       "title": "Star Sports 2 HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18828"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Sports 2 Hindi (1080p)",
       "title": "Star Sports 2 Hindi (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://116.90.120.149:8000/play/a0cs/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Sports Select 1 HD (1080p)",
       "title": "Star Sports Select 1 HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://116.90.120.149:8000/play/a0cl/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Sports Select 2 HD (1080p)",
       "title": "Star Sports Select 2 HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://116.90.120.149:8000/play/a0cm/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Suvarna HD (1080p)",
       "title": "Star Suvarna HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18545"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Star Vijay HD (1080p)",
       "title": "Star Vijay HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18955"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "StarPlus HD (1080p)",
       "title": "StarPlus HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://116.90.120.149:8000/play/a0b9/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sudarshan News (1080p)",
       "title": "Sudarshan News (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sun Bangla (1080p)",
       "title": "Sun Bangla (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?format=.m3u8&id=1669"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sun Marathi (1080p)",
       "title": "Sun Marathi (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://live.dinesh29.com.np/stream/jiotvplus/sunmarathi/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sun Music (1080p)",
       "title": "Sun Music (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18821"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Sun TV (1080p)",
       "title": "Sun TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Surya Movies (1080p)",
       "title": "Surya Movies (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?format=.m3u8&id=1754"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Surya TV (1080p)",
       "title": "Surya TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://livestream10.sunnxt.com/DolbyVision/SuryaTV_HDR/SuryaTV_HDR_Endpoints/SuryaTV-HDR10-IN-index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "SVBC 4 (1080p)",
       "title": "SVBC 4 (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
       "title": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Taaza TV (1080p)",
       "title": "Taaza TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://stream.playbox.co.in:19360/taaza/taaza.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Tamilan TV (1080p)",
       "title": "Tamilan TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Thanthi One (1080p)",
       "title": "Thanthi One (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://249553662f3e.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.588204940461.channel.Sx8XPoik8VX2.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Total Bhakti (1080p)",
       "title": "Total Bhakti (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Udaya TV (1080p)",
       "title": "Udaya TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18289"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Udaya TV (1080p)",
       "title": "Udaya TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/live.php?format=.m3u8&id=901"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Vijay Super HD (1080p)",
       "title": "Vijay Super HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18954"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Vision (1080p)",
       "title": "Vision (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "WION (1080p)",
       "title": "WION (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "WION (Adaptive) (1080p)",
       "title": "WION (Adaptive) (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_in/streams/in/WION.in.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "ZB Cartoon (1080p)",
       "title": "ZB Cartoon (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://server.zillarbarta.com/zbcatun/video.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Bangla (1080p)",
       "title": "Zee Bangla (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18238"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Cafe (1080p)",
       "title": "Zee Cafe (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://116.90.120.149:8000/play/a0e7/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Cinemalu (1080p)",
       "title": "Zee Cinemalu (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18578"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Keralam (1080p)",
       "title": "Zee Keralam (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18502"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Marathi (1080p)",
       "title": "Zee Marathi (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18234"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee News (1080p)",
       "title": "Zee News (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Picchar (1080p)",
       "title": "Zee Picchar (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-241"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Talkies (1080p)",
       "title": "Zee Talkies (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeetalkies"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Tamil (1080p)",
       "title": "Zee Tamil (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18553"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Telugu (1080p)",
       "title": "Zee Telugu (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18222"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Thirai (1080p)",
       "title": "Zee Thirai (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18597"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee TV (1080p)",
       "title": "Zee TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://87.255.35.150:18849"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Disney Channel HD (1080p)",
       "title": "Disney Channel HD (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://66.102.120.18:8000/play/a013/index.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Raj Musix Tamil (1080p)",
       "title": "Raj Musix Tamil (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://livestream.rajtv.tv/cluster1/Content/Channel/RajMusix/HLS/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Raj Digital Plus (1080p)",
       "title": "Raj Digital Plus (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://livestream.rajtv.tv/cluster1/Content/Channel/RajDigitalPlus/HLS/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Raj TV (1080p)",
       "title": "Raj TV (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://livestream.rajtv.tv/cluster1/Content/Channel/RajTV/HLS/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Raj News (1080p)",
       "title": "Raj News (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
       "url": "http://livestream.rajtv.tv/cluster1/Content/Channel/RajNews/HLS/master.m3u8"
     },
     {
-      "category": "1080p",
+      "category": "Jofi_Channels",
       "name": "Zee Kannada (1080p)",
       "title": "Zee Kannada (1080p)",
       "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
