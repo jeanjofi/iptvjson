@@ -1,5 +1,162 @@
 [
     {
+        "label": "Jofi Tamil HD",
+        "channels": [
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Sun TV (1080p)",
+                "title": "Sun TV (1080p)",
+                "logo": "https://oxolive.com/wp-content/uploads/2025/02/ChatGPT-Image-Sep-14-2025-03_56_04-PM-1-200x300.png",
+                "url": "https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Star Vijay HD (1080p)",
+                "title": "Star Vijay HD (1080p)",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Star_Vijay_logo_2023.png",
+                "url": "http://87.255.35.150:18955"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Zee Tamil (1080p)",
+                "title": "Zee Tamil (1080p)",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Zee_Tamil_logo_2025.jpg",
+                "url": "http://87.255.35.150:18553"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Sun Music (1080p)",
+                "title": "Sun Music (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Music_HD.png",
+                "url": "http://87.255.35.150:18821"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Colors Tamil (1080p)",
+                "title": "Colors Tamil (1080p)",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/6/68/Colors_Tamil.png",
+                "url": "http://87.255.35.150:18225"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "KTV (1080p)",
+                "title": "KTV (1080p)",
+                "logo": "https://oxolive.com/wp-content/uploads/2025/02/ChatGPT-Image-May-27-2025-02_32_51-PM-200x300.png",
+                "url": "http://87.255.35.150:18805"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Star Sports 1 Tamil HD (1080p)",
+                "title": "Star Sports 1 Tamil HD (1080p)",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png",
+                "url": "http://87.255.35.150:18844"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Vijay Super HD (1080p)",
+                "title": "Vijay Super HD (1080p)",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/9/9d/Star_Vijay_Super_2019.png/revision/latest",
+                "url": "http://87.255.35.150:18954"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Sirippoli TV (576p)",
+                "title": "Sirippoli TV (576p)",
+                "url": "https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8",
+                "logo": "https://oxolive.com/wp-content/uploads/2020/01/ChatGPT-Image-Nov-4-2025-10_01_25-PM-1.png"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Jaya Max (576p)",
+                "title": "Jaya Max (576p)",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5a/Jaya_Max.jpeg/revision/latest?cb=20191224113123",
+                "url": "http://87.255.35.150:18829"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Jaya TV (576p)",
+                "title": "Jaya TV (576p)",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/8/87/Jaya_HD.jpg/revision/latest?cb=20200817140538",
+                "url": "http://87.255.35.150:18820"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Chutti TV (576p)",
+                "title": "Chutti TV (576p)",
+                "logo": "https://upload.wikimedia.org/wikipedia/ta/9/94/Chuttilogo.jpg",
+                "url": "http://87.255.35.150:18855"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Raj Musix Tamil (576p)",
+                "title": "Raj Musix Tamil (576p)",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Raj_Musix_Makayalam_TV_Logo.png",
+                "url": "http://87.255.35.150:18477"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "title": "Isaiaruvi (576p)",
+                "name": "Isaiaruvi (576p)",
+                "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/isaiaruvi_nim_https/140622/isaiaruvi/playlist.m3u8?id=162&type=mp4",
+                "logo": "https://oxolive.com/wp-content/uploads/2020/01/ChatGPT-Image-Nov-4-2025-09_58_56-PM-1.png"
+            }
+        ]
+    },
+    {
+        "label": "Jofi Malayalam HD",
+        "channels": [
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Asianet HD (1080p)",
+                "title": "Asianet HD (1080p)",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3b/Asianet_logo.png/revision/latest?cb=20240315190225",
+                "url": "http://87.255.35.150:18551"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Asianet Movies HD (1080p)",
+                "title": "Asianet Movies HD (1080p)",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/1/1d/Asmv.png/revision/latest?cb=20211123053324",
+                "url": "https://live.dinesh29.com.np/stream/jiotvplus/asianetmovieshd/master.m3u8"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Mazhavil Manorama HD (1080p)",
+                "title": "Mazhavil Manorama HD (1080p)",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/f/f1/Mazhavil_Manorama_HD_Logo.jpg/revision/latest?cb=20240314111337",
+                "url": "https://cdn-7.pishow.tv/live/1129/master.m3u8"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Surya Movies (1080p)",
+                "title": "Surya Movies (1080p)",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/6/63/Surya_movies.jpg/revision/latest?cb=20240314132709",
+                "url": "https://playyonogames.in/live.php?format=.m3u8&id=1754"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Surya TV (1080p)",
+                "title": "Surya TV (1080p)",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3d/HD.SUR.jpg/revision/latest?cb=20240314132303",
+                "url": "https://livestream10.sunnxt.com/DolbyVision/SuryaTV_HDR/SuryaTV_HDR_Endpoints/SuryaTV-HDR10-IN-index.m3u8"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Zee Keralam (1080p)",
+                "title": "Zee Keralam (1080p)",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Zee_Keralam_2025.svg",
+                "url": "http://87.255.35.150:18502"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Kappa TV (576p)",
+                "title": "Kappa TV (576p)",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Kappa_TV.jpg",
+                "url": "https://cdn-3.pishow.tv/live/1123/master.m3u8"
+            }
+        ]
+    },
+    {
         "label": "Jofi Channels",
         "channels": [
             {
@@ -57,20 +214,6 @@
                 "title": "Argus News (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
                 "url": "https://live.argusnews.in/hls/argustv.m3u8"
-            },
-            {
-                "category": "Jofi_Channels",
-                "name": "Asianet HD (1080p)",
-                "title": "Asianet HD (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "http://87.255.35.150:18551"
-            },
-            {
-                "category": "Jofi_Channels",
-                "name": "Asianet Movies HD (1080p)",
-                "title": "Asianet Movies HD (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "https://live.dinesh29.com.np/stream/jiotvplus/asianetmovieshd/master.m3u8"
             },
             {
                 "category": "Jofi_Channels",
@@ -218,13 +361,6 @@
                 "title": "Colors Marathi (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
                 "url": "https://playyonogames.in/live.php?format=.m3u8&id=755"
-            },
-            {
-                "category": "Jofi_Channels",
-                "name": "Colors Tamil (1080p)",
-                "title": "Colors Tamil (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "http://87.255.35.150:18225"
             },
             {
                 "category": "Jofi_Channels",
@@ -417,13 +553,6 @@
             },
             {
                 "category": "Jofi_Channels",
-                "name": "KTV (1080p)",
-                "title": "KTV (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "http://87.255.35.150:18805"
-            },
-            {
-                "category": "Jofi_Channels",
                 "name": "Living India News (1080p)",
                 "title": "Living India News (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
@@ -463,13 +592,6 @@
                 "title": "Max Middle East (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
                 "url": "https://nxtlive.net/sliv/stream.php?e=.m3u8&id=94312380256"
-            },
-            {
-                "category": "Jofi_Channels",
-                "name": "Mazhavil Manorama HD (1080p)",
-                "title": "Mazhavil Manorama HD (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "https://cdn-7.pishow.tv/live/1129/master.m3u8"
             },
             {
                 "category": "Jofi_Channels",
@@ -851,13 +973,6 @@
             },
             {
                 "category": "Jofi_Channels",
-                "name": "Star Sports 1 Tamil HD (1080p)",
-                "title": "Star Sports 1 Tamil HD (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "http://87.255.35.150:18844"
-            },
-            {
-                "category": "Jofi_Channels",
                 "name": "Star Sports 1 Telugu HD (1080p)",
                 "title": "Star Sports 1 Telugu HD (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
@@ -900,13 +1015,6 @@
             },
             {
                 "category": "Jofi_Channels",
-                "name": "Star Vijay HD (1080p)",
-                "title": "Star Vijay HD (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "http://87.255.35.150:18955"
-            },
-            {
-                "category": "Jofi_Channels",
                 "name": "StarPlus HD (1080p)",
                 "title": "StarPlus HD (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
@@ -932,34 +1040,6 @@
                 "title": "Sun Marathi (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
                 "url": "https://live.dinesh29.com.np/stream/jiotvplus/sunmarathi/master.m3u8"
-            },
-            {
-                "category": "Jofi_Channels",
-                "name": "Sun Music (1080p)",
-                "title": "Sun Music (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "http://87.255.35.150:18821"
-            },
-            {
-                "category": "Jofi_Channels",
-                "name": "Sun TV (1080p)",
-                "title": "Sun TV (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8"
-            },
-            {
-                "category": "Jofi_Channels",
-                "name": "Surya Movies (1080p)",
-                "title": "Surya Movies (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "https://playyonogames.in/live.php?format=.m3u8&id=1754"
-            },
-            {
-                "category": "Jofi_Channels",
-                "name": "Surya TV (1080p)",
-                "title": "Surya TV (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "https://livestream10.sunnxt.com/DolbyVision/SuryaTV_HDR/SuryaTV_HDR_Endpoints/SuryaTV-HDR10-IN-index.m3u8"
             },
             {
                 "category": "Jofi_Channels",
@@ -1019,13 +1099,6 @@
             },
             {
                 "category": "Jofi_Channels",
-                "name": "Vijay Super HD (1080p)",
-                "title": "Vijay Super HD (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "http://87.255.35.150:18954"
-            },
-            {
-                "category": "Jofi_Channels",
                 "name": "Vision (1080p)",
                 "title": "Vision (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
@@ -1075,13 +1148,6 @@
             },
             {
                 "category": "Jofi_Channels",
-                "name": "Zee Keralam (1080p)",
-                "title": "Zee Keralam (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "http://87.255.35.150:18502"
-            },
-            {
-                "category": "Jofi_Channels",
                 "name": "Zee Marathi (1080p)",
                 "title": "Zee Marathi (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
@@ -1107,13 +1173,6 @@
                 "title": "Zee Talkies (1080p)",
                 "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
                 "url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeetalkies"
-            },
-            {
-                "category": "Jofi_Channels",
-                "name": "Zee Tamil (1080p)",
-                "title": "Zee Tamil (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "http://87.255.35.150:18553"
             },
             {
                 "category": "Jofi_Channels",
