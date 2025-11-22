@@ -6,7 +6,7 @@
                 "category": "Jofi Tamil HD",
                 "name": "Sun TV (1080p)",
                 "title": "Sun TV (1080p)",
-                "logo": "https://oxolive.com/wp-content/uploads/2025/02/ChatGPT-Image-Sep-14-2025-03_56_04-PM-1-200x300.png",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_TV_HD.png",
                 "url": "https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8"
             },
             {
@@ -64,6 +64,13 @@
                 "title": "Vijay Takkar",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Vijay_Takkar.png",
                 "url": "http://87.255.35.150:18950"
+            },
+             {
+                "category": "Jofi Tamil HD",
+                "name": "Adithya TV",
+                "title": "Adithya TV",
+                "url": "http://87.255.35.150:18840",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Adithya_TV.png"
             },
             {
                 "category": "Jofi Tamil HD",
