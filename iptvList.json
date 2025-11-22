@@ -13,14 +13,14 @@
                 "category": "Jofi Tamil HD",
                 "name": "Star Vijay HD (1080p)",
                 "title": "Star Vijay HD (1080p)",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Star_Vijay_logo_2023.png",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Vijay_HD.png",
                 "url": "http://87.255.35.150:18955"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Zee Tamil (1080p)",
                 "title": "Zee Tamil (1080p)",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Zee_Tamil_logo_2025.jpg",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Tamil_HD.png",
                 "url": "http://87.255.35.150:18553"
             },
             {
@@ -34,29 +34,36 @@
                 "category": "Jofi Tamil HD",
                 "name": "Colors Tamil (1080p)",
                 "title": "Colors Tamil (1080p)",
-                "logo": "https://upload.wikimedia.org/wikipedia/en/6/68/Colors_Tamil.png",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Tamil_HD.png",
                 "url": "http://87.255.35.150:18225"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "KTV (1080p)",
                 "title": "KTV (1080p)",
-                "logo": "https://oxolive.com/wp-content/uploads/2025/02/ChatGPT-Image-May-27-2025-02_32_51-PM-200x300.png",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/KTV_HD.png",
                 "url": "http://87.255.35.150:18805"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Star Sports 1 Tamil HD (1080p)",
                 "title": "Star Sports 1 Tamil HD (1080p)",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_1_Tamil_HD.png",
                 "url": "http://87.255.35.150:18844"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Vijay Super HD (1080p)",
                 "title": "Vijay Super HD (1080p)",
-                "logo": "https://static.wikia.nocookie.net/logopedia/images/9/9d/Star_Vijay_Super_2019.png/revision/latest",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Vijay_Super_HD.png",
                 "url": "http://87.255.35.150:18954"
+            },
+             {
+                "category": "Jofi Tamil HD",
+                "name": "Vijay Takkar",
+                "title": "Vijay Takkar",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Vijay_Takkar.png",
+                "url": "http://87.255.35.150:18950"
             },
             {
                 "category": "Jofi Tamil HD",
@@ -69,29 +76,36 @@
                 "category": "Jofi Tamil HD",
                 "name": "Jaya Max (576p)",
                 "title": "Jaya Max (576p)",
-                "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5a/Jaya_Max.jpeg/revision/latest?cb=20191224113123",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Max.png",
                 "url": "http://87.255.35.150:18829"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Jaya TV (576p)",
                 "title": "Jaya TV (576p)",
-                "logo": "https://static.wikia.nocookie.net/logopedia/images/8/87/Jaya_HD.jpg/revision/latest?cb=20200817140538",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_TV_HD.png",
                 "url": "http://87.255.35.150:18820"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Chutti TV (576p)",
                 "title": "Chutti TV (576p)",
-                "logo": "https://upload.wikimedia.org/wikipedia/ta/9/94/Chuttilogo.jpg",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Chutti_TV.png",
                 "url": "http://87.255.35.150:18855"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Raj Musix Tamil (576p)",
                 "title": "Raj Musix Tamil (576p)",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Raj_Musix_Makayalam_TV_Logo.png",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Raj_Musix.png",
                 "url": "http://87.255.35.150:18477"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "title": "Isaiaruvi (HD)",
+                "name": "Isaiaruvi (HD)",
+                "url": "http://87.255.35.150:18912",
+                "logo": "https://oxolive.com/wp-content/uploads/2020/01/ChatGPT-Image-Nov-4-2025-09_58_56-PM-1.png"
             },
             {
                 "category": "Jofi Tamil HD",
@@ -99,6 +113,13 @@
                 "name": "Isaiaruvi (576p)",
                 "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/isaiaruvi_nim_https/140622/isaiaruvi/playlist.m3u8?id=162&type=mp4",
                 "logo": "https://oxolive.com/wp-content/uploads/2020/01/ChatGPT-Image-Nov-4-2025-09_58_56-PM-1.png"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Sun Life",
+                "title": "Sun Life",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Life.png",
+                "url": "http://87.255.35.150:18953"
             }
         ]
     },
@@ -144,14 +165,14 @@
                 "category": "Jofi Malayalam HD",
                 "name": "Zee Keralam (1080p)",
                 "title": "Zee Keralam (1080p)",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Zee_Keralam_2025.svg",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Keralam_HD.png",
                 "url": "http://87.255.35.150:18502"
             },
             {
                 "category": "Jofi Malayalam HD",
                 "name": "Kappa TV (576p)",
                 "title": "Kappa TV (576p)",
-                "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Kappa_TV.jpg",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Kappa_TV.png",
                 "url": "https://cdn-3.pishow.tv/live/1123/master.m3u8"
             }
         ]
