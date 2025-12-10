@@ -81,6 +81,13 @@
             },
             {
                 "category": "Jofi Tamil HD",
+                "name": "Kalaignar TV",
+                "title": "Kalaignar Tv",
+                "logo": "https://mw.qwertzqay.su//img/logo/android/7/1699.7.1.png",
+                "url": "https://edge2-moblive.yuppcdn.net/drm1/smil:kalaignartvdrm.smil/chunklist_b996000.m3u8"
+            },
+            {
+                "category": "Jofi Tamil HD",
                 "name": "Jaya Max (576p)",
                 "title": "Jaya Max (576p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Max.png",
@@ -156,10 +163,31 @@
             },
             {
                 "category": "Jofi Malayalam HD",
+                "name": "Surya Movies (720p)",
+                "title": "Surya Movies (720p)",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/6/63/Surya_movies.jpg/revision/latest?cb=20240314132709",
+                "url": "http://olxi0fko.ukminlt.fun/iptv/HV7NY9RSQCHYZK/6653/index.m3u8"
+            },
+            {
+                "category": "Jofi Malayalam HD",
                 "name": "Surya Movies (1080p)",
                 "title": "Surya Movies (1080p)",
                 "logo": "https://static.wikia.nocookie.net/logopedia/images/6/63/Surya_movies.jpg/revision/latest?cb=20240314132709",
-                "url": "https://playyonogames.in/live.php?format=.m3u8&id=1754"
+                "url": "http://87.255.35.150:18932"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Surya Music",
+                "title": "Surya Music",
+                "logo": "https://i.imgur.com/9vcdaKw.png",
+                "url": "http://87.255.35.150:18450"
+            },
+             {
+                "category": "Jofi Malayalam HD",
+                "name": "Surya Comedy",
+                "title": "Surya Comedy",
+                "logo": "https://i.imgur.com/dNI0Vm5.png",
+                "url": "http://87.255.35.150:18253"
             },
             {
                 "category": "Jofi Malayalam HD",
@@ -181,6 +209,13 @@
                 "title": "Kappa TV (576p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Kappa_TV.png",
                 "url": "https://cdn-3.pishow.tv/live/1123/master.m3u8"
+            },
+             {
+                "category": "Jofi Malayalam HD",
+                "name": "Kairali We",
+                "title": "Kairali We",
+                "logo": "https://i.imgur.com/zXpROBj.png",
+                "url": "https://cdn-3.pishow.tv/live/1530/master.m3u8"
             }
         ]
     },
