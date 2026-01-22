@@ -14,62 +14,62 @@
                 "name": "Star Vijay HD (1080p)",
                 "title": "Star Vijay HD (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Vijay_HD.png",
-                "url": "http://87.255.35.150:18955"
+                "url": "http://87.255.35.150:/index.ts"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Zee Tamil (1080p)",
                 "title": "Zee Tamil (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Tamil_HD.png",
-                "url": "http://87.255.35.150:18553"
+                "url": "http://87.255.35.150:18553/index.ts"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Sun Music (1080p)",
                 "title": "Sun Music (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Music_HD.png",
-                "url": "http://87.255.35.150:18821"
+                "url": "http://103.140.254.2:3500/live/895.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Colors Tamil (1080p)",
                 "title": "Colors Tamil (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Tamil_HD.png",
-                "url": "http://87.255.35.150:18225"
+                "url": "http://103.140.254.2:3500/live/429.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "KTV (1080p)",
                 "title": "KTV (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/KTV_HD.png",
-                "url": "http://87.255.35.150:18805"
+                "url": "http://103.140.254.2:3500/live/894.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Star Sports 1 Tamil HD (1080p)",
                 "title": "Star Sports 1 Tamil HD (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_1_Tamil_HD.png",
-                "url": "http://87.255.35.150:18844"
+                "url": "http://87.255.35.150:18844/index.ts"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Vijay Super HD (1080p)",
                 "title": "Vijay Super HD (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Vijay_Super_HD.png",
-                "url": "http://87.255.35.150:18954"
+                "url": "http://87.255.35.150:18954/index.ts"
             },
-             {
+            {
                 "category": "Jofi Tamil HD",
                 "name": "Vijay Takkar",
                 "title": "Vijay Takkar",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Vijay_Takkar.png",
-                "url": "http://87.255.35.150:18950"
+                "url": "http://87.255.35.150:18950/index.ts"
             },
-             {
+            {
                 "category": "Jofi Tamil HD",
                 "name": "Adithya TV",
                 "title": "Adithya TV",
-                "url": "http://87.255.35.150:18840",
+                "url": "http://103.140.254.2:3500/live/709.m3u8",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Adithya_TV.png"
             },
             {
@@ -84,41 +84,48 @@
                 "name": "Kalaignar TV",
                 "title": "Kalaignar Tv",
                 "logo": "https://mw.qwertzqay.su//img/logo/android/7/1699.7.1.png",
-                "url": "https://edge2-moblive.yuppcdn.net/drm1/smil:kalaignartvdrm.smil/chunklist_b996000.m3u8"
+                "url": "https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Jaya Max (576p)",
                 "title": "Jaya Max (576p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Max.png",
-                "url": "http://87.255.35.150:18829"
+                "url": "http://87.255.35.150:18829/index.ts"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Jaya TV (576p)",
                 "title": "Jaya TV (576p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_TV_HD.png",
-                "url": "http://87.255.35.150:18820"
+                "url": "http://87.255.35.150:18820/index.ts"
+            },
+             {
+                "category": "Jofi Tamil HD",
+                "name": "J Movies (576p)",
+                "title": "J Movies (576p)",
+                "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_J_MOVIES/images/LOGO_HD/image.png",
+                "url": "http://103.140.254.2:3500/live/417.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Chutti TV (576p)",
                 "title": "Chutti TV (576p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Chutti_TV.png",
-                "url": "http://87.255.35.150:18855"
+                "url": "http://103.140.254.2:3500/live/557.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
                 "name": "Raj Musix Tamil (576p)",
                 "title": "Raj Musix Tamil (576p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Raj_Musix.png",
-                "url": "http://87.255.35.150:18477"
+                "url": "http://103.140.254.2:3500/live/748.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
                 "title": "Isaiaruvi (HD)",
                 "name": "Isaiaruvi (HD)",
-                "url": "http://87.255.35.150:18912",
+                "url": "https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8",
                 "logo": "https://oxolive.com/wp-content/uploads/2020/01/ChatGPT-Image-Nov-4-2025-09_58_56-PM-1.png"
             },
             {
@@ -133,7 +140,7 @@
                 "name": "Sun Life",
                 "title": "Sun Life",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Life.png",
-                "url": "http://87.255.35.150:18953"
+                "url": "http://87.255.35.150:18953/index.ts"
             }
         ]
     },
@@ -145,7 +152,7 @@
                 "name": "Asianet HD (1080p)",
                 "title": "Asianet HD (1080p)",
                 "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3b/Asianet_logo.png/revision/latest?cb=20240315190225",
-                "url": "http://87.255.35.150:18551"
+                "url": "http://217.20.112.199/asianet/index.m3u8"
             },
             {
                 "category": "Jofi Malayalam HD",
@@ -180,9 +187,16 @@
                 "name": "Surya Music",
                 "title": "Surya Music",
                 "logo": "https://i.imgur.com/9vcdaKw.png",
-                "url": "http://87.255.35.150:18450"
+                "url": "http://103.140.254.2:3500/live/747.m3u8"
             },
-             {
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Raj Music Malayalam",
+                "title": "Raj Music Malayalam",
+                "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_MALAYALAM/images/LOGO_HD/image.png",
+                "url": "https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8"
+            },
+            {
                 "category": "Jofi Malayalam HD",
                 "name": "Surya Comedy",
                 "title": "Surya Comedy",
@@ -210,7 +224,7 @@
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Kappa_TV.png",
                 "url": "https://cdn-3.pishow.tv/live/1123/master.m3u8"
             },
-             {
+            {
                 "category": "Jofi Malayalam HD",
                 "name": "Kairali We",
                 "title": "Kairali We",
