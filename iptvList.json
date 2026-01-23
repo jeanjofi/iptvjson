@@ -142,6 +142,13 @@
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Life.png",
                 "url": "http://87.255.35.150:18953/index.ts"
             }
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Nat Geo Wild HD (1080p)",
+                "title": "Nat Geo Wild HD (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Nat_Geo_Wild.png",
+                "url": "http://217.20.112.199/natgeowild/index.m3u8"
+            }
         ]
     },
     {
