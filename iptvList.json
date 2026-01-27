@@ -100,7 +100,7 @@
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_TV_HD.png",
                 "url": "http://87.255.35.150:18820/index.ts"
             },
-             {
+            {
                 "category": "Jofi Tamil HD",
                 "name": "J Movies (576p)",
                 "title": "J Movies (576p)",
@@ -130,10 +130,10 @@
             },
             {
                 "category": "Jofi Tamil HD",
-                "title": "Isaiaruvi (576p)",
-                "name": "Isaiaruvi (576p)",
-                "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/isaiaruvi_nim_https/140622/isaiaruvi/playlist.m3u8?id=162&type=mp4",
-                "logo": "https://oxolive.com/wp-content/uploads/2020/01/ChatGPT-Image-Nov-4-2025-09_58_56-PM-1.png"
+                "name": "Zee Thirai (1080p)",
+                "title": "Zee Thirai (1080p)",
+                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
+                "url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeThiraiHD_MOB/WDVLive/index.mpd"
             },
             {
                 "category": "Jofi Tamil HD",
