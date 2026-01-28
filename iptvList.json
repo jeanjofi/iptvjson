@@ -11,6 +11,13 @@
             },
             {
                 "category": "Jofi Tamil HD",
+                "name": "Sun TV (1080p)",
+                "title": "Sun TV (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_TV_HD.png",
+                "url": "http://217.20.112.199/suntv/index.m3u8"
+            },
+            {
+                "category": "Jofi Tamil HD",
                 "name": "Star Vijay HD (1080p)",
                 "title": "Star Vijay HD (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Vijay_HD.png",
@@ -29,6 +36,13 @@
                 "title": "Sun Music (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Music_HD.png",
                 "url": "http://15.235.144.106:14055/"
+            },
+             {
+                "category": "Jofi Tamil HD",
+                "name": "Sun Music (new)",
+                "title": "Sun Music (new)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Music_HD.png",
+                "url": "http://103.140.254.2:3500/live/895.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
@@ -148,6 +162,13 @@
                 "title": "Nat Geo Wild HD (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Nat_Geo_Wild.png",
                 "url": "http://217.20.112.199/natgeowild/index.m3u8"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "History Channel English (1080p)",
+                "title": "History Channel English (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/a672c84c9b640aff36b88b9c3a4e4c70.png",
+                "url": "https://amg01448-amg01448c15-samsung-in-3494.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8"
             }
         ]
     },
@@ -237,6 +258,13 @@
                 "title": "Kairali We",
                 "logo": "https://i.imgur.com/zXpROBj.png",
                 "url": "https://cdn-3.pishow.tv/live/1530/master.m3u8"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Pulari TV",
+                "title": "Pulari TV",
+                "logo": "https://pularitv.com/assets/images/Pulari-Logo.png",
+                "url": "https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8"
             }
         ]
     },
