@@ -37,7 +37,7 @@
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Music_HD.png",
                 "url": "http://15.235.144.106:14055/"
             },
-             {
+            {
                 "category": "Jofi Tamil HD",
                 "name": "Sun Music (new)",
                 "title": "Sun Music (new)",
@@ -169,6 +169,13 @@
                 "title": "History Channel English (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/a672c84c9b640aff36b88b9c3a4e4c70.png",
                 "url": "https://amg01448-amg01448c15-samsung-in-3494.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8"
+            },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Hells Kitchen TV (1080p)",
+                "title": "Hells Kitchen TV (1080p)",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/6/64/Hells_Kitchen_US_Season_21_Poster.jpg",
+                "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62ea45010d0611000839868c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c1-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e3a17d6f-f38c-4a08-9e69-00d8a53906ecGusto_TV,https://563f72af.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0d1c3RvVFZfSExT/playlist.m3u8"
             }
         ]
     },
