@@ -7,13 +7,6 @@
                 "name": "Sun TV (1080p)",
                 "title": "Sun TV (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_TV_HD.png",
-                "url": "https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8"
-            },
-            {
-                "category": "Jofi Tamil HD",
-                "name": "Sun TV (1080p)",
-                "title": "Sun TV (1080p)",
-                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_TV_HD.png",
                 "url": "http://217.20.112.199/suntv/index.m3u8"
             },
             {
@@ -39,10 +32,10 @@
             },
             {
                 "category": "Jofi Tamil HD",
-                "name": "Sun Music (new)",
-                "title": "Sun Music (new)",
-                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Music_HD.png",
-                "url": "http://103.140.254.2:3500/live/895.m3u8"
+                "name": "Ultimate Tv",
+                "title": "Ultimate Tv",
+                "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/U-Tv-logo_2000_X_1125_Transpharent.png",
+                "url": "https://stream.galaxyott.live/live/utv/index.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
@@ -144,13 +137,6 @@
             },
             {
                 "category": "Jofi Tamil HD",
-                "name": "Zee Thirai (1080p)",
-                "title": "Zee Thirai (1080p)",
-                "logo": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/playimage.png",
-                "url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeThiraiHD_MOB/WDVLive/index.mpd"
-            },
-            {
-                "category": "Jofi Tamil HD",
                 "name": "Sun Life",
                 "title": "Sun Life",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Life.png",
@@ -165,11 +151,25 @@
             },
             {
                 "category": "Jofi Tamil HD",
+                "name": "Animal Planet HD (1080p)",
+                "title": "Animal Planet HD (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Animal_Planet.png",
+                "url": "http://217.20.112.199:8888/animalplanet/index.m3u8"
+            },
+            {
+                "category": "Jofi Tamil HD",
                 "name": "History Channel English (1080p)",
                 "title": "History Channel English (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/a672c84c9b640aff36b88b9c3a4e4c70.png",
                 "url": "https://amg01448-amg01448c15-samsung-in-3494.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8"
             },
+            {
+                "category": "Jofi Tamil HD",
+                "name": "Tom & Jerry HD (1080p)",
+                "title": "Tom & Jerry HD (1080p)",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMTdA_5aPoXXQ8odfAxkHWa_Mg3ebfreROIQ",
+                "url": "http://tv.zapping.life:8080/Richardtv847/wjR2TtxYES/162845"
+            }
             {
                 "category": "Jofi Tamil HD",
                 "name": "Hells Kitchen TV (1080p)",
@@ -209,13 +209,6 @@
                 "title": "Surya Movies (720p)",
                 "logo": "https://static.wikia.nocookie.net/logopedia/images/6/63/Surya_movies.jpg/revision/latest?cb=20240314132709",
                 "url": "http://olxi0fko.ukminlt.fun/iptv/HV7NY9RSQCHYZK/6653/index.m3u8"
-            },
-            {
-                "category": "Jofi Malayalam HD",
-                "name": "Surya Movies (1080p)",
-                "title": "Surya Movies (1080p)",
-                "logo": "https://static.wikia.nocookie.net/logopedia/images/6/63/Surya_movies.jpg/revision/latest?cb=20240314132709",
-                "url": "http://87.255.35.150:18932"
             },
             {
                 "category": "Jofi Malayalam HD",
@@ -272,6 +265,81 @@
                 "title": "Pulari TV",
                 "logo": "https://pularitv.com/assets/images/Pulari-Logo.png",
                 "url": "https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "NTV Malayalam",
+                "title": "NTV Malayalam",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR91xrz8oTm_GWaqYE9Xfeiw4vy9G-ywfuZTrFExQVFug&s",
+                "url": "https://mars.streambridge.cloud/ntv/live/playlist.m3u8"
+            }
+        ]
+    },
+    {
+        "label": "Jackshan Hindi Channels",
+        "channels": [
+            {
+                "category": "Jackshan Hindi Channels",
+                "name": "Sony SAB (1080p)",
+                "title": "Sony SAB (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",
+                "url": "http://103.182.170.32:8888/play/a03r"
+            },
+            {
+                "category": "Jackshan Hindi Channels",
+                "name": "Sony Entertainment Television (1080p)",
+                "title": "Sony Entertainment Television (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",
+                "url": "http://103.182.170.32:8888/play/a03t"
+            },
+            {
+                "category": "Jackshan Hindi Channels",
+                "name": "Sony Max HD (1080p)",
+                "title": "Sony Max HD (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_HD.png",
+                "url": "http://103.182.170.32:8888/play/a04f"
+            },
+            {
+                "category": "Jackshan Hindi Channels",
+                "name": "Pogo (1080p)",
+                "title": "Pogo (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Pogo.png",
+                "url": "http://103.182.170.32:8888/play/a02p"
+            },
+            {
+                "category": "Jackshan Hindi Channels",
+                "name": "Star Movies HD (1080p)",
+                "title": "Star Movies HD (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies_HD.png",
+                "url": "http://103.182.170.32:8888/play/a029"
+            },
+            {
+                "category": "Jackshan Hindi Channels",
+                "name": "Movies Now (1080p)",
+                "title": "Movies Now (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Movies_Now_HD.png",
+                "url": "http://103.182.170.32:8888/play/a01n"
+            },
+            {
+                "category": "Jackshan Hindi Channels",
+                "name": "Star Gold HD (1080p)",
+                "title": "Star Gold HD (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_HD.png",
+                "url": "http://103.182.170.32:8888/play/a02j"
+            },
+            {
+                "category": "Jackshan Hindi Channels",
+                "name": "Colors HD (1080p)",
+                "title": "Colors HD (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_HD.png",
+                "url": "http://103.182.170.32:8888/play/a041"
+            },
+            {
+                "category": "Jackshan Hindi Channels",
+                "name": "MTV India (1080p)",
+                "title": "MTV India (1080p)",
+                "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/MTV.png",
+                "url": "http://103.182.170.32:8888/play/a025"
             }
         ]
     },
