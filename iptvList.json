@@ -243,7 +243,14 @@
                 "name": "Zee Keralam (1080p)",
                 "title": "Zee Keralam (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Keralam_HD.png",
-                "url": "http://87.255.35.150:18502"
+                "url": "http://162.249.127.3/live/758811/854100/98895.ts?token=ShJcU0BbQQNHClZZDlYNAFxSVQYCBlMCAFUDAgRdAQdQBgRXVwAFDQcbGBpEF0dcWF1vWQIXXlgJWlsCSUZGQVRCa1tXEVkbVA0NCQBUAhsVEkRZC1BGWwBVVQdQUAoDAgMYEENaBxtfGwAJBFABAQgSHBIDTRAEQwwDWzoAVkRYU1EQCV0WVQkVFldZPFFcVFFeVEQPRlETTkBeFhQRCF9FWF4fEQFQEUtVTFJBDxsLBwIFRBlGAl4XDEMXHREIE3l6EB8RBkERXFpLXgxbGwMSRENEGUYIQj0QUhYQQVdQXVFAEQlBCUcVFlVWG2paVl5eVQVBDQ5fEUANR1URHhNdW1xaRwxLOkldXBVZFwgOBAcIVQVGHA=="
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Amritha TV (1080p)",
+                "title": "Amritha TV (1080p)",
+                "logo": "https://yt3.googleusercontent.com/ytc/AIdro_nBAXbOSIUuC2k-W099X68KEQ4MMDi3-r5jH2ZzLQ=s900-c-k-c0x00ffffff-no-rj",
+                "url": "https://ddash74r36xqp.cloudfront.net/master_2000.m3u8"
             },
             {
                 "category": "Jofi Malayalam HD",
@@ -258,6 +265,13 @@
                 "title": "Kairali We",
                 "logo": "https://i.imgur.com/zXpROBj.png",
                 "url": "https://cdn-3.pishow.tv/live/1530/master.m3u8"
+            },
+            {
+                "category": "Jofi Malayalam HD",
+                "name": "Kairali TV",
+                "title": "Kairali TV",
+                "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kNtX4loDkwdRCPr2plz99CPb22-Xx_UKIjlVT8ew=s900-c-k-c0x00ffffff-no-rj",
+                "url": "https://mumt01.tangotv.in/KAIRALI/index.m3u8"
             },
             {
                 "category": "Jofi Malayalam HD",
