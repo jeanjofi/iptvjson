@@ -1,8 +1,8 @@
 {
     "Jofi_IPTV2": {
-        "url": "https://gitlab.com/Arunjunan20/tamil-iptv/-/raw/main/index.html"
+        "url": "https://gitlab.com/Arunjunan20/tamil-iptv/-/raw/main/index.m3u"
     },
-    "JOFI_Malyalam_M3U": {
+    "JOFI_Malayalam_M3U": {
         "url": "https://raw.githubusercontent.com/ashrafshj/Ashru-TV/master/MLM"
     }
 }
