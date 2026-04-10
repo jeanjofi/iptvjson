@@ -10,6 +10,9 @@ https://livestream.sunnxt.com/6b79451f54284b3fb680fd717ee008dc/SunLifeB_IN_index
 #EXTINF:-1 tvg-id="ts284" tvg-language="Tamil" tvg-logo="https://i.ibb.co/gFFC2vn9/aditya.png" group-title="SunNXT",Adithya TV
 https://livestream.sunnxt.com/4d0eb3cde30247ada4ade679fdfbaf86/AdithyaTVB_IN_index.mpd
 
+#EXTINF:-1 tvg-id="ts200" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/sirippoli-tv-white.png" group-title="Tamil",Siripoli
+https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=05da38a46fb7403088f41434e44de980:488046139a1e1d65323cfe4bb1b30b7b
 #EXTINF:-1 tvg-id="ts302" tvg-language="Tamil" tvg-logo="https://i.ibb.co/6Sf6pWJ/chutti.png" group-title="SunNXT",Chutti TV
