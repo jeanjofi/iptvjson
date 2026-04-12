@@ -1,0 +1,160 @@
+================================= SUNNXT ==================================================
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=81546df3f41c4a6dbc9a4efc7f2fb626:3928505f4054cf1fa935276fdbe40992
+#EXTINF:-1 tvg-id="474" tvg-language="Tamil" tvg-logo="https://i.ibb.co/MkK86W0P/life.png" group-title="SunNXT", Sun Life
+https://livestream.sunnxt.com/6b79451f54284b3fb680fd717ee008dc/SunLifeB_IN_index.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=d674a1a7f43641a29bd8867d87c7259a:812f55dcde68619fc6ad95951b241d2c
+#EXTINF:-1 tvg-id="ts284" tvg-language="Tamil" tvg-logo="https://i.ibb.co/gFFC2vn9/aditya.png" group-title="SunNXT",Adithya TV
+https://livestream.sunnxt.com/4d0eb3cde30247ada4ade679fdfbaf86/AdithyaTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-id="ts200" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/sirippoli-tv-white.png" group-title="Tamil",Siripoli
+https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=05da38a46fb7403088f41434e44de980:488046139a1e1d65323cfe4bb1b30b7b
+#EXTINF:-1 tvg-id="ts302" tvg-language="Tamil" tvg-logo="https://i.ibb.co/6Sf6pWJ/chutti.png" group-title="SunNXT",Chutti TV
+https://livestream.sunnxt.com/3ed29d5b01b546eaa05d184cd87535f1/ChuttiTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-id="521" group-title="SunNXT" tvg-logo="https://sund-images.sunnxt.com/195491/200x200_SunTVHDDolbyVision_195491_4ce296b0-c6fb-424e-8711-e53b152e71ee.png",Sun TV HDR10
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3891557f1cb14dedb7545bf52499d748:fb662f742e5f5e0c61a7c1c66d2b019a
+https://livestream2.sunnxt.com/803a6a4872a449a193b5846b5d101359/SunTVHD_P_IN_index.mpd
+
+#EXTINF:-1 tvg-name="SunMusic" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/417_144.png" group-title="Music" tvg-id="SunMusic",Sun Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=beaca9461f7ca0d58ba529fed2e7b610:da0a70148e126eb40cce02665753896d
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; UltraBox Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.7103.61 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5011/default_ott.mpd
+
+#EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/357_144.png" group-title="Astro GO" tvg-id="StarVijay",Star Vijay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; UltraBox Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.7103.61 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=af35608a7d4b13d1158c2ef6d6c1a010:d01c81050dfab309c6be7e60d03c2d82
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd
+
+#EXTINF:-1 tvg-name="SunMusic" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/417_144.png" group-title="Music" tvg-id="SunMusic",Sun Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=beaca9461f7ca0d58ba529fed2e7b610:da0a70148e126eb40cce02665753896d
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; UltraBox Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.7103.61 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5011/default_ott.mpd
+
+#EXTINF:-1 tvg-id="SunTV" tvg-name="SUN TV HD" group-title="Astro GO" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/358_144.png", Sun TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"699Wuko1YsyCBTopUpdUMg", "kid":"gwdv8vaNF2S1WcQyq0nKEA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; MiTV-AXSO0 Build/QTZCS200912.005) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2310/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"URkFvxkUdLQStOwRdRWnnA", "kid":"5GNU+znCjllWvJRqwqBQEA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="ColorsTamil" tvg-name="Colors Tamil HD" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/298_144.png" group-title="Astro GO", Colors Tamil
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; MiTV-AXSO0 Build/QTZCS200912.005) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2101/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Znoz9NW7NYfy1SCYhoOerA", "kid":"DU4+fawtWLk7+BmnL+jVEA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="ZeeTamilHD"  group-title="Astro GO" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/297_144.png",Zee Tamil
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; MiTV-AXSO0 Build/QTZCS200912.005) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2311/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"c2SM66N1FkWSbUVCHIXZJw", "kid":"jnhjqOdwsNcuvkpoQ3tkEA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="216" ch-number=" " tvg-name="KTV" group-title="Astro GO" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/477_144.png", KTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; MiTV-AXSO0 Build/QTZCS200912.005) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+http://linearjitp-playback.astro.com.my/dash-wv/linear/5088/default_ott.mpd
+  
+#EXTINF:-1 tvg-id="Adithya" tvg-name="Adithya" group-title="Astro GO" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/67_144.png", Adithya
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"XrN2KxpGMaC5jiXiPO8Bkw", "kid":"hZ9bIFTEBz6PDaRj0gi5EA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; 17223-43-223532-432-4121-32-43-2-1212-3124-12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/915/default_ott.mpd
+
+#EXTINF:-1 tvg-id="SunNews" tvg-name="Sun News" group-title="Astro GO" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/478_144.png", Sun News
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"rAh5IEchjKKgHyu9EtkFAQ", "kid":"ChccwbuQ94ggzyXMVfDuEA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; MiTV-AXSO0 Build/QTZCS200912.005) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5087/default_ott.mpd
+
+#EXTINF:-1 tvg-id="SunLife" tvg-name="Sun Life" group-title="Astro GO" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/476_144.png",Sun Life
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"cmMEcIxCn2E+wtxTYZ1vdg", "kid":"4+G+lObBk/oheHzoQ122EA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; MiTV-AXSO0 Build/QTZCS200912.005) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5089/default_ott.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=06e1831ba6f946568bdea62e67ca7317:f02c40d2006e036104f7726116861d7c
+#EXTINF:-1 tvg-id="311.unifi" tvg-logo="http://playtv.unifi.com.my:7120/CPS/images/universal/film/logo/202509/20250930/40/160755518385f862175c.png" group-title="Astro GO",Zee Tamil (Unifi) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(ZeeTamil)/master.mpd
+
+#EXTINF:-1 tvg-id="337.unifi" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/DD728749-B762-4F91-81F8-EA1016F97EF3/0-16x9.png?width=530&updatedTime=0&dt=Web" group-title="Astro GO",Zee Thirai
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=bd7282e920e5437a9b1f01bc6f81795c:99763370f0763b0f7119aab091cc70c8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(ZeeThi)/master.mpd
+
+#EXTINF:-1 tvg-id="303.unifi" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/BD814A07-3CF5-4686-B552-31FF782BB8F7/0-16x9.png?width=530&updatedTime=0&dt=Web" group-title="Astro GO",Sony YAY!
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=582e9e382cb0495886afbabdbdb6fbf7:c0f550839b235443724cd007392b6e40
+https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(SonyYay)/master.mpd
+
+#EXTINF:-1 tvg-id="ZeeCinema" tvg-name="Zee Cinema" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/490_144.png" group-title="Astro GO",Z Cinema
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; UltraBox Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.7103.61 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=db96483900762e233aa7830457a0d310:20f392e5a1021be68fc32bcdb9ec3ad4
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5106/default_ott.mpd
+
+
+=============================================== NEWS =============================================================
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4df8f920386e4346ba6b7d7ae935d668:c5fcaa8df5663365d938a50987f71b84
+#EXTINF:-1 tvg-id="ts443" tvg-logo="https://i.ibb.co/R4CWL1p0/news.png" group-title="SunNXT", Sun News
+https://livestream3.sunnxt.com/491c99fb6d0c49e88e6349170d890a2f/SunNewsB_IN_index.mpd
+#EXTINF:-1 tvg-id="58" tvg-chno="193" tvg-logo="https://tatalogo.pages.dev/58.png" group-title="News", News18 Tamil Nadu
+https://nw18live.cdn.jio.com/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 tvg-id="ts968" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-69018-kzo65wi0-v1/imageContent-69018-kzo65wi0-m2.png" group-title="News",News Tamil 24x7
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-tamil-24x7/dce170a4-128b-43c9-a5a0-44c44ba8f8bd/2.m3u8
+#EXTINF: -1 tvg-id="968" tvg-chno="198" tvg-logo="https://i.ibb.co/09X3DwC/1000156347-removebg-preview.jpg" group-title="News", Win TV
+https://cdn-4.pishow.tv/live/1531/master.m3u8
+#EXTINF: -1 tvg-id="ZeeTamil.in" tvg-chno="197" tvg-logo="https://yt3.googleusercontent.com/GJVGgzRXxK1FDoUpC8ztBHPu81PMnhc8inodKtEckH-rykiYLzg93HUQIoTIirwORynozMkR=s900-c-k-c0x00ffffff-no-rj" group-title="News", Zee Tamil News
+https://dpkvdnzbeen1l.cloudfront.net/index_4.m3u8
+#EXTINF:-1 tvg-logo="https://tatalogo.pages.dev/509.png"  group-title="News", Polimer News
+https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tatalogo.pages.dev/702.png" group-title="YuppTV" , News7 Tamil
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/news7_nim_https/240122/news7/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tatalogo.pages.dev/220.png" group-title="News", Puthiya Thalaimurai
+https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
+#EXTINF:-1 tvg-id="ts44" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-126-j5fnf4ig-v2/imageContent-126-j5fnf4ig-m2.png" group-title="News",Seithigal TV
+https://live-cf-kalaignarnews.dailyhunt.in/master.m3u8
+#EXTINF:-1 tvg-id="ts455" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11764-j9kwqj6o-v1/imageContent-11764-j9kwqj6o-m1.png" group-title="News",Sathiyam TV
+https://live-cf-sathiyamtv.dailyhunt.in/master.m3u8
+#EXTINF:-1 tvg-id="ts391" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/MAMUR_Thumbnail-v2/MAMUR_Thumbnail.png" group-title="News",MalaiMurasu Seithigal
+https://live-cf-malaimurasu.dailyhunt.in/master.m3u8
+#EXTINF:-1 tvg-id="TIMES.NOW.HD.in" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/times-now-in.png" group-title="News",Times Now
+https://d3pvf6sv7wsu07.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-id="WION.in" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/india/wion-in.png" group-title="News",WION
+https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+#EXTINF:-1 tvg-id="NDTV24x7.mv" tvg-name="NDTV 24x7" tvg-logo="https://8upload.com/image/67da280876f6c/38-ndtv.png" group-title="News",NDTV 24x7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
+#EXTINF:-1 tvg-id="INDIA.TODAY.in" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/india-today-in.png" group-title="News",INDIA TODAY
+https://feeds.intoday.in/hltapps/api/master.m3u8
+#EXTINF:-1 tvg-chno="1045" tvg-name="Republic TV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900020A5_20240131T032253SQUARE.png_20240131032254.png" group-title="News",Republic TV
+https://jmp2.uk/stvp-INBA4900020A5
+#EXTINF:-1 tvg-id="98" tvg-name="Russia Today" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-312-j5jjsfhs-v1/imageContent-312-j5jjsfhs-m1.png" group-title="News",RT International
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTINF:-1 tvg-name="618" tvg-logo="https://yt3.googleusercontent.com/59qbEgr7rhhe4at1KqExuPKL7wo-zT1NpI7QX36kn6Dmg1VnGmgq56xJKwQA3cKR7Lkgng9CT58=s900-c-k-c0x00ffffff-no-rj" group-title="News",News9
+https://vg-tv9live.akamaized.net/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-573213/095065d4-c49a-4154-a484-98140cd27b24/0.m3u8?ads.partner=dailyhunt&sessionId=66f62228-ed83-47e5-8fa3-c3843e060207
+#EXTINF:-1 tvg-name="CNN News18" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300009QZ_20240131T032448SQUARE.png_20240131032449.png" group-title="News",CNN News18
+https://amg01448-samsungin-cnnnewsnw18-samsungin-ad-gv.amagi.tv/playlist/amg01448-samsungin-cnnnewsnw18-samsungin/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
+
+
+
