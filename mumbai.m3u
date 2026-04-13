@@ -1,5 +1,5 @@
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://dtil.tmsimg.com/assets/s143287_ld_h15_aa.png?lock=720x540" group-title="Tamil",Madha Tv
-https://60e68b19dd194.streamlock.net:55/madhatv/madhatv.stream_HDp/playlist.m3u8
+http://103.109.45.5:1935/madhatv/madhatv.stream_HDp/chunklist_w67072347.m3u8
 
 ================================= SUNNXT ==================================================
 #EXTINF:-1 tvg-id="521" group-title="SunNXT" tvg-logo="https://sund-images.sunnxt.com/195491/200x200_SunTVHDDolbyVision_195491_4ce296b0-c6fb-424e-8711-e53b152e71ee.png",Sun TV HDR10
