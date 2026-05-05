@@ -32,8 +32,12 @@ https://livestream.sunnxt.com/6b79451f54284b3fb680fd717ee008dc/SunLifeB_IN_index
 #KODIPROP:inputstream.adaptive.license_key=af35608a7d4b13d1158c2ef6d6c1a010:d01c81050dfab309c6be7e60d03c2d82
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd
 
-#EXTINF:-1 tvg-logo="https://tatalogo.pages.dev/674.png"group-title="", Colors Tamil HD
-http://ptuf.ridsys.in/riptv/live/COLORS_TAMIL/index.m3u8
+#EXTINF:-1 tvg-id="429" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ColorsTamilHD.png",Colors Tamil HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=94d31d976768554b892f7037db09e0c908c5154b6cdcb6e0fc99d9d4e6298cb3
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1777959609~exp=1777981209~acl=/*~hmac=d6bf23c3703963818b7b2690e0fb60191015e565735ff2b915f3f7911fac5efd"}
+https://jiotvioslive.cdn.jio.com/bpk-tv/Colors_Tamil_MOB/WDVLive/index.mpd?__hdnea__=st=1777959609~exp=1777981209~acl=/*~hmac=d6bf23c3703963818b7b2690e0fb60191015e565735ff2b915f3f7911fac5efd
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Plus_Tamil_HD.png"group-title="", Jaya Plus
 https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8
