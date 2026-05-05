@@ -18,6 +18,9 @@ https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Polimer_TV.png" group-title="Tamil",Polimer
 https://cdn-2.pishow.tv/live/1241/master.m3u8
 
+#EXTINF:-1 tvg-id="499" tvg-logo="https://tatalogo.pages.dev/499.png" group-title="Tamil", Vasanth TV
+https://vasanth.pc.cdn.bitgravity.com/vasanth/secure/live/feed03/playlist_108k.m3u8
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=81546df3f41c4a6dbc9a4efc7f2fb626:3928505f4054cf1fa935276fdbe40992
 #EXTINF:-1 tvg-id="474" tvg-language="Tamil" tvg-logo="https://i.ibb.co/MkK86W0P/life.png" group-title="SunNXT", Sun Life
@@ -74,7 +77,7 @@ https://d14c63magvk61v.cloudfront.net/strm/channels/9xjalwa/master.m3u8
 https://livestream3.sunnxt.com/491c99fb6d0c49e88e6349170d890a2f/SunNewsB_IN_index.mpd
 
 #EXTINF:-1 tvg-logo="https://tatalogo.pages.dev/220.png" group-title="News", Puthiya Thalaimurai
-https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
+https://cdn-3.pishow.tv/live/1261/master.m3u8
 
 #EXTINF: -1 tvg-id="968" tvg-chno="198" tvg-logo="https://dtil.tmsimg.com/assets/s144000_ld_h15_aa.png?lock=720x540" group-title="News", Thanthi TV
 https://cdn-3.pishow.tv/live/1612/master.m3u8
