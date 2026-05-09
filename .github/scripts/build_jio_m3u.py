@@ -16,6 +16,18 @@ from typing import Optional
 JIO_JSON_URL = "https://jo-json.vodep39240327.workers.dev/"
 KEY_URL_TEMPLATE = "https://temp.webplay.fun/jtv/key.php?id={id}"
 
+# JIO mobile player User-Agent. Akamai's bot scoring on jiotv*.cdn.jio.com
+# rates okhttp/* (ExoPlayer's default) HEAVILY when the request comes from
+# a residential IP — the same UA from a cloud datacenter passes. That's
+# why curl tests from anywhere "work" but the same URL from a Firestick
+# at home gets rejected. Emitting #EXTVLCOPT:http-user-agent=... in the
+# M3U lets the existing parser in App.tsx (see normalizeHeaderName +
+# applyM3UDirectiveLine) plumb this UA through to ExoPlayer's source
+# headers. The app's old jiostar.m3u (Arunjunan20/My-IPTV) used this
+# exact UA on every JIO entry — that was THE missing piece when we
+# moved playlist generation server-side.
+PLAYER_UA = "plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0"
+
 OUT_M3U = Path("jio.m3u")
 KEYS_CACHE = Path(".keys_cache.json")
 
@@ -221,6 +233,7 @@ def main() -> int:
     print("3) Group + write M3U")
     grouped: dict[str, list[dict]] = {}
     no_url = 0
+    no_token = 0
     for id_, entry in data.items():
         if not isinstance(entry, dict):
             continue
@@ -228,13 +241,61 @@ def main() -> int:
         if not raw_url:
             no_url += 1
             continue
-        # Drop everything after "|" — the cookie suffix is redundant
-        # because the LHS already carries __hdnea__ in its query string,
-        # which is enough for the mobile host.
-        stream_url = raw_url.split("|", 1)[0].strip()
+        # The JSON encodes auth as:
+        #   "<manifest-url>|cookie=__hdnea__=st=...~exp=...~hmac=..."
+        # The Akamai `__hdnea__` token is what authenticates against the
+        # mobile host (jiotvmblive.cdn.jio.com). It works EQUALLY as either
+        # a Cookie header OR a URL query param. We pick query param because:
+        #
+        #   * react-native-video plumbs every HTTP request through React
+        #     Native's shared OkHttp client, which has a CookieJar attached
+        #     (ForwardingCookieHandler -> Android system CookieManager).
+        #     OkHttp's BridgeInterceptor REPLACES the user-supplied Cookie
+        #     header with whatever the cookie jar returns; once Akamai's
+        #     first response writes Set-Cookie: bm_sv=... / ak_bmsc=...
+        #     into the jar, our __hdnea__ token is overwritten on the next
+        #     fetch (manifest refresh runs every ~2s for these MPDs).
+        #     Result: 403 on the second request and ExoPlayer surfaces it
+        #     as ERROR_CODE_IO_BAD_HTTP_STATUS / 22004.
+        #
+        #   * A token in the URL query is immutable - the cookie jar can't
+        #     touch it, and Akamai's signature (acl=/*) accepts it for both
+        #     the manifest and every segment that resolves under the same
+        #     base URL.
+        #
+        # So: take the URL LHS, peel out the __hdnea__ value from the
+        # cookie suffix, and append it as ?__hdnea__=<value>.
+        stream_url, _, cookie_part = raw_url.partition("|")
+        stream_url = stream_url.strip()
+        token = ""
+        if cookie_part:
+            # cookie_part looks like: "cookie=__hdnea__=st=...~exp=...~hmac=..."
+            # (or sometimes a bare cookie value). Strip the leading
+            # "cookie=" wrapper if present, then strip the "__hdnea__="
+            # cookie name to get the raw signed value.
+            cv = cookie_part.strip()
+            if cv.lower().startswith("cookie="):
+                cv = cv[len("cookie="):]
+            cv = cv.strip().lstrip("; ").strip()
+            if cv.startswith("__hdnea__="):
+                token = cv[len("__hdnea__="):]
+            elif "__hdnea__=" in cv:
+                # Cookie may include other name=value pairs ahead of ours.
+                token = cv.split("__hdnea__=", 1)[1].split(";", 1)[0]
+            # Some entries inline the token without a name (rare); accept it.
+            elif cv.startswith("st="):
+                token = cv
+
         if not stream_url:
             no_url += 1
             continue
+
+        if token:
+            sep = "&" if "?" in stream_url else "?"
+            stream_url = f"{stream_url}{sep}__hdnea__={token}"
+        else:
+            no_token += 1
+
         slug = slug_from_url(stream_url) or f"Channel {id_}"
         name = slug_to_name(slug) or f"Channel {id_}"
         info = cache.get(id_, {})
@@ -251,6 +312,9 @@ def main() -> int:
 
     if no_url:
         print(f"   WARN: skipped {no_url} entries with no usable url")
+    if no_token:
+        print(f"   NOTE: {no_token} entries had no __hdnea__ token "
+              f"(may 403 at playback time)")
 
     # Bucket order: catch-all "JIO Live" first, then alphabetical.
     bucket_order = sorted(grouped.keys(), key=lambda b: (b != "JIO Live", b))
@@ -266,13 +330,24 @@ def main() -> int:
                 # broken entry that would spew DRM errors in the player.
                 total_no_key += 1
                 continue
+            # Auth strategy:
+            #   * __hdnea__ token: already pinned in the URL query
+            #     string, so it survives OkHttp's CookieJar (which
+            #     would otherwise stomp any Cookie: header on the next
+            #     manifest refresh — see the long comment up top).
+            #   * User-Agent: ExoPlayer's default is okhttp/<ver>, and
+            #     Akamai's WAF on jiotv*.cdn.jio.com correlates that UA
+            #     with residential IPs as "scraper" and 403s segments
+            #     even when manifest auth is fine. We force the JIO
+            #     mobile player UA (plaYtv/...) which the WAF whitelists.
+            #     The app's M3U parser turns this into a source.headers
+            #     entry that react-native-video plumbs into ExoPlayer.
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
             lines.append(
                 "#KODIPROP:inputstream.adaptive.license_key="
                 f"{e['kid']}:{e['key']}"
             )
-            # Quote attribute values; the comma after the last attribute
-            # separates the title (per M3U spec).
+            lines.append(f"#EXTVLCOPT:http-user-agent={PLAYER_UA}")
             lines.append(
                 f'#EXTINF:-1 tvg-id="{e["id"]}" group-title="{bucket}",'
                 f'{e["name"]}'
