@@ -1,4 +1,41 @@
 #EXTM3U
+# === MANUAL TEST ENTRIES START ===
+#EXTHTTP:{"User-Agent":"plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0","Cookie":"__hdnea__=st=1778281709~exp=1778303309~acl=/*~hmac=528cf3f819bb0d8ff2aedef08dac97d795082014e9421a7a0f83fdb727b9f406"}
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=aafd067e9c3e50c4b25c239373b92103:4a3162f66c9bb5e24d05873bf7aa05f2
+#EXTINF:-1 tvg-id="test-a" group-title="JIO Live",AAA TEST A AnimalPlanet (cookie+UA)
+https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDEng_MOB/WDVLive/index.mpd
+
+#EXTHTTP:{"User-Agent":"plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0","Cookie":"__hdnea__=st=1778281709~exp=1778303309~acl=/*~hmac=528cf3f819bb0d8ff2aedef08dac97d795082014e9421a7a0f83fdb727b9f406"}
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=aafd067e9c3e50c4b25c239373b92103:4a3162f66c9bb5e24d05873bf7aa05f2
+#EXTINF:-1 tvg-id="test-b" group-title="JIO Live",AAA TEST B AnimalPlanet (URL+cookie+UA)
+https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDEng_MOB/WDVLive/index.mpd?__hdnea__=st=1778281709~exp=1778303309~acl=/*~hmac=528cf3f819bb0d8ff2aedef08dac97d795082014e9421a7a0f83fdb727b9f406
+
+#EXTHTTP:{"User-Agent":"plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0"}
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=aafd067e9c3e50c4b25c239373b92103:4a3162f66c9bb5e24d05873bf7aa05f2
+#EXTINF:-1 tvg-id="test-c" group-title="JIO Live",AAA TEST C AnimalPlanet (URL+UA only)
+https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDEng_MOB/WDVLive/index.mpd?__hdnea__=st=1778281709~exp=1778303309~acl=/*~hmac=528cf3f819bb0d8ff2aedef08dac97d795082014e9421a7a0f83fdb727b9f406
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=aafd067e9c3e50c4b25c239373b92103:4a3162f66c9bb5e24d05873bf7aa05f2
+#EXTINF:-1 tvg-id="test-d" group-title="JIO Live",AAA TEST D AnimalPlanet (URL only, no headers)
+https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDEng_MOB/WDVLive/index.mpd?__hdnea__=st=1778281709~exp=1778303309~acl=/*~hmac=528cf3f819bb0d8ff2aedef08dac97d795082014e9421a7a0f83fdb727b9f406
+
+#EXTHTTP:{"User-Agent":"plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0","Cookie":"__hdnea__=st=1778281709~exp=1778303309~acl=/*~hmac=528cf3f819bb0d8ff2aedef08dac97d795082014e9421a7a0f83fdb727b9f406"}
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b64b98738ec7530a8b6a65840de1fb96:82f2c494c0e20a4b6d20dc530e1b7731
+#EXTINF:-1 tvg-id="test-e" group-title="JIO Live",AAA TEST E Aastha (URL+cookie+UA)
+https://jiotvmblive.cdn.jio.com/bpk-tv/Aastha_MOB/WDVLive/index.mpd?__hdnea__=st=1778281709~exp=1778303309~acl=/*~hmac=528cf3f819bb0d8ff2aedef08dac97d795082014e9421a7a0f83fdb727b9f406
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=aafd067e9c3e50c4b25c239373b92103:4a3162f66c9bb5e24d05873bf7aa05f2
+#EXTINF:-1 tvg-id="test-f" group-title="JIO Live",AAA TEST F AnimalPlanet (URL pipe-suffix)
+https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDEng_MOB/WDVLive/index.mpd|cookie=__hdnea__=st=1778281709~exp=1778303309~acl=/*~hmac=528cf3f819bb0d8ff2aedef08dac97d795082014e9421a7a0f83fdb727b9f406
+
+# === MANUAL TEST ENTRIES END ===
+
 #EXTHTTP:{"User-Agent":"plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0","Cookie":"__hdnea__=st=1778281709~exp=1778303309~acl=/*~hmac=528cf3f819bb0d8ff2aedef08dac97d795082014e9421a7a0f83fdb727b9f406"}
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1edbcf52713c5dcaa36bd2d055c40076:6677984bdf8e69590f66d93c37e33c5d
