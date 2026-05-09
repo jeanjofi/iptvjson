@@ -34,10 +34,10 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd
 
 #EXTINF:-1 tvg-id="429" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ColorsTamilHD.png",Colors Tamil HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=94d31d976768554b892f7037db09e0c908c5154b6cdcb6e0fc99d9d4e6298cb3
+#KODIPROP:inputstream.adaptive.license_key=0729280e18465f30a437fae60b0de8c7f5db301fe989d18fc10d29c836a3a2c7
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1777959609~exp=1777981209~acl=/*~hmac=d6bf23c3703963818b7b2690e0fb60191015e565735ff2b915f3f7911fac5efd"}
-https://jiotvioslive.cdn.jio.com/bpk-tv/Colors_Tamil_MOB/WDVLive/index.mpd?__hdnea__=st=1777959609~exp=1777981209~acl=/*~hmac=d6bf23c3703963818b7b2690e0fb60191015e565735ff2b915f3f7911fac5efd
+#EXTHTTP:{"cookie":"__hdnea__=st=1778290213~exp=1778311813~acl=/bpk-tv/Colors_Tamil_BTS/WDVLive/*~hmac=8b25202c9166bcf72eaaefa99f2a92c561cb649a4e8536ac428e58390c40e219"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Colors_Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1778290213~exp=1778311813~acl=/bpk-tv/Colors_Tamil_BTS/WDVLive/*~hmac=8b25202c9166bcf72eaaefa99f2a92c561cb649a4e8536ac428e58390c40e219
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Plus_Tamil_HD.png"group-title="", Jaya Plus
 https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8
