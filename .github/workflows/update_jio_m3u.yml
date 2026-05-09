@@ -1,0 +1,37 @@
+name: Build jio.m3u
+
+on:
+  schedule:
+    # Token in __hdnea__ expires every ~6 hours, so refresh every 4.
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-jio-m3u:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build jio.m3u
+        run: python3 .github/scripts/build_jio_m3u.py
+
+      - name: Commit & push if changed
+        run: |
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jio.m3u .keys_cache.json
+          if git diff --cached --quiet; then
+            echo "No changes to jio.m3u or key cache."
+            exit 0
+          fi
+          git commit -m "chore: refresh jio.m3u (token rotation)"
+          git push origin HEAD:main
