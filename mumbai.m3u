@@ -15,6 +15,11 @@ https://livestream.sunnxt.com/4d0eb3cde30247ada4ade679fdfbaf86/AdithyaTVB_IN_ind
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/sirippoli-tv-white.png" group-title="Tamil",Siripoli
 https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=351e547391bb45cbac66d2cb9ec0c294:3bd646753f4903eee3b404646c7819d3
+#EXTINF:-1 tvg-id="ktvhd" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194405/200x200_KTVHD_194405_1d4448e1-5f79-414b-952b-424044798b43.png" group-title="SunNXT",KTV HD
+https://livestream.sunnxt.com/61477b4c8d8d45d5a49e044cc1dffc60/KTVHDB_IN_index.mpd
+
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Polimer_TV.png" group-title="Tamil",Polimer
 https://cdn-2.pishow.tv/live/1241/master.m3u8
 
@@ -57,7 +62,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5011/default_ott.mpd
 https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Raj_Musix.png" group-title="Tamil",Raj Musix
-http://ajkiptv.ridsys.in/riptv/live/RAJ_MUSIX/index.m3u8
+https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8
 
 #EXTINF:-1 tvg-id="377" tvg-logo="https://tatalogo.pages.dev/377.png" group-title="Music", Kappa TV
 https://cdn-3.pishow.tv/live/1123/master.m3u8
