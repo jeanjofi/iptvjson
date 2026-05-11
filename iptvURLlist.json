@@ -1,15 +1,12 @@
 {
-    "IPTV_Mumbai_Tamil": {
+    "IPTV_Mumb_Tamil": {
         "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/mumbai.m3u"
     },
     "IPTV_2": {
-        "url": "https://gitlab.com/Arunjunan20/tamil-iptv/-/raw/main/index.m3u"
+        "url": "https://gitlab.com/Arunjunan20/tamil-iptv/-/raw/main/index.m3u",
+        "splitByGroupTitle": true
     },
     "JOFI_Malayalam_M3U": {
         "url": "https://raw.githubusercontent.com/ashrafshj/Ashru-TV/master/MLM"
-    },
-    "JIO_Live": {
-        "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/jio.m3u",
-        "splitByGroupTitle": true
     }
 }
