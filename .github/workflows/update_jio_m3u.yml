@@ -2,8 +2,8 @@ name: Build jio.m3u
 
 on:
   schedule:
-    # Token in __hdnea__ expires every ~6 hours, so refresh every 4.
-    - cron: "0 */4 * * *"
+    # Token in __hdnea__ expires every ~6 hours, so refresh every 24.
+    - cron: "0 */24 * * *"
   workflow_dispatch:
 
 permissions:

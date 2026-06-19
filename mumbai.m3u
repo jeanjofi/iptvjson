@@ -37,15 +37,20 @@ https://livestream.sunnxt.com/6b79451f54284b3fb680fd717ee008dc/SunLifeB_IN_index
 #KODIPROP:inputstream.adaptive.license_key=af35608a7d4b13d1158c2ef6d6c1a010:d01c81050dfab309c6be7e60d03c2d82
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd
 
-#EXTINF:-1 tvg-id="429" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ColorsTamilHD.png",Colors Tamil HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0729280e18465f30a437fae60b0de8c7f5db301fe989d18fc10d29c836a3a2c7
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1778290213~exp=1778311813~acl=/bpk-tv/Colors_Tamil_BTS/WDVLive/*~hmac=8b25202c9166bcf72eaaefa99f2a92c561cb649a4e8536ac428e58390c40e219"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Colors_Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1778290213~exp=1778311813~acl=/bpk-tv/Colors_Tamil_BTS/WDVLive/*~hmac=8b25202c9166bcf72eaaefa99f2a92c561cb649a4e8536ac428e58390c40e219
+#EXTINF:-1 tvg-id="ZeeTamil.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TAMIL_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="TAMIL",Zee Tamil HD (360p)
+http://198.27.83.207:2550/ZEE_TAMIL_SD/index.m3u8
+
+#EXTINF:-1 tvg-id="ColorsTamil.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" group-title="TAMIL",Colors Tamil HD (360p)
+http://198.27.83.207:2550/COLORS_TAMIL_SD/index.m3u8
+
+#EXTINF:-1 tvg-id="JayaTV.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png" group-title="TAMIL",Jaya TV (360p)
+http://198.27.83.207:2550/JAYA_TV_SD/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Plus_Tamil_HD.png"group-title="", Jaya Plus
 https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-73570-l91cvyrk-v1/imageContent-73570-l91cvyrk-m2.png"group-title="", Vijay Takkar
+https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=05da38a46fb7403088f41434e44de980:488046139a1e1d65323cfe4bb1b30b7b
@@ -72,11 +77,12 @@ https://cable74tataplay.akamaized.net/dash/sanaplus.mpd
 http://srnet.bmlive.net:1935/srmusic/myStream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/kXTCYqg.png" group-title="Music", Music India
-https://cdn-2.pishow.tv/live/226/master.m3u8
+https://amg00416-amg00416c5-samsung-in-3259.playouts.now.amagi.tv/playlist/amg00416-travelxp-musicindia-samsungin/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
 #EXTINF: -1 tvg-id="139" tvg-logo="https://tatalogo.pages.dev/139.png" group-title="Music", 9xM
-https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
-#EXTINF: -1 tvg-id="39" tvg-logo="https://tatalogo.pages.dev/39.png" group-title="Music", 9x Jalwa
-https://d14c63magvk61v.cloudfront.net/strm/channels/9xjalwa/master.m3u8
+https://9xjio.wiseplayout.com/9XM/master.m3u8
+#EXTINF: -1 tvg-id="39" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/YRF_Music.png" group-title="Music", YRF Music
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+
 
 =============================================== NEWS =============================================================
 
