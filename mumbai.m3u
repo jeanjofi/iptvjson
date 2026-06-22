@@ -12,6 +12,9 @@ https://livestream2.sunnxt.com/803a6a4872a449a193b5846b5d101359/SunTVHD_P_IN_ind
 #EXTINF:-1 tvg-id="ts284" tvg-language="Tamil" tvg-logo="https://i.ibb.co/gFFC2vn9/aditya.png" group-title="SunNXT",Adithya TV
 https://livestream.sunnxt.com/4d0eb3cde30247ada4ade679fdfbaf86/AdithyaTVB_IN_index.mpd
 
+#EXTINF:-1 tvg-id="9019" tvg-name="TM: ADITYA TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b4/Adithya_TV.jpg/revision/latest?cb=20180318045832" group-title="TAMIL | MOVIES",TM: ADITYA TV
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/9019.ts
+
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/sirippoli-tv-white.png" group-title="Tamil",Siripoli
 https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 
@@ -37,17 +40,17 @@ https://livestream.sunnxt.com/6b79451f54284b3fb680fd717ee008dc/SunLifeB_IN_index
 #KODIPROP:inputstream.adaptive.license_key=af35608a7d4b13d1158c2ef6d6c1a010:d01c81050dfab309c6be7e60d03c2d82
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd
 
-#EXTINF:-1 tvg-id="ZeeTamil.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TAMIL_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="TAMIL",Zee Tamil HD (360p)
-http://198.27.83.207:2550/ZEE_TAMIL_SD/index.m3u8
+#EXTINF:-1 tvg-id="98897" tvg-name="Tamil: Zee Tamil (4K)." tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Zee Tamil (4K).
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/98897.ts
 
-#EXTINF:-1 tvg-id="ColorsTamil.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" group-title="TAMIL",Colors Tamil HD (360p)
-http://198.27.83.207:2550/COLORS_TAMIL_SD/index.m3u8
+#EXTINF:-1 tvg-id="98911" tvg-name="Tamil: Colors Tamil (4K)." tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Colors Tamil (4K).
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/98911.ts
 
-#EXTINF:-1 tvg-id="JayaTV.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png" group-title="TAMIL",Jaya TV (360p)
-http://198.27.83.207:2550/JAYA_TV_SD/index.m3u8
+#EXTINF:-1 tvg-id="188" tvg-name="TM: JAYA TV (4K)" tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA TV (4K)
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/188.ts
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Plus_Tamil_HD.png"group-title="", Jaya Plus
-https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8
+#EXTINF:-1 tvg-id="1615" tvg-name="TM: JAYA PLUS" tvg-logo="https://i.ibb.co/DgSD9Ry0/images-1.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA PLUS
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/1615.ts
 
 #EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-73570-l91cvyrk-v1/imageContent-73570-l91cvyrk-m2.png"group-title="", Vijay Takkar
 https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd
@@ -65,6 +68,9 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5011/default_ott.mpd
 
 #EXTINF:-1 tvg-id="ts647" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/isai-aruvi-black.png" group-title="Music", Isai Aruvi
 https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8
+
+#EXTINF:-1 tvg-id="26165" tvg-name="Tamil: ISAI ARUVI" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ed/Isai_Aruvi.jpeg/revision/latest/smart/width/250/height/250?cb=20191224121230" group-title="TAMIL | ENTERTAINMENT",Tamil: ISAI ARUVI
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/26165.ts
 
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Raj_Musix.png" group-title="Tamil",Raj Musix
 https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8
@@ -86,6 +92,25 @@ https://9xjio.wiseplayout.com/9XM/master.m3u8
 #EXTINF: -1 tvg-id="39" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/YRF_Music.png" group-title="Music", YRF Music
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
 
+=============================================== Movies =============================================================
+
+#EXTINF:-1 tvg-id="979" tvg-name="IN: STAR MOVIES HD" tvg-logo="https://pluspng.com/img-png/star-movies-logo-png-star-movies-hd-star-movies-png-300.png" group-title="INDIA ENGLISH MOVIES",IN: STAR MOVIES HD
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/979.ts
+
+#EXTINF:-1 tvg-id="218" tvg-name="IN: STAR MOVIES SELECT HD" tvg-logo="https://tma-live.s3.ap-south-1.amazonaws.com/medias/55fb00a38ead0e79178b5f14/1565806488322/55fb00a38ead0e79178b5f14.jpg" group-title="INDIA ENGLISH MOVIES",IN: STAR MOVIES SELECT HD
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/218.ts
+
+#EXTINF:-1 tvg-id="178" tvg-name="IN: MN PLUS" tvg-logo="" group-title="INDIA ENGLISH MOVIES",IN: MN PLUS
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/178.ts
+
+#EXTINF:-1 tvg-id="191" tvg-name="IN: MNX HD" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/times-mnx-hd-logo-300x300.jpg" group-title="INDIA ENGLISH MOVIES",IN: MNX HD
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/191.ts
+
+#EXTINF:-1 tvg-id="201" tvg-name="IN: & PRIVE HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/%26priv%C3%A9_hd.jpg/revision/latest/scale-to-width-down/340?cb=20200906062328" group-title="INDIA ENGLISH MOVIES",IN: & PRIVE HD
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/201.ts
+
+#EXTINF:-1 tvg-id="253" tvg-name="IN: & FLIX HD" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/and-flix-hd-logo-300x300.jpg" group-title="INDIA ENGLISH MOVIES",IN: & FLIX HD
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/253.ts
 
 =============================================== NEWS =============================================================
 
@@ -103,8 +128,8 @@ https://cdn-3.pishow.tv/live/1612/master.m3u8
 #EXTINF:-1 tvg-id="58" tvg-chno="193" tvg-logo="https://tatalogo.pages.dev/58.png" group-title="News", News18 Tamil Nadu
 https://nw18live.cdn.jio.com/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
 
-#EXTINF:-1 tvg-id="ts968" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-69018-kzo65wi0-v1/imageContent-69018-kzo65wi0-m2.png" group-title="News",News Tamil 24x7
-https://d18a8tqmogafg2.cloudfront.net/newstamil/index.m3u8
+#EXTINF:-1 tvg-id="160589" tvg-name="TAMIL: News Tamil 24x7" tvg-logo="https://www.lyngsat.com/logo/tv/nn/news-tamil-24x7-in.png" group-title="TAMIL | NEWS",TAMIL: News Tamil 24x7
+http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/160589.ts
 
 #EXTINF: -1 tvg-id="968" tvg-chno="198" tvg-logo="https://i.ibb.co/09X3DwC/1000156347-removebg-preview.jpg" group-title="News", Win TV
 https://cdn-4.pishow.tv/live/1531/master.m3u8
