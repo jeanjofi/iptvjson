@@ -3,7 +3,7 @@
         "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/mumbai.m3u"
     },
     "IPTV_1": {
-        "url": "curl https://tv.jeanjofi.workers.dev/",
+        "url": "https://tv.jeanjofi.workers.dev/fixed_playlist.m3u",
         "splitByGroupTitle": true
     },
     "IPTV_3": {
