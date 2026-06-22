@@ -40,16 +40,16 @@ https://livestream.sunnxt.com/6b79451f54284b3fb680fd717ee008dc/SunLifeB_IN_index
 #KODIPROP:inputstream.adaptive.license_key=af35608a7d4b13d1158c2ef6d6c1a010:d01c81050dfab309c6be7e60d03c2d82
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd
 
-#EXTINF:-1 tvg-id="98897" tvg-name="Tamil: Zee Tamil (4K)." tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Zee Tamil (4K).
+#EXTINF:-1 tvg-id="98897" tvg-name="Tamil: Zee Tamil (4K)." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TAMIL_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Zee Tamil (4K).
 http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/98897.ts
 
-#EXTINF:-1 tvg-id="98911" tvg-name="Tamil: Colors Tamil (4K)." tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Colors Tamil (4K).
+#EXTINF:-1 tvg-id="98911" tvg-name="Tamil: Colors Tamil (4K)." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Colors Tamil (4K).
 http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/98911.ts
 
-#EXTINF:-1 tvg-id="188" tvg-name="TM: JAYA TV (4K)" tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA TV (4K)
+#EXTINF:-1 tvg-id="188" tvg-name="TM: JAYA TV (4K)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA TV (4K)
 http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/188.ts
 
-#EXTINF:-1 tvg-id="1615" tvg-name="TM: JAYA PLUS" tvg-logo="https://i.ibb.co/DgSD9Ry0/images-1.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA PLUS
+#EXTINF:-1 tvg-id="1615" tvg-name="TM: JAYA PLUS" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Plus.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA PLUS
 http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/1615.ts
 
 #EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-73570-l91cvyrk-v1/imageContent-73570-l91cvyrk-m2.png"group-title="", Vijay Takkar
@@ -105,12 +105,6 @@ http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/178.ts
 
 #EXTINF:-1 tvg-id="191" tvg-name="IN: MNX HD" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/times-mnx-hd-logo-300x300.jpg" group-title="INDIA ENGLISH MOVIES",IN: MNX HD
 http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/191.ts
-
-#EXTINF:-1 tvg-id="201" tvg-name="IN: & PRIVE HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/%26priv%C3%A9_hd.jpg/revision/latest/scale-to-width-down/340?cb=20200906062328" group-title="INDIA ENGLISH MOVIES",IN: & PRIVE HD
-http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/201.ts
-
-#EXTINF:-1 tvg-id="253" tvg-name="IN: & FLIX HD" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/and-flix-hd-logo-300x300.jpg" group-title="INDIA ENGLISH MOVIES",IN: & FLIX HD
-http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/253.ts
 
 =============================================== NEWS =============================================================
 
