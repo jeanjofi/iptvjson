@@ -2,6 +2,10 @@
     "IPTV_Mumb_Tamil": {
         "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/refs/heads/main/mumbai.m3u"
     },
+    "IPTV_1": {
+        "url": "https://drive.google.com/file/d/16pftm0XHB-Trvd4v70UTX6BRR1-JZab6/view",
+        "splitByGroupTitle": true
+    },
     "IPTV_3": {
         "url": "https://raw.githubusercontent.com/ajimal173/iptv/refs/heads/main/Rasi-Tv"
     },
