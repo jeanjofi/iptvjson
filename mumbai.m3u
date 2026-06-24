@@ -45,10 +45,10 @@ http://fastshare1.com:80/live/Jen12345/Jen54321/98897.ts
 http://fastshare1.com:80/live/Jen12345/Jen54321/98911.ts
 
 #EXTINF:-1 tvg-id="188" tvg-name="TM: JAYA TV (4K)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA TV (4K)
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=908558&extension=m3u8&play_token=HKZP1ZglMD
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=908558&extension=ts&play_token=HKZP1ZglMD
 
 #EXTINF:-1 tvg-id="1615" tvg-name="TM: JAYA PLUS" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Plus.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA PLUS
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=908580&extension=m3u8&play_token=Qzw8gfjvTk
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=908580&extension=ts&play_token=Qzw8gfjvTk
 
 #EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-73570-l91cvyrk-v1/imageContent-73570-l91cvyrk-m2.png"group-title="", Vijay Takkar
 https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd
