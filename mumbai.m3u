@@ -39,10 +39,10 @@ https://livestream.sunnxt.com/6b79451f54284b3fb680fd717ee008dc/SunLifeB_IN_index
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd
 
 #EXTINF:-1 tvg-id="98897" tvg-name="Tamil: Zee Tamil (4K)." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TAMIL_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Zee Tamil (4K).
-http://fastshare1.com:80/live/Jen12345/Jen54321/98897.ts
+http://fastshare1.com:80/live/Jen12345/Jen54321/9971.ts
 
 #EXTINF:-1 tvg-id="98911" tvg-name="Tamil: Colors Tamil (4K)." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Colors Tamil (4K).
-http://fastshare1.com:80/live/Jen12345/Jen54321/98911.ts
+http://fastshare1.com:80/live/Jen12345/Jen54321/9970.ts
 
 #EXTINF:-1 tvg-id="188" tvg-name="TM: JAYA TV (4K)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA TV (4K)
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=908558&extension=ts&play_token=HKZP1ZglMD
@@ -52,6 +52,21 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=908580&ex
 
 #EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-73570-l91cvyrk-v1/imageContent-73570-l91cvyrk-m2.png"group-title="", Vijay Takkar
 https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd
+
+#EXTINF:-1 tvg-id="9033" tvg-name="MY: SURYA COMEDY HD" tvg-logo="http://stariptv.fun/logos/Surya_Comedy.png" group-title="MALAYALAM | ENTRTNMNT",MY: SURYA COMEDY HD
+http://ae325328.ucomist.net/iptv/Z3SWF9EL3YPX5N/6578/index.m3u8
+
+#EXTINF:-1 tvg-id="9028" tvg-name="MY: Amrita TV" tvg-logo="https://www.lyngsat.com/logo/tv/aa/amrita_tv.png" group-title="MALAYALAM | ENTRTNMNT",MY: Amrita TV
+https://ddash74r36xqp.cloudfront.net/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="150128" tvg-name="MY: Kairali We" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kairali_in_we.png" group-title="MALAYALAM | ENTRTNMNT",MY: Kairali We
+https://cdn-3.pishow.tv/live/1530/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.keralatv.in/media/2019/03/mazhavil-manorama-hd-latest-logo.png"group-title="",Mazhavil Manorama HD
+https://cdn-7.pishow.tv/live/1129/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kNtX4loDkwdRCPr2plz99CPb22-Xx_UKIjlVT8ew=s900-c-k-c0x00ffffff-no-rj"group-title="",Kairali TV
+https://mumt01.tangotv.in/O5aw8Zn3KAIRALI/index.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=05da38a46fb7403088f41434e44de980:488046139a1e1d65323cfe4bb1b30b7b
@@ -70,7 +85,7 @@ https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Raj_Musix.png" group-title="Tamil",Raj Musix
 https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8
 
-#EXTINF:-1 tvg-id="JayaMAx" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_MAX/images/LOGO_HD/image.png" group-title="TAMIL",Jaya Max
+#EXTINF:-1 tvg-id="9832" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_MAX/images/LOGO_HD/image.png" group-title="TAMIL", Jaya Max
 http://ae325328.ucomist.net/iptv/Z3SWF9EL3YPX5N/6698/index.m3u8
 
 #EXTINF:-1 tvg-id="377" tvg-logo="https://tatalogo.pages.dev/377.png" group-title="Music", Kappa TV
