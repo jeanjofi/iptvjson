@@ -45,7 +45,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2311/default_primary.mpd
 
 #EXTINF:-1 tvg-id="98911" tvg-name="Tamil: Colors Tamil (4K)." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Colors Tamil (4K).
-http://fastshare1.com:80/live/Jen12345/Jen54321/9970.ts
+http://202.70.146.135:8000/play/a06o/index.m3u8
 
 #EXTINF:-1 tvg-id="188" tvg-name="TM: JAYA TV (4K)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png" group-title="TAMIL | ENTERTAINMENT",TM: JAYA TV (4K)
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=908558&extension=ts&play_token=HKZP1ZglMD
