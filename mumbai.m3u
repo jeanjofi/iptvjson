@@ -7,18 +7,18 @@ http://103.109.45.5:1935/madhatv/madhatv.stream_HDp/chunklist_w67072347.m3u8
 #KODIPROP:inputstream.adaptive.license_key=3891557f1cb14dedb7545bf52499d748:fb662f742e5f5e0c61a7c1c66d2b019a
 https://livestream2.sunnxt.com/803a6a4872a449a193b5846b5d101359/SunTVHD_P_IN_index.mpd
 
+#EXTINF:-1 tvg-id="284" tvg-language="Tamil" tvg-logo="https://i.ibb.co/gFFC2vn9/aditya.png" group-title="SunNXT",Adithya TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=d674a1a7f43641a29bd8867d87c7259a:812f55dcde68619fc6ad95951b241d2c
-#EXTINF:-1 tvg-id="ts284" tvg-language="Tamil" tvg-logo="https://i.ibb.co/gFFC2vn9/aditya.png" group-title="SunNXT",Adithya TV
 https://livestream.sunnxt.com/4d0eb3cde30247ada4ade679fdfbaf86/AdithyaTVB_IN_index.mpd
 
 
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/sirippoli-tv-white.png" group-title="Tamil",Siripoli
 https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 
+#EXTINF:-1 tvg-id="ktvhd" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194405/200x200_KTVHD_194405_1d4448e1-5f79-414b-952b-424044798b43.png" group-title="SunNXT",KTV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=351e547391bb45cbac66d2cb9ec0c294:3bd646753f4903eee3b404646c7819d3
-#EXTINF:-1 tvg-id="ktvhd" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194405/200x200_KTVHD_194405_1d4448e1-5f79-414b-952b-424044798b43.png" group-title="SunNXT",KTV HD
 https://livestream.sunnxt.com/61477b4c8d8d45d5a49e044cc1dffc60/KTVHDB_IN_index.mpd
 
 #EXTINF:-1 tvg-id="ts200" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Polimer_TV.png" group-title="Tamil",Polimer
@@ -27,9 +27,9 @@ https://cdn-2.pishow.tv/live/1241/master.m3u8
 #EXTINF:-1 tvg-id="499" tvg-logo="https://tatalogo.pages.dev/499.png" group-title="Tamil", Vasanth TV
 https://vasanth.pc.cdn.bitgravity.com/vasanth/secure/live/feed03/playlist_108k.m3u8
 
+#EXTINF:-1 tvg-id="474" tvg-language="Tamil" tvg-logo="https://i.ibb.co/MkK86W0P/life.png" group-title="SunNXT", Sun Life
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=81546df3f41c4a6dbc9a4efc7f2fb626:3928505f4054cf1fa935276fdbe40992
-#EXTINF:-1 tvg-id="474" tvg-language="Tamil" tvg-logo="https://i.ibb.co/MkK86W0P/life.png" group-title="SunNXT", Sun Life
 https://livestream.sunnxt.com/6b79451f54284b3fb680fd717ee008dc/SunLifeB_IN_index.mpd
 
 #EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/357_144.png" group-title="Astro GO" tvg-id="StarVijay",Star Vijay
@@ -56,33 +56,33 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=908580&ex
 #EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-73570-l91cvyrk-v1/imageContent-73570-l91cvyrk-m2.png"group-title="", Vijay Takkar
 https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/PGHX1vG8/Picsart-25-02-10-14-39-27-368.png" group-title="SunNXT",SURYA Comedy
+#EXTINF:-1 tvg-id="4356" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Surya_Comedy.png" group-title="SunNXT",SURYA Comedy
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11563b00a46b43f2a0f80ecf42a4fb77:9bad28ad6f23dbb917c63ee680f66a1f
 https://livestream.sunnxt.com/6505e922bf164423ad122f404747356a/SuryaComedyB_IN_index.mpd
 
-#EXTINF:-1 tvg-id="9033" tvg-name="MY: SURYA COMEDY HD" tvg-logo="http://stariptv.fun/logos/Surya_Comedy.png" group-title="MALAYALAM | ENTRTNMNT",MY: SURYA COMEDY Backup
+#EXTINF:-1 tvg-id="9033" tvg-name="MY: SURYA COMEDY HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Surya_Comedy.png" group-title="MALAYALAM", SURYA COMEDY Backup
 http://ae325328.ucomist.net/iptv/Z3SWF9EL3YPX5N/6578/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/F4Jttj3S/Picsart-25-02-10-14-19-03-064.png" group-title="SunNXT",SURYA TV HD
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Surya_TV.png" group-title="SunNXT",SURYA TV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eae838ccd75d4a1fbff6fd7dd1c97780:8259ce0c112725a4d2c94d154207425f
 https://livestream15.sunnxt.com/d719fad367614ee5baad747822767ad8/SuryaTVHDB_IN_index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/DgfjRPnf/Picsart-25-02-10-14-22-46-534.png" group-title="SunNXT",SURYA Movies
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Surya_Movies.png" group-title="SunNXT",SURYA Movies
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6b67bccef7024f2da29b42e10dc13f89:2e8460c47d3f01693e193dba5963a5e1
 https://livestream.sunnxt.com/e24ee14c395945bd8ccb065e1bce8b9b/SuryaMoviesB_IN_index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/2r66SPh/Picsart-25-02-10-14-40-07-876.png" group-title="SunNXT",SURYA Music
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Surya_Music.png" group-title="SunNXT",SURYA Music
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=25a1d2a4c3f848b1aed911ad691fe232:3c8b2cf8611c343e6a231b6a9c7c8b58
 https://livestream.sunnxt.com/8c2352ff54954e7b9a4188045dcf3b27/SuryaMusicB_IN_index.mpd
 
-#EXTINF:-1 tvg-id="9028" tvg-name="MY: Amrita TV" tvg-logo="https://www.lyngsat.com/logo/tv/aa/amrita_tv.png" group-title="MALAYALAM | ENTRTNMNT",MY: Amrita TV
+#EXTINF:-1 tvg-id="9028" tvg-name="MY: Amrita TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Amrita_TV.png" group-title="MALAYALAM | ENTRTNMNT",Amrita TV
 https://ddash74r36xqp.cloudfront.net/master_2000.m3u8
 
-#EXTINF:-1 tvg-id="150128" tvg-name="MY: Kairali We" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kairali_in_we.png" group-title="MALAYALAM | ENTRTNMNT",MY: Kairali We
+#EXTINF:-1 tvg-id="150128" tvg-name="MY: Kairali We" tvg-logo="https://i.imgur.com/zXpROBj.png" group-title="MALAYALAM | ENTRTNMNT",Kairali We
 https://cdn-3.pishow.tv/live/1530/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.keralatv.in/media/2019/03/mazhavil-manorama-hd-latest-logo.png"group-title="",Mazhavil Manorama HD
@@ -91,9 +91,9 @@ https://cdn-7.pishow.tv/live/1129/master.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kNtX4loDkwdRCPr2plz99CPb22-Xx_UKIjlVT8ew=s900-c-k-c0x00ffffff-no-rj"group-title="",Kairali TV
 https://mumt01.tangotv.in/O5aw8Zn3KAIRALI/index.m3u8
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=05da38a46fb7403088f41434e44de980:488046139a1e1d65323cfe4bb1b30b7b
 #EXTINF:-1 tvg-id="ts302" tvg-language="Tamil" tvg-logo="https://i.ibb.co/6Sf6pWJ/chutti.png" group-title="SunNXT",Chutti TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=05da38a46fb7403088f41434e44de980:488046139a1e1d65323cfe4bb1b30b7b
 https://livestream.sunnxt.com/3ed29d5b01b546eaa05d184cd87535f1/ChuttiTVB_IN_index.mpd
 
 #EXTINF:-1 tvg-name="SunMusic" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/417_144.png" group-title="Music" tvg-id="SunMusic",Sun Music
@@ -116,15 +116,19 @@ http://ae325328.ucomist.net/iptv/Z3SWF9EL3YPX5N/6698/index.m3u8
 
 #EXTINF:-1 tvg-id="377" tvg-logo="https://tatalogo.pages.dev/377.png" group-title="Music", Kappa TV
 https://cdn-3.pishow.tv/live/1123/master.m3u8
+
 #EXTINF:-1 tvg-id="ts1284" group-title="Music" tvg-logo="hhttps://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/SANPLTV_Thumbnail-v1/SANPLTV_Thumbnail.png",Sana Plus
 https://cable74tataplay.akamaized.net/dash/sanaplus.mpd
+
 #EXTINF: -1 tvg-logo="https://tataprime.wordpress.com/wp-content/uploads/2024/06/20240625_0713451452390300174130287.png" group-title="Music",SR Musix TV
 http://srnet.bmlive.net:1935/srmusic/myStream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/kXTCYqg.png" group-title="Music", Music India
 https://amg00416-amg00416c5-samsung-in-3259.playouts.now.amagi.tv/playlist/amg00416-travelxp-musicindia-samsungin/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
+
 #EXTINF: -1 tvg-id="139" tvg-logo="https://tatalogo.pages.dev/139.png" group-title="Music", 9xM
 https://9xjio.wiseplayout.com/9XM/master.m3u8
+
 #EXTINF: -1 tvg-id="39" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/YRF_Music.png" group-title="Music", YRF Music
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
 
@@ -139,9 +143,9 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=373320&ex
 
 =============================================== NEWS =============================================================
 
+#EXTINF:-1 tvg-id="ts443" tvg-logo="https://i.ibb.co/R4CWL1p0/news.png" group-title="SunNXT", Sun News
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4df8f920386e4346ba6b7d7ae935d668:c5fcaa8df5663365d938a50987f71b84
-#EXTINF:-1 tvg-id="ts443" tvg-logo="https://i.ibb.co/R4CWL1p0/news.png" group-title="SunNXT", Sun News
 https://livestream3.sunnxt.com/491c99fb6d0c49e88e6349170d890a2f/SunNewsB_IN_index.mpd
 
 #EXTINF:-1 tvg-logo="https://tatalogo.pages.dev/220.png" group-title="News", Puthiya Thalaimurai
@@ -154,7 +158,7 @@ https://cdn-3.pishow.tv/live/1612/master.m3u8
 https://nw18live.cdn.jio.com/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
 
 #EXTINF:-1 tvg-id="160589" tvg-name="TAMIL: News Tamil 24x7" tvg-logo="https://www.lyngsat.com/logo/tv/nn/news-tamil-24x7-in.png" group-title="TAMIL | NEWS",TAMIL: News Tamil 24x7
-http://fastshare1.com:80/live/RAJAVIJAYANTHUMAMA/55394064/160589.ts
+https://cdn-3.pishow.tv/live/1433/master.m3u8
 
 #EXTINF: -1 tvg-id="968" tvg-chno="198" tvg-logo="https://i.ibb.co/09X3DwC/1000156347-removebg-preview.jpg" group-title="News", Win TV
 https://cdn-4.pishow.tv/live/1531/master.m3u8
@@ -162,7 +166,7 @@ https://cdn-4.pishow.tv/live/1531/master.m3u8
 https://dpkvdnzbeen1l.cloudfront.net/index_4.m3u8
 #EXTINF:-1 tvg-logo="https://tatalogo.pages.dev/509.png"  group-title="News", Polimer News
 https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://tatalogo.pages.dev/702.png" group-title="YuppTV" , News7 Tamil
+#EXTINF:-1 tvg-logo="https://www.pngfind.com/pngs/m/317-3178616_news-news-7-tamil-logo-hd-png-download.png" group-title="YuppTV" , News7 Tamil
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/news7_nim_https/240122/news7/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ts44" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-126-j5fnf4ig-v2/imageContent-126-j5fnf4ig-m2.png" group-title="News",Seithigal TV
