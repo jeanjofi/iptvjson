@@ -1,0 +1,15 @@
+{
+    "IPTV_Mumb_Tamil": {
+        "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/mumbai.m3u"
+    },
+    "IPTV_3": {
+        "url": "https://raw.githubusercontent.com/ajimal173/iptv/main/Rasi-Tv"
+    },
+    "JOFI_Malayalam_M3U": {
+        "url": "https://raw.githubusercontent.com/ashrafshj/Ashru-TV/master/MLM"
+    },
+    "IPTV_2": {
+        "url": "https://gitlab.com/Arunjunan20/tamil-iptv/-/raw/main/index.m3u",
+        "splitByGroupTitle": true
+    }
+}
