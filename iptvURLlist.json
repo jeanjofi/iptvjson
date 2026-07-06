@@ -2,6 +2,9 @@
     "IPTV_Mumb_Tamil": {
         "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/mumbai.m3u"
     },
+    "TATA_PLAY": {
+        "url": "https://tata.jeanjofi.workers.dev/tv_playlist_tata.m3u"
+    },
     "IPTV_3": {
         "url": "https://raw.githubusercontent.com/ajimal173/iptv/main/Rasi-Tv"
     },

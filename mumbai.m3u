@@ -42,7 +42,10 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; UltraBox Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.7103.61 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d00a8536425163d5274fdf086001e110:7261ce40695be3526cf0e8e224546723
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2311/default_primary.mpd
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2311/default_ott.mpd
+
+#EXTINF:-1 tvg-id="VIJAY.SUPER.HD.in" tvg-name="Vijay Super" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11197-j9i4fbbs-v2/imageContent-11197-j9i4fbbs-m4.png" group-title="Movies" group-logo="", Vijay Super HD
+http://202.70.146.135:8000/play/a008/index.m3u8
 
 #EXTINF:-1 tvg-id="98911" tvg-name="Tamil: Colors Tamil (4K)." tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" group-title="TAMIL | ENTERTAINMENT",Tamil: Colors Tamil (4K).
 http://202.70.146.135:8000/play/a06o/index.m3u8
@@ -135,10 +138,10 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/pl
 =============================================== Movies =============================================================
 
 #EXTINF:-1 tvg-id="979" tvg-name="IN: STAR MOVIES HD" tvg-logo="https://pluspng.com/img-png/star-movies-logo-png-star-movies-hd-star-movies-png-300.png" group-title="INDIA ENGLISH MOVIES",IN: STAR MOVIES HD
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=373304&extension=ts&play_token=GbHmwrWOeP
+http://202.70.146.135:8000/play/a06r/index.m3u8
 
 #EXTINF:-1 tvg-id="218" tvg-name="IN: STAR MOVIES SELECT HD" tvg-logo="https://tma-live.s3.ap-south-1.amazonaws.com/medias/55fb00a38ead0e79178b5f14/1565806488322/55fb00a38ead0e79178b5f14.jpg" group-title="INDIA ENGLISH MOVIES",IN: STAR MOVIES SELECT HD
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:C4:70:80&stream=373320&extension=ts&play_token=VrpYl1CSfh
+http://202.70.146.135:8000/play/a06q/index.m3u8
 
 
 =============================================== NEWS =============================================================
