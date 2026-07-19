@@ -6,7 +6,7 @@
         "url": "https://tata.jeanjofi.workers.dev/astro.m3u"
     },
     "TATA_PLAY": {
-        "url": "http://202.70.146.135:8000/playlist.m3u"
+        "url": "https://tata.jeanjofi.workers.dev/tv_playlist_tata.m3u"
     },
     "IPTV_3": {
         "url": "https://raw.githubusercontent.com/ajimal173/iptv/main/Rasi-Tv"
