@@ -2,8 +2,8 @@ name: Build jio.m3u
 
 on:
   schedule:
-    # Token in __hdnea__ expires every ~6 hours, so refresh every 24.
-    - cron: "0 */24 * * *"
+    # Refresh the channel list and __hdnea__ cookie twice a day.
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -28,9 +28,9 @@ jobs:
         run: |
           git config --global user.name  "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jio.m3u .keys_cache.json
+          git add jio.m3u
           if git diff --cached --quiet; then
-            echo "No changes to jio.m3u or key cache."
+            echo "No changes to jio.m3u."
             exit 0
           fi
           git commit -m "chore: refresh jio.m3u (token rotation)"
