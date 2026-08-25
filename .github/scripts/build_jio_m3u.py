@@ -90,6 +90,7 @@ def main() -> int:
     for entry in channels:
         channel_id = str(entry.get("id") or "").strip()
         stream_url = str(entry.get("url") or "").strip()
+        logo = str(entry.get("logo") or "").strip()
         key_id = str(entry.get("keyId") or "").strip().lower()
         key = str(entry.get("key") or "").strip().lower()
         if not stream_url:
@@ -110,7 +111,7 @@ def main() -> int:
             f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}",
             f"#EXTVLCOPT:http-user-agent={PLAYER_UA}",
             f"#EXTHTTP:{json.dumps({'cookie': cookie}, separators=(',', ':'))}",
-            f'#EXTINF:-1 tvg-id="{channel_id}" group-title="{category}",{channel_name(stream_url, channel_id)}',
+            f'#EXTINF:-1 tvg-id="{channel_id}" tvg-logo="{logo}" group-title="{category}",{channel_name(stream_url, channel_id)}',
             stream_url,
             "",
         ])

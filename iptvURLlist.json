@@ -8,21 +8,15 @@
     "TATA_PLAY2": {
         "url": "http://66.102.126.10:8000/playlist.m3u"
     },
-    "IPTV_3": {
-        "url": "https://raw.githubusercontent.com/ajimal173/iptv/main/Rasi-Tv"
-    },
     "JOFI_Malayalam_M3U": {
         "url": "https://raw.githubusercontent.com/ashrafshj/Ashru-TV/master/MLM"
+    },
+    "JIO_TV": {
+        "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/jio.m3u",
+        "splitByGroupTitle": true
     },
     "IPTV_4": {
         "url": "https://raw.githubusercontent.com/jgog/My-IPTV/main/playlist.m3u",
         "splitByGroupTitle": true
-    },
-    "IPTV_2": {
-        "url": "https://gitlab.com/Arunjunan20/tamil-iptv/-/raw/main/index.m3u",
-        "splitByGroupTitle": true
-    },
-    "JIO_TV": {
-        "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/jio.m3u"
     }
 }
