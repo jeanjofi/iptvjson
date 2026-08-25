@@ -21,5 +21,8 @@
     "IPTV_2": {
         "url": "https://gitlab.com/Arunjunan20/tamil-iptv/-/raw/main/index.m3u",
         "splitByGroupTitle": true
+    },
+    "JIO_TV": {
+        "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/jio.m3u"
     }
 }
