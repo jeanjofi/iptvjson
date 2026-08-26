@@ -12,8 +12,9 @@ from typing import Optional
 
 
 CHANNEL_FEED_URLS = (
-    "https://raw.githubusercontent.com/live4wap/links/refs/heads/main/jiomb",
-    "https://raw.githubusercontent.com/live4wap/links/refs/heads/main/jiopl",
+      "https://raw.githubusercontent.com/live4wap/links/refs/heads/main/jiomb",
+    # "https://raw.githubusercontent.com/live4wap/links/refs/heads/main/jiopl",
+    # "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json",
 )
 COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 PLAYER_UA = "plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0"
@@ -36,6 +37,11 @@ def fetch_text(url: str) -> str:
     request = urllib.request.Request(url, headers={"User-Agent": JSON_UA})
     with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
         return response.read().decode("utf-8", errors="replace")
+
+
+def cookie_from_value(value: object) -> str:
+    cookie = str(value or "").strip()
+    return cookie if cookie.startswith("__hdnea__=") else ""
 
 
 def slug_from_url(url: str) -> Optional[str]:
@@ -71,16 +77,19 @@ def main() -> int:
     if args.limit > 0:
         channels = channels[:args.limit]
 
-    print("2) Fetch __hdnea__ cookie")
-    cookie_data = json.loads(fetch_text(COOKIE_URL))
-    cookie = next(
-        (str(item["cookie"]).strip() for item in cookie_data
-         if isinstance(item, dict) and item.get("cookie")),
-        "",
-    )
-    if not cookie.startswith("__hdnea__="):
-        raise ValueError("cookie feed did not contain an __hdnea__ cookie")
-    token = cookie.split("__hdnea__=", 1)[1]
+    fallback_cookie = ""
+    if any(not cookie_from_value(entry.get("cookie")) for entry in channels):
+        print("2) Fetch fallback __hdnea__ cookie")
+        cookie_data = json.loads(fetch_text(COOKIE_URL))
+        fallback_cookie = next(
+            (cookie for item in cookie_data if isinstance(item, dict)
+             for cookie in (cookie_from_value(item.get("cookie")),) if cookie),
+            "",
+        )
+        if not fallback_cookie:
+            raise ValueError("cookie feed did not contain an __hdnea__ cookie")
+    else:
+        print("2) Use cookies from channel feed")
 
     print("3) Write M3U")
     lines = ["#EXTM3U"]
@@ -89,11 +98,12 @@ def main() -> int:
     skipped = 0
     for entry in channels:
         channel_id = str(entry.get("id") or "").strip()
-        stream_url = str(entry.get("url") or "").strip()
+        stream_url = str(entry.get("url") or entry.get("mpd") or "").strip()
         logo = str(entry.get("logo") or "").strip()
+        cookie = cookie_from_value(entry.get("cookie")) or fallback_cookie
         key_id = str(entry.get("keyId") or "").strip().lower()
         key = str(entry.get("key") or "").strip().lower()
-        if not stream_url:
+        if not stream_url or not cookie:
             skipped += 1
             continue
         if not channel_id or not re.fullmatch(r"[0-9a-f]{32}", key_id) or not re.fullmatch(r"[0-9a-f]{32}", key):
@@ -104,6 +114,7 @@ def main() -> int:
             continue
         seen.add(identity)
         separator = "&" if "?" in stream_url else "?"
+        token = cookie.split("__hdnea__=", 1)[1]
         stream_url = f"{stream_url}{separator}__hdnea__={token}"
         category = str(entry.get("category") or "JIO Live").strip() or "JIO Live"
         lines.extend([
