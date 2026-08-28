@@ -2,8 +2,9 @@ name: Build jio.m3u
 
 on:
   schedule:
-    # Refresh the channel list and __hdnea__ cookie twice a day.
-    - cron: "0 */12 * * *"
+    # Refresh at 01:15, 07:15, 13:15, and 19:15 IST.
+    # GitHub Actions cron uses UTC: 01:45, 07:45, 13:45, 19:45 UTC.
+    - cron: "45 1,7,13,19 * * *"
   workflow_dispatch:
 
 permissions:
