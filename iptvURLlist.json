@@ -12,7 +12,7 @@
         "url": "https://raw.githubusercontent.com/ashrafshj/Ashru-TV/master/MLM"
     },
     "JIO_TV": {
-        "url": "https://raw.githubusercontent.com/qwerty180506/Geo/main/jiotv_cf.m3u",
+        "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/jio.m3u",
         "splitByGroupTitle": true
     }
 }
