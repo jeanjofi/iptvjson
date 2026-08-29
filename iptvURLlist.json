@@ -11,8 +11,8 @@
     "JOFI_Malayalam_M3U": {
         "url": "https://raw.githubusercontent.com/ashrafshj/Ashru-TV/master/MLM"
     },
-    "JIO_TV": {
-        "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/jio.m3u",
+    "JO_TV": {
+        "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/jo.m3u",
         "splitByGroupTitle": true
     }
 }

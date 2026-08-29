@@ -1,17 +1,18 @@
-name: Build jio.m3u
+name: Build jo.m3u
 
 on:
   schedule:
-    # Refresh at 01:15, 07:15, 13:15, and 19:15 IST.
-    # GitHub Actions cron uses UTC: 01:45, 07:45, 13:45, 19:45 UTC.
-    - cron: "45 1,7,13,19 * * *"
+    # Token refreshes at 14:30, 19:30, 00:30, 05:30, 10:30, ... IST.
+    # Run 15 minutes later to pick up the fresh token.
+    # UTC equivalent: 09:15, 14:15, 19:15, 00:15, 05:15, 10:15, ...
+    - cron: "15 0,5,9,14,19 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build-jio-m3u:
+  build-jo-m3u:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -22,17 +23,17 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Build jio.m3u
-        run: python3 .github/scripts/build_jio_m3u.py
+      - name: Build jo.m3u
+        run: python3 .github/scripts/build_jo_m3u.py
 
       - name: Commit & push if changed
         run: |
           git config --global user.name  "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jio.m3u
+          git add jo.m3u
           if git diff --cached --quiet; then
-            echo "No changes to jio.m3u."
+            echo "No changes to jo.m3u."
             exit 0
           fi
-          git commit -m "chore: refresh jio.m3u (token rotation)"
+          git commit -m "chore: refresh jo.m3u (token rotation)"
           git push origin HEAD:main

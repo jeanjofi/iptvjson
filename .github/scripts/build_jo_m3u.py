@@ -12,9 +12,8 @@ from typing import Optional
 
 
 CHANNEL_FEED_URLS = (
-    #   "https://raw.githubusercontent.com/live4wap/links/refs/heads/main/jiomb",
-    # "https://raw.githubusercontent.com/live4wap/links/refs/heads/main/jiopl",
-    "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json",
+      "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/meta_mb.json",
+    # "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json",
 )
 COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 PLAYER_UA = "plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0"
@@ -24,7 +23,7 @@ JSON_UA = (
     "Chrome/123.0.0.0 Safari/537.36"
 )
 TIMEOUT = 30
-OUT_M3U = Path("jio.m3u")
+OUT_M3U = Path("jo.m3u")
 
 SLUG_TRIM_SUFFIX = re.compile(r"_(MOB|BTS|HD|FHD|UHD|MOB_HD|WV_DRM)$", re.I)
 SLUG_FROM_URL = re.compile(
@@ -62,11 +61,11 @@ def channel_name(url: str, channel_id: str) -> str:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Build the JIO M3U playlist.")
+    parser = argparse.ArgumentParser(description="Build the JO M3U playlist.")
     parser.add_argument("--limit", type=int, default=0, help="Process only the first N channels.")
     args = parser.parse_args()
 
-    print("1) Fetch JIO channel feeds")
+    print("1) Fetch JO channel feeds")
     channels: list[dict] = []
     for feed_url in CHANNEL_FEED_URLS:
         feed = json.loads(fetch_text(feed_url))
