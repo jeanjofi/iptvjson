@@ -6,6 +6,7 @@ on:
     # Run 15 minutes later to pick up the fresh token.
     # UTC equivalent: 09:15, 14:15, 19:15, 00:15, 05:15, 10:15, ...
     - cron: "15 0,5,9,14,19 * * *"
+      timezone: "UTC"
   workflow_dispatch:
 
 permissions:
