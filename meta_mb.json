@@ -4277,7 +4277,7 @@
     {
         "name": "Asianet News",
         "id": "180",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Asianet_News_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -4286,7 +4286,7 @@
     {
         "name": "Asianet HD",
         "id": "443",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Asianet_HD_MOB/WDVLive/index.mpd",
         "keyId": "ce59e82f061f57c5a423d3342ae4cb7d",
         "key": "5218a59b8da17a2b2e4b217802f716f0",
@@ -4295,7 +4295,7 @@
     {
         "name": "Asianet Movies HD",
         "id": "459",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Asianet_Movies_HD_MOB/WDVLive/index.mpd",
         "keyId": "24618205971e53fa871bdf9c7b56bffb",
         "key": "751c4311a428fccbd4dda0a74991eb67",
@@ -4304,7 +4304,7 @@
     {
         "name": "Jaihind tv",
         "id": "465",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Jaihind_tv_MOB/WDVLive/index.mpd",
         "keyId": "8cef787469f052b5b32bff6daf6a8ea9",
         "key": "f1a9609651aebba633bd7487fc24959a",
@@ -4313,7 +4313,7 @@
     {
         "name": "Kochu TV",
         "id": "556",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kochu_TV_MOB/WDVLive/index.mpd",
         "keyId": "0302f2d727d6513eb9ee9d88b42dab6c",
         "key": "ddefe13383dcb3e287aff9eaf7855390",
@@ -4322,7 +4322,7 @@
     {
         "name": "Kaumudy TV",
         "id": "563",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kaumudy_TV_MOB/WDVLive/index.mpd",
         "keyId": "11b2468a2aaf5b6cab8aed101783e444",
         "key": "cb302b5c4c15bfc3b4571859865a813b",
@@ -4331,7 +4331,7 @@
     {
         "name": "Shalom",
         "id": "606",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Shalom_MOB/WDVLive/index.mpd",
         "keyId": "74dcc8ceb90d5bd1ae9ce05922e1fdc6",
         "key": "792cbbbe6f0fb5aa2b3ce386985dbb13",
@@ -4340,7 +4340,7 @@
     {
         "name": "Flower TV",
         "id": "634",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Flower_TV_MOB/WDVLive/index.mpd",
         "keyId": "442ef9bd1f175d81ad4ef6e2039621fb",
         "key": "5bae63aec5c404b3f25073bcf1f0ba98",
@@ -4349,7 +4349,7 @@
     {
         "name": "Mazhavil Manorama",
         "id": "648",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Mazhavil_Manorama_MOB/WDVLive/index.mpd",
         "keyId": "8f8430fc6c425e948af4f348d4e7e01e",
         "key": "80ebeed47b6d29c9032ed64ed2b93251",
@@ -4358,7 +4358,7 @@
     {
         "name": "Raj News Malayalam",
         "id": "650",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_News_Malayalam_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -4367,7 +4367,7 @@
     {
         "name": "Manorama News",
         "id": "662",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Manorama_News_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -4376,7 +4376,7 @@
     {
         "name": "DD Malayalam",
         "id": "699",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Malayalam_MOB/WDVLive/index.mpd",
         "keyId": "8f507b96cd2655e798b8db80aaf5243f",
         "key": "1517bfea8b1ca61ecabc750b9a28d181",
@@ -4385,7 +4385,7 @@
     {
         "name": "Kairali TV",
         "id": "710",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kairali_TV_MOB/WDVLive/index.mpd",
         "keyId": "a37260fb98b05cb8804d9a0b496fe5d0",
         "key": "35732792d319aa076e6ecb02ba84e8d4",
@@ -4394,7 +4394,7 @@
     {
         "name": "Amrita TV",
         "id": "723",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Amrita_TV_MOB/WDVLive/index.mpd",
         "keyId": "5846662de10353b58c753c58181999a9",
         "key": "861fc01c5d218685a2c1475acea56b93",
@@ -4403,7 +4403,7 @@
     {
         "name": "Kairali News",
         "id": "725",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kairali_People_TV_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -4412,7 +4412,7 @@
     {
         "name": "Kairali WE TV",
         "id": "731",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kairali_WE_TV_MOB/WDVLive/index.mpd",
         "keyId": "379adaf3d1135dea99716a8947742280",
         "key": "f9fd54469f57b13bd145b5b9b59ba8a0",
@@ -4421,7 +4421,7 @@
     {
         "name": "Raj Music Malayalam",
         "id": "739",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_Music_Malayalam_MOB/WDVLive/index.mpd",
         "keyId": "27e4a49618e55cc094edba05269a69a3",
         "key": "051b72f128d9e1cfc07edc5c72eb3b1f",
@@ -4430,7 +4430,7 @@
     {
         "name": "Sun Surya Music",
         "id": "747",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Surya_Music_MOB/WDVLive/index.mpd",
         "keyId": "6dec22d787845c828b7e7b08c4036cf6",
         "key": "b46904ae1a6fcae716b8e8cdf78de849",
@@ -4439,7 +4439,7 @@
     {
         "name": "Mathrubhumi News",
         "id": "780",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Mathrubhumi_News_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -4448,7 +4448,7 @@
     {
         "name": "Kappa TV",
         "id": "786",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kappa_TV_MOB/WDVLive/index.mpd",
         "keyId": "03dfdaa1d3e150508ba9e26c05be7e90",
         "key": "0352c4fd4204955e3b152ee551d2bd31",
@@ -4457,7 +4457,7 @@
     {
         "name": "Janam TV",
         "id": "810",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Janam_TV_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -4466,7 +4466,7 @@
     {
         "name": "Jeevan TV",
         "id": "842",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Jeevan_TV_MOB/WDVLive/index.mpd",
         "keyId": "8bd4d00c93da50929eea18d16be917da",
         "key": "97a14086d566a7d96484af432882b7ce",
@@ -4475,7 +4475,7 @@
     {
         "name": "Mazhavil Manorama HD",
         "id": "844",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Mazavali_Manorama_HD_MOB/WDVLive/index.mpd",
         "keyId": "3fbcc5281dc452d3958d689716957b5d",
         "key": "fa7eeb16e2547181cdf02fd5b91269aa",
@@ -4484,7 +4484,7 @@
     {
         "name": "Sun Surya HD",
         "id": "900",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Surya_HD_MOB/WDVLive/index.mpd",
         "keyId": "b7d2d1228b275e219c9cdb282038d4c3",
         "key": "d75d95afc4a181803d2188456a052477",
@@ -4493,7 +4493,7 @@
     {
         "name": "Media One TV",
         "id": "910",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Media_One_TV_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -4502,7 +4502,7 @@
     {
         "name": "Propex TV",
         "id": "953",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Propex_TV_MOB/WDVLive/index.mpd",
         "keyId": "d3daa99d7c1e5f41a3d6a60b467b02eb",
         "key": "6f5be37e5b1c55c6fa572b4da5013335",
@@ -4511,7 +4511,7 @@
     {
         "name": "News18 Kerala",
         "id": "965",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/News18Kerala_MOB/WDVLive/index.mpd",
         "keyId": "a724253336305cee90cecc756ddbf48e",
         "key": "7dc286618e448a14f997552be73c350b",
@@ -4520,7 +4520,7 @@
     {
         "name": "Asianet Plus",
         "id": "1139",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Asianet_Plus_MOB/WDVLive/index.mpd",
         "keyId": "679f44827ae353b6ae01046247b47a4f",
         "key": "7a401e0b947861c564af4dabf89410fc",
@@ -4529,7 +4529,7 @@
     {
         "name": "Asianet Movies",
         "id": "1153",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Asianet_Movies_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -4538,7 +4538,7 @@
     {
         "name": "Twenty Four News",
         "id": "1250",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Twenty_Four_News_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -4547,7 +4547,7 @@
     {
         "name": "Nick Malayalam",
         "id": "1340",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_Mal_MOB/WDVLive/index.mpd",
         "keyId": "26a6b3ab738e5910940c2bbb2e5f7734",
         "key": "9daa471df466703e03d800aacbe1ffd0",
@@ -4556,7 +4556,7 @@
     {
         "name": "Sonic Malayalam",
         "id": "1344",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sonic_Malayalam_MOB/WDVLive/index.mpd",
         "keyId": "e5cee6f28393554c94ed38b0d8a65b88",
         "key": "ed3a9586ece4ac6cd147e784e0ce1fc6",
@@ -4565,7 +4565,7 @@
     {
         "name": "Goodness",
         "id": "1388",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Goodness_TV_MOB/WDVLive/index.mpd",
         "keyId": "c0c468fdbe715ea184a9abfb42b41de8",
         "key": "a2f9916c0ca9b331a0e98ab8201639ed",
@@ -4574,7 +4574,7 @@
     {
         "name": "KITE VICTERS",
         "id": "1429",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/KITE_Victers_MOB/WDVLive/index.mpd",
         "keyId": "3d18ea044b615bc19446bdfc930df96b",
         "key": "7217966aed81abd7245991b3f8cfd89c",
@@ -4583,7 +4583,7 @@
     {
         "name": "Real News Kerala",
         "id": "1618",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Real_News_Kerala_MOB/WDVLive/index.mpd",
         "keyId": "dafbefbe8f345aa6a9491c639aa178e2",
         "key": "5dd33cef8f74a55e49a7d5b187150e62",
@@ -4592,7 +4592,7 @@
     {
         "name": "Zee Keralam HD",
         "id": "1641",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeKeralamHD_MOB/WDVLive/index.mpd",
         "keyId": "1f85fea5f617503d9166990f21afc2c2",
         "key": "b2fc26f5b5595606827d4000a9d1b178",
@@ -4601,7 +4601,7 @@
     {
         "name": "Harvest TV 24x7",
         "id": "1643",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Harvest_TV_24x7_MOB/WDVLive/index.mpd",
         "keyId": "f594309650a15f1185cb37d128b631c0",
         "key": "53d22c1f77890e3b099c07c136305caa",
@@ -4610,7 +4610,7 @@
     {
         "name": "Powervision TV",
         "id": "1644",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Powervision_TV_MOB/WDVLive/index.mpd",
         "keyId": "a7e442cece2355fa8774f7ae0f12514b",
         "key": "46e3da9af9b72170385b64d3cac1eee2",
@@ -4619,7 +4619,7 @@
     {
         "name": "Sun Surya Comedy",
         "id": "1662",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Surya_Comedy_MOB/WDVLive/index.mpd",
         "keyId": "6f89e312c5e051f4b0baada7c375662a",
         "key": "34ab95577a62df1b54ba527f0995281e",
@@ -4628,7 +4628,7 @@
     {
         "name": "Safari TV",
         "id": "1666",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Safari_TV_MOB/WDVLive/index.mpd",
         "keyId": "daee57b82f445dafa242a93edcc0541e",
         "key": "8b87d71aed334086d2685398d05eef82",
@@ -4637,7 +4637,7 @@
     {
         "name": "Sun Surya Movies",
         "id": "1754",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Surya_Movies_MOB/WDVLive/index.mpd",
         "keyId": "dab921b8ef8d55b6945c3c69209fd6e4",
         "key": "c5141f92f8b9961399078c273aed219f",
@@ -4646,7 +4646,7 @@
     {
         "name": "Shekinah TV",
         "id": "2004",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Shekinah_MOB/WDVLive/index.mpd",
         "keyId": "37313b81e7d85e939cff52f3a691b7ba",
         "key": "788f726524ff45fbbd3376c8d38718b0",
@@ -4655,7 +4655,7 @@
     {
         "name": "News Malayalam",
         "id": "3184",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/News_Malayalam_MOB/WDVLive/index.mpd",
         "keyId": "4fe708aeeba1578592b08ccc4fe30fe5",
         "key": "a425c32f31c80b46fccf105ebb6e812b",
@@ -4664,7 +4664,7 @@
     {
         "name": "Discovery HD Malayalam",
         "id": "3431",
-        "category": "Malayalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDMal_MOB/WDVLive/index.mpd",
         "keyId": "563d5f246b0153cd9ed53d762772d760",
         "key": "a2348c8aa4ae3816684573caefc6a9a6",
@@ -4673,7 +4673,7 @@
     {
         "name": "SONY YAY Malayalam",
         "id": "3423",
-        "category": "Malyalam",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYMal_MOB/WDVLive/index.mpd",
         "keyId": "1a968e4de13756e489eb98388b1c502c",
         "key": "114073cdb115690780b616e729ff9cd1",
@@ -7193,7 +7193,7 @@
     {
         "name": "DD Sports",
         "id": "204",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Sports_MOB/WDVLive/index.mpd",
         "keyId": "e6bd071206ea552ba32a22496af8f2a5",
         "key": "962e83890c212fb4fe0fdab30bc2ba0d",
@@ -7202,7 +7202,7 @@
     {
         "name": "Eurosport HD",
         "id": "875",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Dsports_HD_MOB/WDVLive/index.mpd",
         "keyId": "b3bcfaeae129566f80a3afb2b533f917",
         "key": "6843545622aa27cab11368ffb3cae72a",
@@ -7211,7 +7211,7 @@
     {
         "name": "Jio Sports HD",
         "id": "889",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Jio_Sports_MOB/WDVLive/index.mpd",
         "keyId": "efebee7d002b5e519c5df02b191a2709",
         "key": "30fc4c79935da32b16aea1362e6b4892",
@@ -7220,7 +7220,7 @@
     {
         "name": "JioGames HD",
         "id": "1163",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Jio_Esports_HD_MOB/WDVLive/index.mpd",
         "keyId": "17df4d1c15ab5fcb88dc46f94e16412c",
         "key": "f5ff1078996afe0b18841250f3f8cf9a",
@@ -7229,7 +7229,7 @@
     {
         "name": "Eurosport",
         "id": "1294",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Dsports_MOB/WDVLive/index.mpd",
         "keyId": "4197a27f1c445f06a04a3616aa95b575",
         "key": "0345ef0f4815e7a99418c94c4adfcb52",
@@ -7238,7 +7238,7 @@
     {
         "name": "MI TV",
         "id": "1529",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/MI_TV_MOB/WDVLive/index.mpd",
         "keyId": "d958cdeb2bf55ab8869fc3e483446ab6",
         "key": "8b3eaa90d6f76eb35ca312189c398ff9",
@@ -7247,7 +7247,7 @@
     {
         "name": "BRAVE TV",
         "id": "2766",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Brave_TV_MOB/WDVLive/index.mpd",
         "keyId": "5b39b43eac995ba58be147d4274b80ad",
         "key": "7a90a6f3fa4f42ae694436f830f442c2",
@@ -7256,7 +7256,7 @@
     {
         "name": "Red Bull TV",
         "id": "2779",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Red_Bull_TV_MOB/WDVLive/index.mpd",
         "keyId": "9d8303ed3e0b56078f7ac6d6bd8199c0",
         "key": "eb60e3e7edc02fbfa3e4c8e841b65b87",
@@ -7265,7 +7265,7 @@
     {
         "name": "Lancs TV HD",
         "id": "3011",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Lancs_TV_HD_MOB/WDVLive/index.mpd",
         "keyId": "032977e68d9851fcb150f147b89cf9e8",
         "key": "e1e870afc222d2d2a7f913e3205f4fa5",
@@ -7274,7 +7274,7 @@
     {
         "name": "All Women's Sports Network",
         "id": "3146",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/AWSN_MOB/WDVLive/index.mpd",
         "keyId": "8f7f3239c37f521ba1804aebdcd7404a",
         "key": "516e21012c50b8e6c51b297b07bb0675",
@@ -7283,7 +7283,7 @@
     {
         "name": "Penta TV",
         "id": "3204",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Penta_TV_MOB/WDVLive/index.mpd",
         "keyId": "bd38f502b44b5aec8196ac4aebd3ca7c",
         "key": "b26a13589bc487b06f421a6bb00b2100",
@@ -7292,75 +7292,70 @@
     {
         "name": "Pickleball Now",
         "id": "3243",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Pickleball_Now_MOB/WDVLive/index.mpd",
         "keyId": "fc418df9af225e18a8fc6278a6e9cd75",
         "key": "64cf8bec9b8133a32187241bba87d635",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Pickleball_Now.png"
     },
-    
-    
     {
         "name": "UIPM Pentathlon World Cup",
         "id": "3530",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/UIPMPentathlonWC_MOB/WDVLive/index.mpd",
         "keyId": "59414fca13b95985ad38ba9074840a81",
         "key": "16e62faf7f2ef75112ebb98377a2a03e",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/UIPMPentathlonWC.png"
     },
-
-
     {
         "name": "Sony Sports 1",
         "id": "33722",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ten_HD_MOB/WDVLive/index.mpd",
         "keyId": "3525c924e54154b39533d86b1c7a428a",
         "key": "8548b566fc6608a7d3bd601ee5f3d889",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_1.png"
     },
-
     {
         "name": "Sony Sports 2",
         "id": "3373",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ten2_HD_MOB/WDVLive/index.mpd",
         "keyId": "91fce77f2f8056f084ed961c7ebe86ed",
         "key": "8214bd5eb6c21444e8ea644824affd79",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_2.png"
     },
-{
+    {
         "name": "Sony Sports 3",
         "id": "33744",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ten3_HD_MOB/WDVLive/index.mpd",
         "keyId": "111e6908b965566e97139efddf7ef459",
         "key": "c87903abbc052e1f21e51ebd928d9cb1",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_3.png"
     },
-
-   { "name": "Sonyliv 1",
+    {
+        "name": "Sonyliv 1",
         "id": "3372",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_1_MOB/WDVLive/index.mpd",
         "keyId": "4e4c5dba5bfe5a7c9338bc086eb80379",
         "key": "b8e8932f440084e1d2b705fa52eef94b",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_1.png"
     },
-{
+    {
         "name": "Sonyliv 2",
         "id": "3373",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_2_MOB/WDVLive/index.mpd",
         "keyId": "ef24516ae38b50d18049343cd1cd998a",
         "key": "eb4810ec250a1795a0019dba7881ff45",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_2.png"
     },
-{
+    {
         "name": "Sonyliv 3",
         "id": "3374",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_3_MOB/WDVLive/index.mpd",
         "keyId": "3afa887864e6545aa006db21aeb39054",
         "key": "6b8cce271f3cd923d0df32d45b44f6df",
@@ -7369,7 +7364,7 @@
     {
         "name": "Sonyliv 4 Kannada",
         "id": "3528",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLivSports4Kan_MOB/WDVLive/index.mpd",
         "keyId": "11ea8c4152bd55f19ecf2fcecaadf14d",
         "key": "e1cd78b9fc344ad20e873cff3c2354f0",
@@ -7378,7 +7373,7 @@
     {
         "name": "Sonyliv 4 Tamil",
         "id": "3397",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "9f266ceda9555faf8b40c586ac40406a",
         "key": "92f9a1ca4c16545db65ad0578bd1baa3",
@@ -7387,7 +7382,7 @@
     {
         "name": "Sonyliv 4 Telugu",
         "id": "3398",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Telugu_MOB/WDVLive/index.mpd",
         "keyId": "4d39c423d72a5f1ca5df1de110c80422",
         "key": "572a9370c22c8b5d741352ebf8f68721",
@@ -7396,19 +7391,16 @@
     {
         "name": "Sonyliv 5",
         "id": "3399",
-        "category": "Sports",
+        "category": "Aa_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_5_MOB/WDVLive/index.mpd",
         "keyId": "cee8550bf50b569d8ad2ed0c5264f0d2",
         "key": "565a95f1c332c03534e1e5fcc1ff9a8b",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_5.png"
     },
-    
-    
-    
     {
         "name": "sonic Tamil",
         "id": "290",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/sonic_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "a62d4ca4ef095564bede0fe525956634",
         "key": "5e34a5126bfe29c18947046513f18cce",
@@ -7417,7 +7409,7 @@
     {
         "name": "J Movies",
         "id": "417",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/J_Movies_MOB/WDVLive/index.mpd",
         "keyId": "531467efbbf156d793766adfe62d6a26",
         "key": "3e4eef5502a6da48b91894c33310ea93",
@@ -7426,7 +7418,7 @@
     {
         "name": "Jaya Plus",
         "id": "418",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Jaya_Plus_MOB/WDVLive/index.mpd",
         "keyId": "e1aefaf169735829b2a6fb77e403eac2",
         "key": "941252b4e0873390b6909258b7fc5b89",
@@ -7435,7 +7427,7 @@
     {
         "name": "Jaya TV HD",
         "id": "419",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Jaya_TV_HD_MOB/WDVLive/index.mpd",
         "keyId": "16a7f966a8695a58ab1a5311c3f98545",
         "key": "0e67031411209bb0688a8808cf8232f9",
@@ -7444,7 +7436,7 @@
     {
         "name": "Jaya Max",
         "id": "420",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Jaya_Max_MOB/WDVLive/index.mpd",
         "keyId": "5a6b703b87a75a728a8079ff3c5aa991",
         "key": "21295df12a0e76c1c15389b19cb85f21",
@@ -7453,7 +7445,7 @@
     {
         "name": "Pogo Tamil",
         "id": "542",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Pogo_Tam_MOB/WDVLive/index.mpd",
         "keyId": "ace8ad8aaff258edb8743bea9825d2d2",
         "key": "89bbc643fba2d72470ee30668ec749c9",
@@ -7462,7 +7454,7 @@
     {
         "name": "Nick Tamil",
         "id": "546",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_Tam_MOB/WDVLive/index.mpd",
         "keyId": "7abfb289bb2f5747be84407b70dbd689",
         "key": "c5745d4c06cb52aff050298db0f7d9d9",
@@ -7471,7 +7463,7 @@
     {
         "name": "Discovery Kids Tamil",
         "id": "550",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKidsTam_MOB/WDVLive/index.mpd",
         "keyId": "527df4ddb18a530db7565fff6c06263f",
         "key": "b4ca95df03a230ba8e23a7226de77d05",
@@ -7480,7 +7472,7 @@
     {
         "name": "Chutti TV",
         "id": "557",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Chutti_TV_MOB/WDVLive/index.mpd",
         "keyId": "b6c198ef16ac5c5f8891dade7f781773",
         "key": "2be7b4ae3582fc2531dc1c36dd0fe91a",
@@ -7489,7 +7481,7 @@
     {
         "name": "D Tamil",
         "id": "569",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Discovery_Channel_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "28cc7ab1093057648dc408417bb57d43",
         "key": "45d146719c37669b4ab7f700fe63e82f",
@@ -7498,7 +7490,7 @@
     {
         "name": "History TV18 HD Tamil",
         "id": "579",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/History_18_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "0f9371552c9b5d4ea83b97b455285d97",
         "key": "d8751df166bb3b7f5b995268f4a77f67",
@@ -7507,7 +7499,7 @@
     {
         "name": "Nambikkai",
         "id": "603",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Nambikkai_MOB/WDVLive/index.mpd",
         "keyId": "00628b0fba225f75858592e885e25d71",
         "key": "519ebd246a95f0055f4977105bc81d42",
@@ -7516,7 +7508,7 @@
     {
         "name": "News18 Tamil nadu",
         "id": "615",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/News18TamilNadu_MOB/WDVLive/index.mpd",
         "keyId": "4c4a4f1133895b87ad55e29bfc12d0f5",
         "key": "d30a43b4a5880b6a31916d6952548307",
@@ -7525,7 +7517,7 @@
     {
         "name": "Zee Tamil",
         "id": "628",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeTamil_MOB/WDVLive/index.mpd",
         "keyId": "5036572721315d12aaf769bb142f43fe",
         "key": "86fefa8b4f86639d644f03f7bccdc882",
@@ -7534,7 +7526,7 @@
     {
         "name": "Polimer News",
         "id": "636",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Polimer_News_MOB/WDVLive/index.mpd",
         "keyId": "ba0a790e27b95d8e9b8efbed923167f6",
         "key": "16313d871a82a6b8b15b5e32a4c764da",
@@ -7543,7 +7535,7 @@
     {
         "name": "Sathiyam TV",
         "id": "671",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sathiyam_MOB/WDVLive/index.mpd",
         "keyId": "ef1b4852e5fd55d08570ab7beff3d5b4",
         "key": "1ed05f086bf361e5e252b9e7b4167dc5",
@@ -7552,7 +7544,7 @@
     {
         "name": "News7 Tamil",
         "id": "673",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/News7_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -7561,7 +7553,7 @@
     {
         "name": "Sun News",
         "id": "676",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sun_News_MOB/WDVLive/index.mpd",
         "keyId": "e8b0b960d29658969d74da596e2787e1",
         "key": "9b4051847231c9e1fd717df5aa5e0eea",
@@ -7570,7 +7562,7 @@
     {
         "name": "Puthiya Thalimurai",
         "id": "677",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Puthiya_Thalimurai_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -7579,7 +7571,7 @@
     {
         "name": "Sun Life",
         "id": "682",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sun_Life_MOB/WDVLive/index.mpd",
         "keyId": "03fff2c1ecea574b98da00b05c2a0be9",
         "key": "41670b42142fa8ba6bd3cf9fc2ae8cf5",
@@ -7588,7 +7580,7 @@
     {
         "name": "Raj Digital Plus",
         "id": "683",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_Digital_Plus_MOB/WDVLive/index.mpd",
         "keyId": "2773e9650f9b5f6ba411dfd53cdf7912",
         "key": "57e6dcc6387ceace62737326811a1ef5",
@@ -7597,7 +7589,7 @@
     {
         "name": "Polimer TV",
         "id": "705",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Polimer_TV_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -7606,7 +7598,7 @@
     {
         "name": "Raj TV",
         "id": "707",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_TV_MOB/WDVLive/index.mpd",
         "keyId": "1f0a57e1b999520d99fc92b43630e722",
         "key": "fa59423030d70507ec1cac2cfac2050d",
@@ -7615,7 +7607,7 @@
     {
         "name": "Makkal TV",
         "id": "708",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Makkal_TV_MOB/WDVLive/index.mpd",
         "keyId": "3ff69909b2a95c038b6ff13c2e7d20ca",
         "key": "57adacb2033070c8315e2210489127a9",
@@ -7624,7 +7616,7 @@
     {
         "name": "Adithya TV",
         "id": "709",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Adithya_TV_MOB/WDVLive/index.mpd",
         "keyId": "b7d2d1228b275e219c9cdb282038d4c3",
         "key": "d75d95afc4a181803d2188456a052477",
@@ -7633,7 +7625,7 @@
     {
         "name": "DD5 Podhigai",
         "id": "726",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DD5_Podhigai_MOB/WDVLive/index.mpd",
         "keyId": "98cfe2f887bb5c69b08138fa2cbef75f",
         "key": "d0a8380d969c4779321ffafa7656b7d7",
@@ -7642,7 +7634,7 @@
     {
         "name": "Vasanth TV",
         "id": "727",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Vasanth_TV_MOB/WDVLive/index.mpd",
         "keyId": "a6e475d6fbba53c2a6737662e5c06f01",
         "key": "c38f7613812e643c11402bdaca2ab816",
@@ -7651,7 +7643,7 @@
     {
         "name": "Raj Musix",
         "id": "748",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_Musix_MOB/WDVLive/index.mpd",
         "keyId": "d5968d25bb125bd6a8a1afe4b45d8711",
         "key": "ecb4f2a37bb7511baf2a3a93cdef375e",
@@ -7660,7 +7652,7 @@
     {
         "name": "Raj News 24x7",
         "id": "767",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_News_24x7_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -7669,7 +7661,7 @@
     {
         "name": "Peppers TV",
         "id": "796",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Peppers_TV_MOB/WDVLive/index.mpd",
         "keyId": "130db049d48151f9bff9eab26044bf01",
         "key": "a59f6bf5bd47145426117ff41908b9da",
@@ -7678,7 +7670,7 @@
     {
         "name": "Tunes 6",
         "id": "803",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Tunes_6_MOB/WDVLive/index.mpd",
         "keyId": "94903701b04e50e6b8a22fc68e8ff75a",
         "key": "854801b80cbc750d842bb4ca67b525bf",
@@ -7687,7 +7679,7 @@
     {
         "name": "Travelxp Tamil",
         "id": "814",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Travel_XP_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "cf6ced63e3985712bfac07d09f21f2d6",
         "key": "703e7ab711207c756355edf6c38d96cc",
@@ -7696,7 +7688,7 @@
     {
         "name": "Cartoon Network Tamil",
         "id": "817",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/CNTamil_MOB/WDVLive/index.mpd",
         "keyId": "553fc9bdb0115b24b23d04be203d1b9d",
         "key": "a220f0a32aaee1e6989ef8e6a6728fe1",
@@ -7705,7 +7697,7 @@
     {
         "name": "Puthu Yugam",
         "id": "824",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Puthu_Yugam_MOB/WDVLive/index.mpd",
         "keyId": "52fa7c567015541b99106fc5ad577663",
         "key": "16b6bf1201d5dcc541e099c5ff92f7eb",
@@ -7714,7 +7706,7 @@
     {
         "name": "Malaimurasu Seithigal",
         "id": "826",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Malaimurasu_Seithigal_MOB/WDVLive/index.mpd",
         "keyId": "9b58d77961e75a49b1a4225ea6932e7b",
         "key": "7bc063097b94d02ad2418c01a7c221f8",
@@ -7723,7 +7715,7 @@
     {
         "name": "Thanthi TV",
         "id": "830",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Thanthi_TV_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -7732,7 +7724,7 @@
     {
         "name": "Madhimugam TV",
         "id": "843",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Madhimugam_TV_MOB/WDVLive/index.mpd",
         "keyId": "d395f7decfe956f3b78a33f629b39a34",
         "key": "9a774e4d71fdbed14373e9a809504ccd",
@@ -7741,7 +7733,7 @@
     {
         "name": "Vendhar TV",
         "id": "857",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Vendhar_TV_MOB/WDVLive/index.mpd",
         "keyId": "638a323e21705916b8038fde9d4eda58",
         "key": "a70c49a078b63728079b84d0d335adeb",
@@ -7750,7 +7742,7 @@
     {
         "name": "Sony Yay Tamil",
         "id": "873",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYTam_MOB/WDVLive/index.mpd",
         "keyId": "e28fc2f196045ad5a74c7eee8e4973f3",
         "key": "41e9517d0be1f231017a04ad93a866a1",
@@ -7759,7 +7751,7 @@
     {
         "name": "KTV HD",
         "id": "894",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/KTV_HD_MOB/WDVLive/index.mpd",
         "keyId": "ba9bfe750a56514e9c63c456fad1e428",
         "key": "e0ca0ee9dbaac2942753d928b92824c5",
@@ -7768,7 +7760,7 @@
     {
         "name": "Sun Music HD",
         "id": "895",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sun_Music_HD_MOB/WDVLive/index.mpd",
         "keyId": "fa0c0f2dd6ce50208b77e16976e38d90",
         "key": "7f83a8e5178b6562d81968886fc3fe8a",
@@ -7777,7 +7769,7 @@
     {
         "name": "Sun TV HD",
         "id": "896",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sun_TV_HD_MOB/WDVLive/index.mpd",
         "keyId": "f415c124a07c595b97c43cc9a96ded30",
         "key": "59e6c93d4fe43353b34a71eb87185aaa",
@@ -7786,7 +7778,7 @@
     {
         "name": "Sai TV",
         "id": "937",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SaiTV_MOB/WDVLive/index.mpd",
         "keyId": "f0ccca9857aa5ea78755f85298fd7321",
         "key": "fb6de437d220b071bde1bef8152511c7",
@@ -7795,7 +7787,7 @@
     {
         "name": "Win TV",
         "id": "970",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Win_TV_MOB/WDVLive/index.mpd",
         "keyId": "b0ca57ddee3656abbd4bf31ce9eb3521",
         "key": "a7bebd98963f5fb3a204d038269366e2",
@@ -7804,7 +7796,7 @@
     {
         "name": "Vaanavil TV",
         "id": "971",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Vaanavil_TV_MOB/WDVLive/index.mpd",
         "keyId": "5184688d37315d46a278256a21441618",
         "key": "17c14bbd272a0daa51e741a34afba356",
@@ -7813,7 +7805,7 @@
     {
         "name": "Cartoon Network HD+ Tamil",
         "id": "1081",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDTamil_MOB/WDVLive/index.mpd",
         "keyId": "83997e19da7f5b15a53c150730a91f31",
         "key": "605f420d088427d95b55275eb174b734",
@@ -7822,7 +7814,7 @@
     {
         "name": "Vijay Super",
         "id": "1131",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Vijay_Super_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -7831,7 +7823,7 @@
     {
         "name": "Kalaignar TV",
         "id": "1209",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kalaignar_TV_MOB/WDVLive/index.mpd",
         "keyId": "3c9449e280e35edaaf676d95774e7fa2",
         "key": "325c78bfc283365dadc2c9986104e541",
@@ -7840,7 +7832,7 @@
     {
         "name": "Kalaignar Seithigal",
         "id": "1210",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kalaignar_Seithigal__MOB/WDVLive/index.mpd",
         "keyId": "06d7e7b71a015e45ad8e3b237a6416cd",
         "key": "3c12974cc8f34ac21ccf6a4c0d229755",
@@ -7849,7 +7841,7 @@
     {
         "name": "Animal Planet HD Tamil",
         "id": "1219",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDTam_MOB/WDVLive/index.mpd",
         "keyId": "95d44d9a97a45af5bef4bb4034a5c777",
         "key": "1fb42ac605e429f3b5a061d377a491f4",
@@ -7858,7 +7850,7 @@
     {
         "name": "Aastha Gujarati",
         "id": "1255",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Aastha_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "5d0d24f040ba574aa443e38ca0938a34",
         "key": "dfd0c9b75e3f1e033c0373baff0f33b6",
@@ -7867,7 +7859,7 @@
     {
         "name": "Zee Tamil HD",
         "id": "1356",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeTamilHD_MOB/WDVLive/index.mpd",
         "keyId": "e9dd4aa4accd53188659c4a7b45bd8c4",
         "key": "920ff1a99835cfeb26d4c0db04ee58bd",
@@ -7876,7 +7868,7 @@
     {
         "name": "SVBC2",
         "id": "1417",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SVBC2_MOB/WDVLive/index.mpd",
         "keyId": "1a144ade8f5357dd81862285cd921c5b",
         "key": "b0c84f4255ba4f8082c9b13089ddb9cc",
@@ -7885,7 +7877,7 @@
     {
         "name": "News J",
         "id": "1515",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/News_J_MOB/WDVLive/index.mpd",
         "keyId": "56af1ac8d262571cb6d2a0ca37d82a51",
         "key": "6f884a4257515907f6ca2173a15bb6a0",
@@ -7894,7 +7886,7 @@
     {
         "name": "Moon TV",
         "id": "1518",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Moon_Tv_MOB/WDVLive/index.mpd",
         "keyId": "a8adb59a6fc759d792429e355ae73acb",
         "key": "218acbe747d695ded5f869925b5fe7f4",
@@ -7903,7 +7895,7 @@
     {
         "name": "RadheKrishna TV",
         "id": "1537",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/RadheKrishna_TV_MOB/WDVLive/index.mpd",
         "keyId": "5e7a7028021d5a1ab0a7d93dc6eb058a",
         "key": "255b87c9bae5c01790fe259d1f01ef03",
@@ -7912,7 +7904,7 @@
     {
         "name": "MK Six",
         "id": "1647",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/MK_Six_MOB/WDVLive/index.mpd",
         "keyId": "80ff89cbc91a55a087bccbdfc45acc1d",
         "key": "ea3de51dcc665bce0c12ca93ac8c9cce",
@@ -7921,7 +7913,7 @@
     {
         "name": "Madha TV",
         "id": "1655",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Madha_TV_MOB/WDVLive/index.mpd",
         "keyId": "ca00d42782cd5ff49724a4d7ebab404b",
         "key": "4a813a3162b99513cdf22005549bd978",
@@ -7930,7 +7922,7 @@
     {
         "name": "SVBC",
         "id": "1850",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SVBC_MOB/WDVLive/index.mpd",
         "keyId": "524228f225c3561294beb73045712eeb",
         "key": "1fd3437547213b939d98a52f10671490",
@@ -7939,7 +7931,7 @@
     {
         "name": "SVBC3",
         "id": "1858",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SVBC3_MOB/WDVLive/index.mpd",
         "keyId": "963b48e1e85c5ed3a8b2c70c246e1d28",
         "key": "59ef9002dcf67558e68ca05d4fa7cb95",
@@ -7948,7 +7940,7 @@
     {
         "name": "SVBC4",
         "id": "1859",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SVBC4_MOB/WDVLive/index.mpd",
         "keyId": "b570c87dd64255b2890ff4dbf16346da",
         "key": "67a917a6ea91bd16fb626cb88abb1a3c",
@@ -7957,7 +7949,7 @@
     {
         "name": "News Tamil 24x7",
         "id": "1954",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/News_Tamil_24x7_MOB/WDVLive/index.mpd",
         "keyId": "29bea612229b569e8717258a475ab2f9",
         "key": "1e716941a60aaa4dae384af59b68d854",
@@ -7966,7 +7958,7 @@
     {
         "name": "M Nadu",
         "id": "2434",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/M_Nadu_MOB/WDVLive/index.mpd",
         "keyId": "6bf1e64e6c2d5191a5cbdd84dd7d17b7",
         "key": "b6a72f81fdc9257bfed6b49509f36a82",
@@ -7975,7 +7967,7 @@
     {
         "name": "Jothi TV",
         "id": "2768",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Jothi_TV_MOB/WDVLive/index.mpd",
         "keyId": "fa875e7aa00e5f2186ba07232a318f7b",
         "key": "1edd25af2b8fa6a6b18e5630285ae234",
@@ -7984,7 +7976,7 @@
     {
         "name": "Tamilan Television",
         "id": "2958",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Tamilan_Television_MOB/WDVLive/index.mpd",
         "keyId": "4c6ba6edc54359d798b04e02252b7e80",
         "key": "853a6d26d12adf97be4bceaf45fdfc7d",
@@ -7993,7 +7985,7 @@
     {
         "name": "Velicham Tv",
         "id": "3004",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Velicham_Tv_MOB/WDVLive/index.mpd",
         "keyId": "15f5c61d01095ce1a411eba827fc608c",
         "key": "fca7035bbb86cbadfd69e355d59cb611",
@@ -8002,7 +7994,7 @@
     {
         "name": "Tamil Janam",
         "id": "3045",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Janam_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "6091578566f8521e9d1bbca7bbf4d058",
         "key": "4cba84c86ce198129b247cb3802a67b7",
@@ -8011,7 +8003,7 @@
     {
         "name": "Zee Thirai HD",
         "id": "3051",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeThiraiHD_MOB/WDVLive/index.mpd",
         "keyId": "f533110565935b4899a9440721d330fc",
         "key": "fafd814a78b22b6ada60c15964e1d09b",
@@ -8020,7 +8012,7 @@
     {
         "name": "Thanthi One",
         "id": "3059",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Thanti_One_MOB/WDVLive/index.mpd",
         "keyId": "null",
         "key": "null",
@@ -8029,7 +8021,7 @@
     {
         "name": "Sun Neo HD",
         "id": "3088",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SUN_Neo_MOB/WDVLive/index.mpd",
         "keyId": "ff422feb5d8b5e1f848c86e19ce1aada",
         "key": "5d1b91372c81c9963d48d6382ae3d17a",
@@ -8038,7 +8030,7 @@
     {
         "name": "Tamil Naaptol",
         "id": "3175",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Tamil_Naaptol_MOB/WDVLive/index.mpd",
         "keyId": "ad65cd90ce2150cbb6e8c91a920ce4f8",
         "key": "1ce2606584737acc7bda4a01f3d681ec",
@@ -8047,7 +8039,7 @@
     {
         "name": "Vijay Super HD",
         "id": "3266",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Vijay_Super_HD_MOB/WDVLive/index.mpd",
         "keyId": "accd6f6ff0f55c1db84694101db6fd2d",
         "key": "64b60808649a36fff96fd10016cf0add",
@@ -8056,7 +8048,7 @@
     {
         "name": "Vijay Takkar",
         "id": "3269",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Vijay_Takkar_MOB/WDVLive/index.mpd",
         "keyId": "0b7c26f031a5518983e34d269f7f9218",
         "key": "acfb670c15004a1b11c5d3dd33dad027",
@@ -8065,7 +8057,7 @@
     {
         "name": "Discovery Tamil",
         "id": "3430",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryTam_MOB/WDVLive/index.mpd",
         "keyId": "fdcbd5e45bab572087707837e3d1a332",
         "key": "2b2edfd52f3907df40da2d0b7e12892f",
@@ -8074,7 +8066,7 @@
     {
         "name": "Star Vijay HD",
         "id": "368",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Vijay_HD_MOB/WDVLive/index.mpd",
         "keyId": "25dd000e5523540cbd82ae7957fef7d7",
         "key": "f1d145d84b648242ef0b3ad2cac7eeb8",
@@ -8083,7 +8075,7 @@
     {
         "name": "Colors Tamil HD",
         "id": "429",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ColorsTamilHD_MOB/WDVLive/index.mpd",
         "keyId": "baef1ec2689b57478d44a4138c0deeb7",
         "key": "e264b8d2dd6661ca6ca8540bffc44638",
@@ -8092,7 +8084,7 @@
     {
         "name": "Star Utsav Movies",
         "id": "1136",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Utsav_Movies_MOB/WDVLive/index.mpd",
         "keyId": "5c4f38f647fa590f9904947fd5d1afb9",
         "key": "80c7058468bfea90d7ba55f550792ec3",
@@ -8101,7 +8093,7 @@
     {
         "name": "Colors Tamil",
         "id": "1371",
-        "category": "Tamil",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Colors_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "0729280e18465f30a437fae60b0de8c7",
         "key": "f5db301fe989d18fc10d29c836a3a2c7",
@@ -8683,11 +8675,10 @@
         "key": "null",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Maa.png"
     },
-
     {
         "name": "Investigation Discovery Hindi",
         "id": "527",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/IDHindi_MOB/WDVLive/index.mpd",
         "keyId": "9aef395dfa3c501f9bacf0ccf76ef6da",
         "key": "76e1fc47cd666d195437df8662a977db",
@@ -8696,7 +8687,7 @@
     {
         "name": "Prarthana Life",
         "id": "595",
-        "category": "Unknown",
+        "category": "Devotional",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Prarthana_Life_MOB/WDVLive/index.mpd",
         "keyId": "697b18659c5259a39cb42b3e2e4a3dd0",
         "key": "4c45cfde3c749c975ae09d548351833c",
@@ -8705,7 +8696,7 @@
     {
         "name": "Alankar",
         "id": "686",
-        "category": "Unknown",
+        "category": "Odia",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Alankar_MOB/WDVLive/index.mpd",
         "keyId": "7ae217bed786540290766804a47b9fd2",
         "key": "10abe8fa526938fbb0fc5d224f5d654e",
@@ -8714,7 +8705,7 @@
     {
         "name": "Tarang",
         "id": "703",
-        "category": "Unknown",
+        "category": "Odia",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Tarang_MOB/WDVLive/index.mpd",
         "keyId": "7ce9e0ffd01256d885f20f2dbd483a81",
         "key": "59b29463ce967c41658522cfcf1c409c",
@@ -8723,7 +8714,7 @@
     {
         "name": "OTV",
         "id": "704",
-        "category": "Unknown",
+        "category": "Odia",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/OTV_MOB/WDVLive/index.mpd",
         "keyId": "27765041f1e85f669188f737a6017452",
         "key": "6b992a6248da09765ad1166a9ce15526",
@@ -8732,7 +8723,7 @@
     {
         "name": "Tarang Music",
         "id": "751",
-        "category": "Unknown",
+        "category": "Odia",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Tarang_Music_MOB/WDVLive/index.mpd",
         "keyId": "02ef85a975285d18a54626a65d20e17b",
         "key": "8d4b895b749557ec3f6d6dae4c254607",
@@ -8741,7 +8732,7 @@
     {
         "name": "Sony BBC Earth HD English",
         "id": "852",
-        "category": "Unknown",
+        "category": "English",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthEng_MOB/WDVLive/index.mpd",
         "keyId": "1552919e6aab593486923334022a0adc",
         "key": "5365d8f2afcfbfeccfbff08db7f671fe",
@@ -8750,7 +8741,7 @@
     {
         "name": "Sony BBC Earth HD Tamil",
         "id": "853",
-        "category": "Unknown",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthTam_MOB/WDVLive/index.mpd",
         "keyId": "08855f130a055b2bbc9e6be66fd0f612",
         "key": "975ee9573958379452d7952377f687ff",
@@ -8759,7 +8750,7 @@
     {
         "name": "Sony BBC Earth HD Telugu",
         "id": "854",
-        "category": "Unknown",
+        "category": "Telugu",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthTel_MOB/WDVLive/index.mpd",
         "keyId": "a27b652e1c7d5dd2b752da161317168a",
         "key": "6c93d6b6fca86a51db17c05ddc800710",
@@ -8768,7 +8759,7 @@
     {
         "name": "Anjan TV",
         "id": "919",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Anjan_TV_MOB/WDVLive/index.mpd",
         "keyId": "d55c7b3f4588546791048bf5db57515e",
         "key": "320041f866594908ed6575e98a832c34",
@@ -8777,7 +8768,7 @@
     {
         "name": "BBC News Hindi",
         "id": "1431",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/BBC_Hindi_MOB/WDVLive/index.mpd",
         "keyId": "2459b3f712df5ffba80a1b7431b0d79f",
         "key": "57fe39c81024093c17b540891b82f220",
@@ -8786,7 +8777,7 @@
     {
         "name": "TEST11 HD",
         "id": "1475",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/TEST11_HD_MOB/WDVLive/index.mpd",
         "keyId": "714b712905915204b6f9d7533f055c45",
         "key": "77d030882c07d5d82cca366a34c2bcd0",
@@ -8795,7 +8786,7 @@
     {
         "name": "LUXE TV",
         "id": "1736",
-        "category": "Unknown",
+        "category": "French",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Luxe_TV_MOB/WDVLive/index.mpd",
         "keyId": "e8b0b960d29658969d74da596e2787e1",
         "key": "9b4051847231c9e1fd717df5aa5e0eea",
@@ -8804,7 +8795,7 @@
     {
         "name": "Pogo Kannada",
         "id": "3032",
-        "category": "Unknown",
+        "category": "Kannada",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Pogo_Kan_MOB/WDVLive/index.mpd",
         "keyId": "10343b660de35746b6a7971722b204dc",
         "key": "802b14d7e0228b884be9fa59e419d113",
@@ -8813,7 +8804,7 @@
     {
         "name": "Pogo Malayalam",
         "id": "3033",
-        "category": "Unknown",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Pogo_Mal_MOB/WDVLive/index.mpd",
         "keyId": "b683773e3b295bcc948dee4713b82e9b",
         "key": "ce8d925f6737038336f820ee4dd36a43",
@@ -8822,7 +8813,7 @@
     {
         "name": "Pogo Marathi",
         "id": "3034",
-        "category": "Unknown",
+        "category": "Marathi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Pogo_Mar_MOB/WDVLive/index.mpd",
         "keyId": "741a027410395b8ab6dc410bc52283cb",
         "key": "7a85e3c101321554ed77f1bdfe9a2cab",
@@ -8831,7 +8822,7 @@
     {
         "name": "Cartoon Network Kannada",
         "id": "3035",
-        "category": "Unknown",
+        "category": "Kannada",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/CNKannada_MOB/WDVLive/index.mpd",
         "keyId": "d200c88f81485387b1144f6d9bca2b1b",
         "key": "21c83c49d9daf184a7d769d488c9258d",
@@ -8840,7 +8831,7 @@
     {
         "name": "Cartoon Network Malayalam",
         "id": "3036",
-        "category": "Unknown",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/CNMalayalam_MOB/WDVLive/index.mpd",
         "keyId": "faf1b18fefa952a99d480a49d110a2e6",
         "key": "43e4c243e0871671af55de0d9c5718b7",
@@ -8849,7 +8840,7 @@
     {
         "name": "National Tv India",
         "id": "3105",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/National_Tv_India_MOB/WDVLive/index.mpd",
         "keyId": "072d567a75ea571091e0a794090fb84d",
         "key": "d792fed43f425a2136017b4811388ff7",
@@ -8858,7 +8849,7 @@
     {
         "name": "Garvi Gujarat Gujarati",
         "id": "3108",
-        "category": "Unknown",
+        "category": "Gujarati",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Garvi_Gujarat_Gujarati_MOB/WDVLive/index.mpd",
         "keyId": "c236093fd3215cf2aecf2c35c6fb4506",
         "key": "bd4902bd0bddd230ecedea80f73f32c0",
@@ -8867,7 +8858,7 @@
     {
         "name": "Rajya 24 News",
         "id": "3117",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Rajya_24_News_MOB/WDVLive/index.mpd",
         "keyId": "db06925f30775735b55c6372438c19ff",
         "key": "a15fed67a948d1364059926ba42a364d",
@@ -8876,7 +8867,7 @@
     {
         "name": "Bloomberg Originals",
         "id": "3154",
-        "category": "Unknown",
+        "category": "English",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Bloomberg_Originals_MOB/WDVLive/index.mpd",
         "keyId": "f03b0e6217615da79f9dabd052abfff3",
         "key": "26ede5ea6a37495420fbeadb7e1a0dd4",
@@ -8885,7 +8876,7 @@
     {
         "name": "Bloomberg TV+",
         "id": "3155",
-        "category": "Unknown",
+        "category": "English",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Bloomberg_TV_MOB/WDVLive/index.mpd",
         "keyId": "f000099b6a805a929097f490c018bc60",
         "key": "d3058a5ff43bf736ec43e7b8664735ea",
@@ -8894,7 +8885,7 @@
     {
         "name": "Animal Planet HD Telugu",
         "id": "3182",
-        "category": "Unknown",
+        "category": "Telugu",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDTel_MOB/WDVLive/index.mpd",
         "keyId": "514b531ea70a590bbb14d4875d61fde9",
         "key": "f3e57f244cbfe59a2f20980a377752a8",
@@ -8903,7 +8894,7 @@
     {
         "name": "Animal Planet Telugu",
         "id": "3183",
-        "category": "Unknown",
+        "category": "Telugu",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetTel_MOB/WDVLive/index.mpd",
         "keyId": "b565da9392a55ca3bd0a30bbc1f31579",
         "key": "babe82adb3bd5abcef04d21b7d982b07",
@@ -8912,7 +8903,7 @@
     {
         "name": "Kolkata News",
         "id": "3185",
-        "category": "Unknown",
+        "category": "Bengali",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kolkata_News_MOB/WDVLive/index.mpd",
         "keyId": "04f46cfbbcdd5a03b5934f109aff4473",
         "key": "a5ff2723a24775cfbb59ecb426a5846a",
@@ -8921,7 +8912,7 @@
     {
         "name": "Shark Tank India S5",
         "id": "3223",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SharkTankIndia_MOB/WDVLive/index.mpd",
         "keyId": "196eaa6b00a357c08ffb07cc6addd28a",
         "key": "bddf40c84eee560d98711d9452f21e4d",
@@ -8930,7 +8921,7 @@
     {
         "name": "LOVEWORLD TV",
         "id": "3313",
-        "category": "Unknown",
+        "category": "Devotional",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/LOVEWORLD_TV_MOB/WDVLive/index.mpd",
         "keyId": "0a3a21b6bb0a5354a2537378a0a6c124",
         "key": "50cb4a8becc2774dc5952d0d0d9e238a",
@@ -8939,7 +8930,7 @@
     {
         "name": "Ten News",
         "id": "3330",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ten_News_MOB/WDVLive/index.mpd",
         "keyId": "c0d69f868f9b5c8b8ca376344086400f",
         "key": "cd322be392240a4d02590f3e95a3189b",
@@ -8948,7 +8939,7 @@
     {
         "name": "Awaaz India TV",
         "id": "3332",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Awaaz_India_TV_MOB/WDVLive/index.mpd",
         "keyId": "562424c4e1ca5aaea973efb3ba5b1c47",
         "key": "284dde524a7081e25a4227c0d0174a08",
@@ -8957,7 +8948,7 @@
     {
         "name": "Popli Live",
         "id": "3333",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Popli_Live_MOB/WDVLive/index.mpd",
         "keyId": "2f089bb8df4c5261a32584f36791c119",
         "key": "6f51a6f564dfb677c48964e6a822b603",
@@ -8966,7 +8957,7 @@
     {
         "name": "Sanatan Vedic TV",
         "id": "3334",
-        "category": "Unknown",
+        "category": "Devotional",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sanatan_Vedic_TV_MOB/WDVLive/index.mpd",
         "keyId": "c776f01337eb5b1f99830fbcb7e978ed",
         "key": "00a8b72f38e16e8be956c39f29bb9b0b",
@@ -8975,7 +8966,7 @@
     {
         "name": "NE Bharat24",
         "id": "3353",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/NE_Bharat24_MOB/WDVLive/index.mpd",
         "keyId": "872989644c70561e94fa100c79a45eb5",
         "key": "9b7990150bbae1cb222f0c31a8579688",
@@ -8984,7 +8975,7 @@
     {
         "name": "Fast1",
         "id": "3354",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Fast1_MOB/WDVLive/index.mpd",
         "keyId": "0ce03addc6115028a24d3a85def54f52",
         "key": "31c280c55d61e526c087d3c727017592",
@@ -8993,7 +8984,7 @@
     {
         "name": "Shri Shyam TV",
         "id": "3361",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Shri_Shyam_TV_MOB/WDVLive/index.mpd",
         "keyId": "f42d54df57705a39af18f980c67e4887",
         "key": "8ae15835622683ed25276fbf92b9fedd",
@@ -9002,7 +8993,7 @@
     {
         "name": "Newz Room Gujarat",
         "id": "3365",
-        "category": "Unknown",
+        "category": "Gujarati",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Newz_Room_Gujarat_MOB/WDVLive/index.mpd",
         "keyId": "ff22a230efe35caba20c2e16d24da786",
         "key": "a9a62a441822a321035e35e527c86a36",
@@ -9011,7 +9002,7 @@
     {
         "name": "Godlywood Studios",
         "id": "3366",
-        "category": "Unknown",
+        "category": "Devotional",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Godlywood_Studios_MOB/WDVLive/index.mpd",
         "keyId": "ab532da9526b5de0a263033495697117",
         "key": "3893c1a83cabb8e1299313bd66358fd8",
@@ -9020,7 +9011,7 @@
     {
         "name": "Mega9TV",
         "id": "3367",
-        "category": "Unknown",
+        "category": "Telugu",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Mega9TV_MOB/WDVLive/index.mpd",
         "keyId": "b32d63fe71ff55e2bdf74ed0f224c779",
         "key": "58879fc7e69efb0b36bef34d668762da",
@@ -9029,7 +9020,7 @@
     {
         "name": "News TV India",
         "id": "3368",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/News_TV_India_MOB/WDVLive/index.mpd",
         "keyId": "11c9b5b847aa5fb0bc89a92f466a6143",
         "key": "5b5cc83ff9dbb4a161a45fd44d58dfb7",
@@ -9038,7 +9029,7 @@
     {
         "name": "TV13 Gujarati",
         "id": "3369",
-        "category": "Unknown",
+        "category": "Gujarati",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/TV13_Gujarati_MOB/WDVLive/index.mpd",
         "keyId": "37075f3bda945dc5ac005627ae9805e8",
         "key": "e802479dc6d39f1f458fff3522db1fa2",
@@ -9047,7 +9038,7 @@
     {
         "name": "Gospel TV",
         "id": "3370",
-        "category": "Unknown",
+        "category": "Devotional",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Gospel_TV_MOB/WDVLive/index.mpd",
         "keyId": "22ba6562dc16550790970026af4c46c5",
         "key": "96ee78582d8d38edb32feca7b731599c",
@@ -9056,7 +9047,7 @@
     {
         "name": "Ashwaveega News 24x7",
         "id": "3371",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ashwaveega_News_24x7_MOB/WDVLive/index.mpd",
         "keyId": "a7c74236580f5658b6b07585cdfa6354",
         "key": "08e8a89d618180b457f1e759888c5417",
@@ -9065,7 +9056,7 @@
     {
         "name": "G18 News",
         "id": "3378",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/G18_News_MOB/WDVLive/index.mpd",
         "keyId": "45d3df49fc645adbaf8dfe322343ce82",
         "key": "4bc28ae8067b74deb4e32284475d94ef",
@@ -9074,7 +9065,7 @@
     {
         "name": "Headlines Kolkata",
         "id": "3379",
-        "category": "Unknown",
+        "category": "Bengali",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Headlines_Kolkata_MOB/WDVLive/index.mpd",
         "keyId": "a7c74236580f5658b6b07585cdfa6354",
         "key": "08e8a89d618180b457f1e759888c5417",
@@ -9083,7 +9074,7 @@
     {
         "name": "Pradesh24 Gujarati",
         "id": "3380",
-        "category": "Unknown",
+        "category": "Gujarati",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Pradesh24_Gujarati_MOB/WDVLive/index.mpd",
         "keyId": "88ef0baa4c5f5e3395b0aa6d5ab9706a",
         "key": "feb4b1c0974044b968e29e86e053eb05",
@@ -9092,7 +9083,7 @@
     {
         "name": "Brio TV",
         "id": "3381",
-        "category": "Unknown",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Brio_TV_MOB/WDVLive/index.mpd",
         "keyId": "4359acf585e550a78e3c943e90a6aff9",
         "key": "b941b87d9759f3b2d6a723fcb8121a70",
@@ -9101,7 +9092,7 @@
     {
         "name": "EPIC TV",
         "id": "3382",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/EPIC_TV_MOB/WDVLive/index.mpd",
         "keyId": "0384122132e151639aafddeb8bd1a50b",
         "key": "f9be8660035eecbca5ae015adb73fe7b",
@@ -9110,7 +9101,7 @@
     {
         "name": "Nazara",
         "id": "3383",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Nazara_MOB/WDVLive/index.mpd",
         "keyId": "531f0c69be995cc88d05324b15af383f",
         "key": "d8492685fcdc3d1367e86cfc5b685e07",
@@ -9119,7 +9110,7 @@
     {
         "name": "EPIC Bhojpuri",
         "id": "3384",
-        "category": "Unknown",
+        "category": "Bhojpuri",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Filamchi_Bhojpuri_MOB/WDVLive/index.mpd",
         "keyId": "cff5580392c052a78302a940e350b02b",
         "key": "c4983c9e5cb98a14973664d0791a15bb",
@@ -9128,7 +9119,7 @@
     {
         "name": "DocuBay",
         "id": "3402",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DocuBay_MOB/WDVLive/index.mpd",
         "keyId": "c59370bdd4505d7b9a2d4390306b470b",
         "key": "c21191a3483b6b75a81bd7a1c85f53d4",
@@ -9137,7 +9128,7 @@
     {
         "name": "BHP News Gujarati",
         "id": "3405",
-        "category": "Unknown",
+        "category": "Gujarati",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/BHP_News_Gujarat_MOB/WDVLive/index.mpd",
         "keyId": "1858dbd3cc7f58abaff978431d1d0ac4",
         "key": "216fd8581cb4d5c1fe8fd80b2a8e04fb",
@@ -9146,7 +9137,7 @@
     {
         "name": "Discovery Malayalam",
         "id": "3425",
-        "category": "Unknown",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryMal_MOB/WDVLive/index.mpd",
         "keyId": "dbf8178ba166517a9b07fc861defc24e",
         "key": "e20c04d3cc7288088ff4044bbcdf851a",
@@ -9155,7 +9146,7 @@
     {
         "name": "Discovery HD Bengali",
         "id": "3428",
-        "category": "Unknown",
+        "category": "Bengali",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDBen_MOB/WDVLive/index.mpd",
         "keyId": "e087cb31acbe5dd2addd931daeb9fd89",
         "key": "3f906f237a3df1934697a5b8d90b47bc",
@@ -9164,7 +9155,7 @@
     {
         "name": "Discovery Kannada",
         "id": "3429",
-        "category": "Unknown",
+        "category": "Kannada",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKan_MOB/WDVLive/index.mpd",
         "keyId": "d094fa9ea705504491d8111366d91cff",
         "key": "5ffd2266e9ca4cd4af743ed40ba93b6a",
@@ -9173,7 +9164,7 @@
     {
         "name": "Discovery HD Kannada",
         "id": "3432",
-        "category": "Unknown",
+        "category": "Kannada",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDKan_MOB/WDVLive/index.mpd",
         "keyId": "69fd13d540b352fbbc28992effebfcff",
         "key": "7f0b1973b86719f56e18d9704a5a707b",
@@ -9182,7 +9173,7 @@
     {
         "name": "Discovery HD Tamil",
         "id": "3445",
-        "category": "Unknown",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDTam_MOB/WDVLive/index.mpd",
         "keyId": "04e509459aa95cf5888dd0f640406169",
         "key": "15125b0bfde0ecdae3fea895c19c7278",
@@ -9191,7 +9182,7 @@
     {
         "name": "Discovery HD Telugu",
         "id": "3446",
-        "category": "Unknown",
+        "category": "Telugu",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDTel_MOB/WDVLive/index.mpd",
         "keyId": "e27ae3a6764e5040b8ae942ef65b5543",
         "key": "651c362c87414d40a5400e5bd4cc3970",
@@ -9200,7 +9191,7 @@
     {
         "name": "Discovery Kids Malayalam",
         "id": "3448",
-        "category": "Unknown",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKidsMal_MOB/WDVLive/index.mpd",
         "keyId": "3eecf4ad3e5b54c48dbdb3b0c2311bbb",
         "key": "f1e1ee32ab4ec461b8a709b3e8575798",
@@ -9209,7 +9200,7 @@
     {
         "name": "Animal Planet Tamil",
         "id": "3450",
-        "category": "Unknown",
+        "category": "Aa_Tamil",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetTam_MOB/WDVLive/index.mpd",
         "keyId": "062bcd3dcd5a58fa9786324d4953f990",
         "key": "c888f2447dec7e13d91256fae731eb97",
@@ -9218,7 +9209,7 @@
     {
         "name": "Animal Planet HD Hindi",
         "id": "3451",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDHin_MOB/WDVLive/index.mpd",
         "keyId": "6920695b57925f3a94588dfee72e8b1c",
         "key": "9b5192a1a4b5b408291ba2fe104d6ac8",
@@ -9227,7 +9218,7 @@
     {
         "name": "Investigation Discovery English",
         "id": "3452",
-        "category": "Unknown",
+        "category": "English",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/IDEnglish_MOB/WDVLive/index.mpd",
         "keyId": "4b962057a46e5a0a9ba877a71b3e4bc8",
         "key": "3d7327305c44a64dee1bf6f9a3618bf8",
@@ -9236,7 +9227,7 @@
     {
         "name": "Cartoon Network Marathi",
         "id": "3454",
-        "category": "Unknown",
+        "category": "Marathi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/CNMarathi_MOB/WDVLive/index.mpd",
         "keyId": "ec7ff2e3ec915b4a801fc652aff238f5",
         "key": "1915dce4eac57b1e0cb2fa3cadce76ab",
@@ -9245,7 +9236,7 @@
     {
         "name": "Cartoon Network HD+ Kannada",
         "id": "3455",
-        "category": "Unknown",
+        "category": "Kannada",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDKannada_MOB/WDVLive/index.mpd",
         "keyId": "9d99d684d1485d019828ca494723117b",
         "key": "33a01d79039364955571b5d6af7fcd77",
@@ -9254,7 +9245,7 @@
     {
         "name": "Cartoon Network HD+ Malayalam",
         "id": "3456",
-        "category": "Unknown",
+        "category": "Aa_Malayalam",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDMalayalam_MOB/WDVLive/index.mpd",
         "keyId": "5fd3f72fce025c14baa7be29e6fac996",
         "key": "ce23a4907a071c4296b4f89e5c7bfc22",
@@ -9263,7 +9254,7 @@
     {
         "name": "Cartoon Network HD+ Marathi",
         "id": "3457",
-        "category": "Unknown",
+        "category": "Marathi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDMarathi_MOB/WDVLive/index.mpd",
         "keyId": "386b078cd77b5c56adfc9f8b696330a3",
         "key": "7021cd1e2a105993f02efb099dd24f02",
@@ -9272,7 +9263,7 @@
     {
         "name": "G94 News",
         "id": "3460",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/G94News_MOB/WDVLive/index.mpd",
         "keyId": "ed5e316538b3573a8b18f35f266609bf",
         "key": "d0b6a04e1a3aafc040b6b0bbb6b37333",
@@ -9281,7 +9272,7 @@
     {
         "name": "Karnataka News Beat",
         "id": "3461",
-        "category": "Unknown",
+        "category": "Kannada",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/KarnatakaNewsBeat_MOB/WDVLive/index.mpd",
         "keyId": "594892c66442550f86a26b235bdd27fd",
         "key": "2cc5b335d98b781331906bd2781272f9",
@@ -9290,7 +9281,7 @@
     {
         "name": "Nation Update",
         "id": "3462",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/NationUpdate_MOB/WDVLive/index.mpd",
         "keyId": "726d030061ec5d47bb5ceb1fe7afa489",
         "key": "6f8f5d6fc975e23331fa6e93d5d696f8",
@@ -9299,7 +9290,7 @@
     {
         "name": "Times of Maharashtra",
         "id": "3463",
-        "category": "Unknown",
+        "category": "Marathi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/TimesofMaharashtra_MOB/WDVLive/index.mpd",
         "keyId": "fd8839da26935732a991c730a1d5f2ed",
         "key": "21b5bc32ee9ca85c72a7a786ca03c91f",
@@ -9308,7 +9299,7 @@
     {
         "name": "Guarantee News",
         "id": "3464",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/GuaranteeNews_MOB/WDVLive/index.mpd",
         "keyId": "afaa52571c9c5c07bb7fbe30ac2a18de",
         "key": "8073c229d88f5f5f836eaabe89ce8593",
@@ -9317,7 +9308,7 @@
     {
         "name": "GTC Punjabi",
         "id": "3470",
-        "category": "Unknown",
+        "category": "Punjabi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/GTCPunjabi_MOB/WDVLive/index.mpd",
         "keyId": "69c846a9b97f59e2b453d568bb6b16d3",
         "key": "8f0e01b9017eeec782e8c877349099e8",
@@ -9326,7 +9317,7 @@
     {
         "name": "Punjabi Shorts",
         "id": "3471",
-        "category": "Unknown",
+        "category": "Punjabi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/PunjabiShorts_MOB/WDVLive/index.mpd",
         "keyId": "9292e1e3ac53537ab8ec8cad622e02ce",
         "key": "fedc93eecda61b1c0bcd1cf1e8bae415",
@@ -9335,7 +9326,7 @@
     {
         "name": "Zee Bangla Sonar",
         "id": "3476",
-        "category": "Unknown",
+        "category": "Bengali",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeBanglaSonar_MOB/WDVLive/index.mpd",
         "keyId": "05dcf4433e055e2f960e8ac859afbec4",
         "key": "75a1ab16efc8145bea71a71f39c8eb04",
@@ -9344,7 +9335,7 @@
     {
         "name": "The Hind24 News",
         "id": "3484",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/TheHind24News_MOB/WDVLive/index.mpd",
         "keyId": "f5433707ce575310bb8d7fe19b3ab529",
         "key": "b28b0a926f325a5daba7d2490dc7272b",
@@ -9353,7 +9344,7 @@
     {
         "name": "National Today 24x7",
         "id": "3485",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/NationalToday24x7_MOB/WDVLive/index.mpd",
         "keyId": "2084202939a15a2bb14433fba834eb38",
         "key": "1830136715054c21f518b3d4bca3b313",
@@ -9362,7 +9353,7 @@
     {
         "name": "MP Today",
         "id": "3486",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/MPToday_MOB/WDVLive/index.mpd",
         "keyId": "83794419bf6a5920b4599c83cdc3c36a",
         "key": "8a8a5d74ce43dcab4246046ee6addde7",
@@ -9371,7 +9362,7 @@
     {
         "name": "GTC News",
         "id": "3490",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/GTCNews_MOB/WDVLive/index.mpd",
         "keyId": "6f1de38ba45e5018b0281a1702bac8c4",
         "key": "3999eccd455e350a2f3ec725fcbf817f",
@@ -9380,7 +9371,7 @@
     {
         "name": "Shree Sanatan TV",
         "id": "3493",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ShreeSanatan_TV_MOB/WDVLive/index.mpd",
         "keyId": "94e55e10468b5fa0a521e3e56a4f0a8a",
         "key": "dcc7d34e292aa452994deba8f08e2db9",
@@ -9389,7 +9380,7 @@
     {
         "name": "Village TV",
         "id": "3497",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/VillageTV_MOB/WDVLive/index.mpd",
         "keyId": "39dbfccd01035abd96b3d1c6e951f67d",
         "key": "9b9af61e909457c4718c04bb93bd21e8",
@@ -9398,7 +9389,7 @@
     {
         "name": "India Ahead",
         "id": "3498",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/IndiaAhead_MOB/WDVLive/index.mpd",
         "keyId": "d62ca18f493958948c7f69dc969a8ecd",
         "key": "a7a65f2dc4fe59d84d80778f18f8f999",
@@ -9407,7 +9398,7 @@
     {
         "name": "Kadak",
         "id": "3502",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kadak_MOB/WDVLive/index.mpd",
         "keyId": "b780fccc76765f499ed761f7b7de9677",
         "key": "114a7d95c0d3fd66bdb7acbb445abedc",
@@ -9416,7 +9407,7 @@
     {
         "name": "Manas Bhakti",
         "id": "3503",
-        "category": "Unknown",
+        "category": "Devotional",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ManasBhakti_MOB/WDVLive/index.mpd",
         "keyId": "627f38802a855645be61c238d9b57eb8",
         "key": "4c1b56a5ae6f92281f5fbf8b2306e7dc",
@@ -9425,7 +9416,7 @@
     {
         "name": "Valam TV Dayro",
         "id": "3508",
-        "category": "Unknown",
+        "category": "Gujarati",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ValamTVDayro_MOB/WDVLive/index.mpd",
         "keyId": "4c8eac13bf6158b38d33dd5c12d22627",
         "key": "b0d8d6ee2b666a3a8ee9d988973d2f2f",
@@ -9434,7 +9425,7 @@
     {
         "name": "Shree Salangpur Dham",
         "id": "3519",
-        "category": "Unknown",
+        "category": "Devotional",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ShreeSalangpurDham_MOB/WDVLive/index.mpd",
         "keyId": "086e2566f4105528a46f3694569e6443",
         "key": "8471dec984bfe424b37b5dfb4def7123",
@@ -9443,14 +9434,12 @@
     {
         "name": "Rashtriya Pahal",
         "id": "3526",
-        "category": "Unknown",
+        "category": "Hindi",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/RashtriyaPahal_MOB/WDVLive/index.mpd",
         "keyId": "cceb843a3a8e59a9b92f3444a86615c2",
         "key": "af38ba74aaee6566dee35ca21ba27354",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/RashtriyaPahal.png"
-    }
-,
-    
+    },
     {
         "name": "Channel Win",
         "id": "605",
@@ -9532,7 +9521,6 @@
         "key": "5c280a1890b9e29ad14197d7727bfc72",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TEHZEEB_TV.png"
     },
-    
     {
         "name": "Munsif TV",
         "id": "2017",
