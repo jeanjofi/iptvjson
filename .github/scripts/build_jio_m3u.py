@@ -12,9 +12,9 @@ from typing import Optional
 
 
 CHANNEL_FEED_URLS = (
-      "https://raw.githubusercontent.com/live4wap/links/refs/heads/main/jiomb",
+    #   "https://raw.githubusercontent.com/live4wap/links/refs/heads/main/jiomb",
     # "https://raw.githubusercontent.com/live4wap/links/refs/heads/main/jiopl",
-    # "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json",
+    "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json",
 )
 COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 PLAYER_UA = "plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0"
