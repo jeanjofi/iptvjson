@@ -11,6 +11,12 @@
     "JOFI_Malayalam_M3U": {
         "url": "https://raw.githubusercontent.com/ashrafshj/Ashru-TV/master/MLM"
     },
+    "ZEE_channels": {
+        "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/main/zee.m3u"
+    },
+    "Izzigo_Channels": {
+        "url": "https://tata.jeanjofi.workers.dev/izzigo.m3u"
+    },
     "JO_TV": {
         "url": "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/jo.m3u",
         "splitByGroupTitle": true

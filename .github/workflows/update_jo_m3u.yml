@@ -2,9 +2,8 @@ name: Build jo.m3u
 
 on:
   schedule:
-    # Run every 2 hours at minute 1 in UTC.
+    # Run every 2 hours at minute 17.
     - cron: "17 */2 * * *"
-      timezone: "UTC"
   workflow_dispatch:
 
 permissions:
