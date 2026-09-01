@@ -15,8 +15,8 @@ CHANNEL_FEED_URLS = (
       "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/meta_mb.json",
     # "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json",
 )
-#COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
-COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/main/biscuit.json"
+COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
+#COOKIE_URL = "https://raw.githubusercontent.com/qwerty180506/json/main/biscuit.json"
 PLAYER_UA = "plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0"
 JSON_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
