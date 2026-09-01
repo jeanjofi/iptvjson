@@ -2,8 +2,8 @@ name: Build jo.m3u
 
 on:
   schedule:
-    # Run every 30 minutes at minute 7 and 37, avoiding the top of the hour.
-    - cron: "7,37 * * * *"
+    # Run every 30 minutes at :00 and :30 UTC.
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
