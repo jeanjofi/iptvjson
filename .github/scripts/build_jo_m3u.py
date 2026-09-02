@@ -10,6 +10,8 @@ import urllib.request
 from pathlib import Path
 from typing import Optional
 
+from cookie_feed import cookie_from_value, resolve_cookie
+
 
 CHANNEL_FEED_URLS = (
       "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/meta_mb.json",
@@ -37,11 +39,6 @@ def fetch_text(url: str) -> str:
     request = urllib.request.Request(url, headers={"User-Agent": JSON_UA})
     with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
         return response.read().decode("utf-8", errors="replace")
-
-
-def cookie_from_value(value: object) -> str:
-    cookie = str(value or "").strip()
-    return cookie if cookie.startswith("__hdnea__=") else ""
 
 
 def slug_from_url(url: str) -> Optional[str]:
@@ -80,14 +77,12 @@ def main() -> int:
     fallback_cookie = ""
     if any(not cookie_from_value(entry.get("cookie")) for entry in channels):
         print("2) Fetch fallback __hdnea__ cookie")
-        cookie_data = json.loads(fetch_text(COOKIE_URL))
-        fallback_cookie = next(
-            (cookie for item in cookie_data if isinstance(item, dict)
-             for cookie in (cookie_from_value(item.get("cookie")),) if cookie),
-            "",
+        resolved = resolve_cookie()
+        fallback_cookie = resolved.cookie
+        print(
+            f"   -> {resolved.source} last_updated={resolved.last_updated} "
+            f"exp={resolved.expires_at}"
         )
-        if not fallback_cookie:
-            raise ValueError("cookie feed did not contain an __hdnea__ cookie")
     else:
         print("2) Use cookies from channel feed")
 

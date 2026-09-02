@@ -1,42 +1,25 @@
 #!/usr/bin/env python3
-"""Compare cookies.json to the last committed stamp. Sets changed=true/false."""
+"""Compare the resolved live cookie to the last committed stamp."""
 from __future__ import annotations
 
 import json
 import os
 import sys
 import urllib.error
-import urllib.request
 from pathlib import Path
 
-COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
+from cookie_feed import resolve_cookie
+
 STATE = Path(".github/state/cookie.stamp")
-UA = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/123.0.0.0 Safari/537.36"
-)
 
 
 def fetch_stamp() -> str:
-    request = urllib.request.Request(COOKIE_URL, headers={"User-Agent": UA})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        data = json.loads(response.read().decode("utf-8", errors="replace"))
-    if not isinstance(data, list):
-        raise ValueError("cookie feed is not a JSON array")
-    updated = next(
-        (str(item.get("last_updated", "")).strip() for item in data
-         if isinstance(item, dict) and "last_updated" in item),
-        "",
+    resolved = resolve_cookie()
+    print(
+        f"Using {resolved.source} last_updated={resolved.last_updated} "
+        f"exp={resolved.expires_at}"
     )
-    cookie = next(
-        (str(item.get("cookie", "")).strip() for item in data
-         if isinstance(item, dict) and str(item.get("cookie", "")).startswith("__hdnea__=")),
-        "",
-    )
-    if not cookie:
-        raise ValueError("cookie feed did not contain an __hdnea__ cookie")
-    return f"{updated}\n{cookie}\n"
+    return f"{resolved.source}\n{resolved.last_updated}\n{resolved.cookie}\n"
 
 
 def main() -> int:
