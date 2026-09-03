@@ -7,7 +7,10 @@ import re
 import time
 import urllib.error
 import urllib.request
+from datetime import datetime, timezone, timedelta
 from typing import NamedTuple, Optional
+
+IST = timezone(timedelta(hours=5, minutes=30))
 
 
 PRIMARY_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
@@ -104,6 +107,7 @@ def _from_fallback(data: object) -> Optional[ResolvedCookie]:
     last_updated = str(data.get("last_updated") or "").strip()
     skipped_acl = 0
     skipped_expired = 0
+    latest_exp = 0
     candidates: list[tuple[int, str]] = []
     for item in data.get("channels") or []:
         if not isinstance(item, dict):
@@ -111,6 +115,9 @@ def _from_fallback(data: object) -> Optional[ResolvedCookie]:
         cookie = cookie_from_value(item.get("cookie"))
         if not cookie:
             continue
+        exp = cookie_expiry(cookie, item.get("cookie_expire"))
+        if exp:
+            latest_exp = max(latest_exp, exp)
         if not is_live(cookie, item.get("cookie_expire")):
             skipped_expired += 1
             continue
@@ -120,9 +127,16 @@ def _from_fallback(data: object) -> Optional[ResolvedCookie]:
             continue
         candidates.append((expires_at, cookie))
     if skipped_expired or skipped_acl:
+        now_ist = datetime.now(IST).strftime("%d %b %Y, %I:%M:%S %p IST")
+        exp_ist = (
+            datetime.fromtimestamp(latest_exp, IST).strftime("%d %b %Y, %I:%M:%S %p IST")
+            if latest_exp
+            else "unknown"
+        )
         print(
             f"   sonujson: {skipped_expired} expired, "
-            f"{skipped_acl} path-locked, {len(candidates)} global"
+            f"{skipped_acl} path-locked, {len(candidates)} global "
+            f"(last_updated={last_updated}; now={now_ist}; latest_exp={exp_ist})"
         )
     if not candidates:
         return None
