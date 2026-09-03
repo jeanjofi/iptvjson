@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Resolve a live __hdnea__ cookie from primary, then sports.json fallback."""
+"""Resolve a live, globally usable __hdnea__ cookie (primary, then sports.json)."""
 from __future__ import annotations
 
 import json
@@ -20,7 +20,13 @@ JSON_UA = (
 TIMEOUT = 30
 SKEW_SECONDS = 60
 EXP_RE = re.compile(r"(?:^|~)exp=(\d+)(?:~|$)")
-WILDCARD_ACL_RE = re.compile(r"(?:^|~)acl=/\*(?:~|$)")
+ACL_RE = re.compile(r"(?:^|~)acl=([^~]+)(?:~|$)")
+# Only these ACLs work as a fallback on every JO /bpk-tv/ stream.
+GLOBAL_ACLS = frozenset({"/*", "*", "/bpk-tv/*"})
+
+
+class CookieUnavailable(ValueError):
+    """Feeds responded, but no live cookie with a global ACL was found."""
 
 
 class ResolvedCookie(NamedTuple):
@@ -51,9 +57,25 @@ def cookie_expiry(cookie: str, explicit: object = None) -> Optional[int]:
     return int(match.group(1)) if match else None
 
 
+def cookie_acl(cookie: str) -> str:
+    match = ACL_RE.search(cookie)
+    return match.group(1) if match else ""
+
+
+def is_global_acl(cookie: str) -> bool:
+    return cookie_acl(cookie) in GLOBAL_ACLS
+
+
 def is_live(cookie: str, explicit: object = None) -> bool:
     expires_at = cookie_expiry(cookie, explicit)
     return expires_at is not None and expires_at > time.time() + SKEW_SECONDS
+
+
+def _usable(cookie: str, explicit: object = None) -> Optional[int]:
+    """Return expiry if the cookie is live and not path-locked; else None."""
+    if not cookie or not is_live(cookie, explicit) or not is_global_acl(cookie):
+        return None
+    return cookie_expiry(cookie, explicit)
 
 
 def _from_primary(data: object) -> Optional[ResolvedCookie]:
@@ -68,9 +90,11 @@ def _from_primary(data: object) -> Optional[ResolvedCookie]:
         if not isinstance(item, dict):
             continue
         cookie = cookie_from_value(item.get("cookie"))
-        expires_at = cookie_expiry(cookie) if cookie else None
-        if cookie and expires_at is not None and is_live(cookie):
+        expires_at = _usable(cookie)
+        if cookie and expires_at is not None:
             return ResolvedCookie(cookie, "allinonereborn", last_updated, expires_at)
+        if cookie and is_live(cookie) and not is_global_acl(cookie):
+            print(f"   skip primary path ACL {cookie_acl(cookie)}")
     return None
 
 
@@ -78,22 +102,31 @@ def _from_fallback(data: object) -> Optional[ResolvedCookie]:
     if not isinstance(data, dict):
         return None
     last_updated = str(data.get("last_updated") or "").strip()
-    candidates: list[tuple[int, int, str]] = []
+    skipped_acl = 0
+    skipped_expired = 0
+    candidates: list[tuple[int, str]] = []
     for item in data.get("channels") or []:
         if not isinstance(item, dict):
             continue
         cookie = cookie_from_value(item.get("cookie"))
-        if not cookie or not is_live(cookie, item.get("cookie_expire")):
+        if not cookie:
             continue
-        expires_at = cookie_expiry(cookie, item.get("cookie_expire"))
+        if not is_live(cookie, item.get("cookie_expire")):
+            skipped_expired += 1
+            continue
+        expires_at = _usable(cookie, item.get("cookie_expire"))
         if expires_at is None:
+            skipped_acl += 1
             continue
-        wildcard = 1 if WILDCARD_ACL_RE.search(cookie) else 0
-        candidates.append((wildcard, expires_at, cookie))
+        candidates.append((expires_at, cookie))
+    if skipped_expired or skipped_acl:
+        print(
+            f"   sonujson: {skipped_expired} expired, "
+            f"{skipped_acl} path-locked, {len(candidates)} global"
+        )
     if not candidates:
         return None
-    # Prefer acl=/* (usable on all streams), then the latest expiry.
-    wildcard, expires_at, cookie = max(candidates, key=lambda row: (row[0], row[1]))
+    expires_at, cookie = max(candidates, key=lambda row: row[0])
     return ResolvedCookie(cookie, "sonujson", last_updated, expires_at)
 
 
@@ -103,7 +136,7 @@ def resolve_cookie() -> ResolvedCookie:
         resolved = _from_primary(fetch_json(PRIMARY_URL))
         if resolved:
             return resolved
-        print("   primary cookie missing or expired; trying sonujson fallback")
+        print("   primary cookie missing, expired, or path-locked; trying sonujson fallback")
     except (OSError, ValueError, json.JSONDecodeError, urllib.error.URLError) as error:
         primary_error = str(error)
         print(f"   primary cookie feed failed ({error}); trying sonujson fallback")
@@ -115,4 +148,7 @@ def resolve_cookie() -> ResolvedCookie:
         raise ValueError(f"fallback cookie feed failed ({error}){detail}") from error
     if resolved:
         return resolved
-    raise ValueError("no unexpired __hdnea__ cookie in primary or sonujson feeds")
+    raise CookieUnavailable(
+        "no live __hdnea__ cookie with a global ACL (/* or /bpk-tv/*) "
+        "in primary or sonujson feeds"
+    )

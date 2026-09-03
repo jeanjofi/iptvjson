@@ -8,7 +8,7 @@ import sys
 import urllib.error
 from pathlib import Path
 
-from cookie_feed import resolve_cookie
+from cookie_feed import CookieUnavailable, resolve_cookie
 
 STATE = Path(".github/state/cookie.stamp")
 
@@ -24,14 +24,23 @@ def fetch_stamp() -> str:
 
 def main() -> int:
     force = os.environ.get("FORCE_REBUILD", "").lower() in {"1", "true", "yes"}
-    stamp = fetch_stamp()
+    github_output = os.environ.get("GITHUB_OUTPUT")
+
+    def write_changed(value: str) -> None:
+        if github_output:
+            with open(github_output, "a", encoding="utf-8") as handle:
+                handle.write(f"changed={value}\n")
+
+    try:
+        stamp = fetch_stamp()
+    except CookieUnavailable as error:
+        print(f"{error}; keeping the last playlist")
+        write_changed("false")
+        return 0
+
     previous = STATE.read_text(encoding="utf-8") if STATE.exists() else ""
     changed = force or stamp != previous
-
-    github_output = os.environ.get("GITHUB_OUTPUT")
-    if github_output:
-        with open(github_output, "a", encoding="utf-8") as handle:
-            handle.write(f"changed={'true' if changed else 'false'}\n")
+    write_changed("true" if changed else "false")
 
     if changed:
         STATE.parent.mkdir(parents=True, exist_ok=True)
