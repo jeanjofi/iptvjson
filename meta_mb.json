@@ -7281,10 +7281,10 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_3.png"
     },
     {
-        "name": "Sonyliv 4 Tamil",
+        "name": "Sony Sports 4 Tamil",
         "id": "3397",
         "category": "Ae_Sports",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Tamil_MOB/WDVLive/index.mpd",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ten_4_Tamil_MOB/WDVLive/index.mpd",
         "keyId": "0df5f800775c5979ab8aeaff28ee674b",
         "key": "47dd1b9c8d4049760059aab27bddf1cb",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_4_Tamil.png"
