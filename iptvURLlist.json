@@ -5,8 +5,11 @@
     "ASTRO_Indian": {
         "url": "https://tata.jeanjofi.workers.dev/astro.m3u"
     },
-    "JOFI_Malayalam_M3U": {
-        "url": "https://raw.githubusercontent.com/ashrafshj/Ashru-TV/master/MLM"
+    "Tamil_Local": {
+        "url": "https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/main/channels-nortmp.m3u"
+    },
+    "Malayalam_Local": {
+        "url": "https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/main/channels-ml.m3u"
     },
     "ZEE_channels": {
         "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/main/zee.m3u"
