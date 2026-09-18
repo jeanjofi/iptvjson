@@ -1080,7 +1080,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/BVG.png"
     },
     {
-        "name": "Movies Now HD",
+        "name": "MoviesNow HD",
         "id": "151",
         "category": "Ac_English",
         "url": "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd",
@@ -1089,7 +1089,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Movies_Now_HD.png"
     },
     {
-        "name": "MN+ HD",
+        "name": "MN+_HD",
         "id": "477",
         "category": "Ac_English",
         "url": "https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd",
@@ -1098,7 +1098,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/MNPLUS.png"
     },
     {
-        "name": "MNX HD",
+        "name": "MNX_HD",
         "id": "877",
         "category": "Ac_English",
         "url": "https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd",
@@ -1276,114 +1276,6 @@
         "keyId": "f473851b89455b53a98f73f6592d63c2",
         "key": "3185c90e3f2b9a4932644cad4a70dab4",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Times_NOW.png"
-    },
-    {
-        "name": "PM e Vidya 01",
-        "id": "400",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_1_MOB/WDVLive/index.mpd",
-        "keyId": "830ca8d6b47b5dfca852aff8cd66d2d6",
-        "key": "6a57fcc28e366661ac1f55b415a94f48",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/evidya_1.png"
-    },
-    {
-        "name": "Swayam Prabha 19",
-        "id": "401",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_19_MOB/WDVLive/index.mpd",
-        "keyId": "737bce6a349b5d17b6b74fc764daf5b6",
-        "key": "ab94ce14ea4ae907d6b8d08dd6cfcc23",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_19.png"
-    },
-    {
-        "name": "PM e Vidya 02",
-        "id": "402",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_2_MOB/WDVLive/index.mpd",
-        "keyId": "6986da909e1d5a8bacd4e1dae0df7ad3",
-        "key": "8e46bd4a0a18711c2c023bcafa0206b2",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/evidya_2.png"
-    },
-    {
-        "name": "Swayam Prabha 20",
-        "id": "403",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_20_MOB/WDVLive/index.mpd",
-        "keyId": "7504e5702a4e52dcbf6164eebd6184e5",
-        "key": "2146ffaff1bc33037acb91cab4195429",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_20.png"
-    },
-    {
-        "name": "PM e Vidya 07",
-        "id": "404",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_7_MOB/WDVLive/index.mpd",
-        "keyId": "e0a3ed44978c5c0e9909f7e322d85c5f",
-        "key": "187629f958522b894778e77e216a4656",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/evidya_7.png"
-    },
-    {
-        "name": "PM e Vidya 03",
-        "id": "405",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_3_MOB/WDVLive/index.mpd",
-        "keyId": "a87bf21032615011a7beda3d1343e000",
-        "key": "e439896e2b88c3fb20d8fb4a2006554d",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/evidya_3.png"
-    },
-    {
-        "name": "PM e Vidya 04",
-        "id": "406",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_4_MOB/WDVLive/index.mpd",
-        "keyId": "c1a93ed077365f978fdbf3aea4ae4dc3",
-        "key": "a23ec94f4d92d42606b6c7e3458f3e8d",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/evidya_4.png"
-    },
-    {
-        "name": "PM e Vidya 05",
-        "id": "407",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_5_MOB/WDVLive/index.mpd",
-        "keyId": "47da4014f3bf5df1b4ac42fa3d1e7677",
-        "key": "e14d43797be24aa532cc037e499a07c0",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/evidya_5.png"
-    },
-    {
-        "name": "PM e Vidya 06",
-        "id": "408",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_6_MOB/WDVLive/index.mpd",
-        "keyId": "9043826f4c8c5816b0ad48a4c604cda6",
-        "key": "557de2868de0e2499c7af6e7d5d32733",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/evidya_6.png"
-    },
-    {
-        "name": "PM e Vidya 08",
-        "id": "409",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_8_MOB/WDVLive/index.mpd",
-        "keyId": "db9259083279570398eb38506228e5f6",
-        "key": "3d51d471441b327c00d3ac7bcf5f482d",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/_evidya_8.png"
-    },
-    {
-        "name": "PM e Vidya 09",
-        "id": "410",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_9_MOB/WDVLive/index.mpd",
-        "keyId": "8d923b31479d55c58accbfc99e713f5a",
-        "key": "9bfde251e86fa8601570a5368f700e38",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/evidya_9.png"
-    },
-    {
-        "name": "PM e Vidya 10",
-        "id": "411",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/evidya_10_MOB/WDVLive/index.mpd",
-        "keyId": "fe435238aee450168130a14fcdd2977b",
-        "key": "c93cf32f3dd7ef87f4b35cbb3eae96b7",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/evidya_10.png"
     },
     {
         "name": "Wion",
@@ -1618,186 +1510,6 @@
         "keyId": "null",
         "key": "null",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/GoodNews_Channel.png"
-    },
-    {
-        "name": "Swayam Prabha 01",
-        "id": "980",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_01_MOB/WDVLive/index.mpd",
-        "keyId": "357dc74cec83507c8c037b890799f053",
-        "key": "9cb390fb7c0affb3bf68a3b1c79c66ab",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_01.png"
-    },
-    {
-        "name": "Swayam Prabha 02",
-        "id": "981",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_02_MOB/WDVLive/index.mpd",
-        "keyId": "06f245d5b3b458fbae81d79cbd5e6368",
-        "key": "ff011370fbdf145edd02b6ea17d38977",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_02.png"
-    },
-    {
-        "name": "Swayam Prabha 03",
-        "id": "982",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_03_MOB/WDVLive/index.mpd",
-        "keyId": "b60f6845e93e5ccc8d43fc02ca92d624",
-        "key": "d59e875e42fc89f4faa6d83988dcee81",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_03.png"
-    },
-    {
-        "name": "Swayam Prabha 08",
-        "id": "983",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_08_MOB/WDVLive/index.mpd",
-        "keyId": "b1398022626950359bcece2a2962d746",
-        "key": "5862dfdd8ffd53be8ca58d7c420dd5b4",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_08.png"
-    },
-    {
-        "name": "Swayam Prabha 04",
-        "id": "984",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_04_MOB/WDVLive/index.mpd",
-        "keyId": "feaaaf547207566289b645557c11bb76",
-        "key": "da5294a7888cc5e537e40c74d2db4b30",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_04.png"
-    },
-    {
-        "name": "Swayam Prabha 07",
-        "id": "985",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_07_MOB/WDVLive/index.mpd",
-        "keyId": "e4893009215e56138eb32526ba828026",
-        "key": "a179020c33978f2060e5920c35314931",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_07.png"
-    },
-    {
-        "name": "Swayam Prabha 05",
-        "id": "986",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_05_MOB/WDVLive/index.mpd",
-        "keyId": "6dfeed14ba4551b6a3787e6078b6cc51",
-        "key": "7b5a4549b51939c81a3d9fa37297e204",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_05.png"
-    },
-    {
-        "name": "Swayam Prabha 06",
-        "id": "987",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_06_MOB/WDVLive/index.mpd",
-        "keyId": "46e52a4908b454088db597126e8de299",
-        "key": "4be06e07c553bbed4d6fe4fd819de71b",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_06.png"
-    },
-    {
-        "name": "Swayam Prabha 09",
-        "id": "988",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_09_MOB/WDVLive/index.mpd",
-        "keyId": "232071a2848b58568696c6325db06c2e",
-        "key": "d92e403ff1c263d669c8f6f14c798df7",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_09.png"
-    },
-    {
-        "name": "Swayam Prabha 10",
-        "id": "989",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_10_MOB/WDVLive/index.mpd",
-        "keyId": "bf7e3c47efe056db91c83b3977cc779b",
-        "key": "5006e2e313966775ab8abcdf80d06290",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_10.png"
-    },
-    {
-        "name": "Swayam Prabha 11",
-        "id": "990",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_11_MOB/WDVLive/index.mpd",
-        "keyId": "6c516cb2456a51f993097553ce1d9128",
-        "key": "caed3eda606355ca4f576cd20563c795",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_11.png"
-    },
-    {
-        "name": "Swayam Prabha 12",
-        "id": "991",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_12_MOB/WDVLive/index.mpd",
-        "keyId": "6b4b702b68c5555c9d1e1b9d21ea9072",
-        "key": "3d200c8e552eeb22576ba5fa76b119cb",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_12.png"
-    },
-    {
-        "name": "Swayam Prabha 13",
-        "id": "992",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_13_MOB/WDVLive/index.mpd",
-        "keyId": "372b3be90d7c527b83b56218887cecde",
-        "key": "2913bafb009c825d2343e2360e4bd228",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_13.png"
-    },
-    {
-        "name": "Swayam Prabha 14",
-        "id": "993",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_14_MOB/WDVLive/index.mpd",
-        "keyId": "c7f0f9d845e05b8889b11d00cb09a92a",
-        "key": "6c42da60b85a1500cc158aa41e886ee6",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_14.png"
-    },
-    {
-        "name": "Swayam Prabha 16",
-        "id": "994",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_16_MOB/WDVLive/index.mpd",
-        "keyId": "b2796e507fa25c0494cf399dd1b4cbdc",
-        "key": "6feff94cf51f761ceba861b8191c8d62",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_16.png"
-    },
-    {
-        "name": "Swayam Prabha 15",
-        "id": "995",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_15_MOB/WDVLive/index.mpd",
-        "keyId": "705ac87c18b0511ea19f4bb01ee16468",
-        "key": "e327e75e776b0ce81dc7acbef23b264b",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_15.png"
-    },
-    {
-        "name": "Swayam Prabha 17",
-        "id": "996",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_17_MOB/WDVLive/index.mpd",
-        "keyId": "27ddd5a769325fb1af0a6140c3a77389",
-        "key": "42706401d504f5b0a5e99de916b22371",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_17.png"
-    },
-    {
-        "name": "Swayam Prabha 21",
-        "id": "997",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_21_MOB/WDVLive/index.mpd",
-        "keyId": "b2ea7c93b31c5edeadc48b407cdcc119",
-        "key": "005602699457bce6ce4da1c9c5e73f5d",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_21.png"
-    },
-    {
-        "name": "Swayam Prabha 22",
-        "id": "998",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_22_MOB/WDVLive/index.mpd",
-        "keyId": "1119c3a7b4d55d43be15d206aa282387",
-        "key": "1f2c327f7cf7ee44f1622f8daa0f9312",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_22.png"
-    },
-    {
-        "name": "Swayam Prabha 18",
-        "id": "999",
-        "category": "Ac_English",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_18_MOB/WDVLive/index.mpd",
-        "keyId": "898f1ac982f85fa58ca7e5098a89ce0f",
-        "key": "35e9da804488046059569d15e1b05f72",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_18.png"
     },
     {
         "name": "Cartoon Network HD+ English",
@@ -7396,15 +7108,6 @@
         "keyId": "5c4f38f647fa590f9904947fd5d1afb9",
         "key": "80c7058468bfea90d7ba55f550792ec3",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Utsav_Movies.png"
-    },
-    {
-        "name": "Colors Tamil",
-        "id": "1371",
-        "category": "Aa_Tamil",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Colors_Tamil_MOB/WDVLive/index.mpd",
-        "keyId": "0729280e18465f30a437fae60b0de8c7",
-        "key": "f5db301fe989d18fc10d29c836a3a2c7",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Tamil.png"
     },
     {
         "name": "J Movies",
