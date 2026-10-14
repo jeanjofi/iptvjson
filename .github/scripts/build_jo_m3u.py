@@ -51,7 +51,9 @@ def slug_from_url(url: str) -> Optional[str]:
 
 
 PAIR_RE = re.compile(r"\b([0-9a-fA-F]{32}):([0-9a-fA-F]{32})\b")
-MPD_KID_RE = re.compile(r'default_KID="([^"]+)"', re.I)
+MPD_KID_RE = re.compile(
+    r'(?:cenc:)?(?:default_)?[Kk][Ii][Dd]="(?:urn:uuid:)?([^"]+)"'
+)
 
 
 def parse_key_pairs(premium_keys: str) -> list[tuple[str, str]]:
@@ -62,28 +64,34 @@ def hex_kid(value: str) -> str:
     return re.sub(r"[^0-9a-f]", "", value.lower())
 
 
+def signed_stream_url(url: str, cookie: str) -> str:
+    token = cookie.split("__hdnea__=", 1)[1]
+    separator = "&" if "?" in url else "?"
+    return f"{url}{separator}__hdnea__={token}"
+
+
 def fetch_mpd_kids(url: str, cookie: str, user_agent: str, origin: str, referer: str) -> list[str]:
     headers = {"User-Agent": user_agent or JSON_UA, "Cookie": cookie}
     if origin:
         headers["Origin"] = origin
     if referer:
         headers["Referer"] = referer
-    request = urllib.request.Request(url, headers=headers)
+    request = urllib.request.Request(signed_stream_url(url, cookie), headers=headers)
+    text = ""
     try:
         with urllib.request.urlopen(request, timeout=MPD_TIMEOUT) as response:
             text = response.read().decode("utf-8", errors="replace")
-    except urllib.error.URLError as error:
+    except Exception as error:
         reason = str(getattr(error, "reason", error))
-        if "CERTIFICATE_VERIFY_FAILED" not in reason and "certificate verify failed" not in reason:
+        if "CERTIFICATE_VERIFY_FAILED" in reason or "certificate verify failed" in reason:
+            try:
+                insecure = ssl._create_unverified_context()
+                with urllib.request.urlopen(request, timeout=MPD_TIMEOUT, context=insecure) as response:
+                    text = response.read().decode("utf-8", errors="replace")
+            except Exception:
+                return []
+        else:
             return []
-        insecure = ssl._create_unverified_context()
-        try:
-            with urllib.request.urlopen(request, timeout=MPD_TIMEOUT, context=insecure) as response:
-                text = response.read().decode("utf-8", errors="replace")
-        except (OSError, urllib.error.URLError):
-            return []
-    except (OSError, TimeoutError):
-        return []
     kids: list[str] = []
     seen: set[str] = set()
     for match in MPD_KID_RE.finditer(text):
