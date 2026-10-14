@@ -3,12 +3,15 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import ssl
+import tempfile
 import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import NamedTuple, Optional
 
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -219,17 +222,22 @@ def _clean_premium_url(line: str) -> str:
     return url.rstrip("?&")
 
 
+def _cookie_start(cookie: str) -> int:
+    match = re.search(r"(?:^|~)st=(\d+)(?:~|$)", cookie)
+    return int(match.group(1)) if match else 0
+
+
 def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]:
-    last_updated = ""
+    header_updated = ""
     pending_cookie = ""
     skipped_expired = 0
     by_slug: dict[str, PremiumOverride] = {}
     for raw in text.splitlines():
         line = raw.strip()
-        if not last_updated:
+        if not header_updated:
             generated = GENERATED_RE.search(line)
             if generated:
-                last_updated = generated.group(1).strip()
+                header_updated = generated.group(1).strip()
         if line.startswith("http"):
             url = _clean_premium_url(line)
             slug = stream_slug(url)
@@ -252,7 +260,24 @@ def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]
         cookie_match = COOKIE_RE.search(line)
         if cookie_match:
             pending_cookie = cookie_match.group(1)
+    latest_st = max((_cookie_start(item.cookie) for item in by_slug.values()), default=0)
+    last_updated = _fmt_ist(latest_st) if latest_st else header_updated
     return last_updated, by_slug, skipped_expired
+
+
+def _premium_cache_path() -> Path:
+    root = os.environ.get("RUNNER_TEMP") or tempfile.gettempdir()
+    return Path(root) / "iptvjson-premiumplugx.m3u"
+
+
+def _fetch_premium_text() -> str:
+    cache = _premium_cache_path()
+    if cache.exists():
+        print(f"   using cached premiumplugx snapshot ({cache})")
+        return cache.read_text(encoding="utf-8")
+    text = fetch_text(PREMIUM_URL, timeout=PREMIUM_TIMEOUT)
+    cache.write_text(text, encoding="utf-8")
+    return text
 
 
 class PremiumPack:
@@ -307,7 +332,7 @@ class PremiumPack:
 def load_premium_overrides() -> PremiumPack:
     print("   trying premiumplugx per-channel fallback")
     try:
-        text = fetch_text(PREMIUM_URL, timeout=PREMIUM_TIMEOUT)
+        text = _fetch_premium_text()
     except (OSError, urllib.error.URLError) as error:
         print(f"   premiumplugx feed failed ({error})")
         return PremiumPack("", {})

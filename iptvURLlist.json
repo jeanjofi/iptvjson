@@ -11,9 +11,6 @@
     "Malayalam_Local": {
         "url": "https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/main/channels-ml.m3u"
     },
-    "ZEE_channels": {
-        "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/main/zee.m3u"
-    },
     "Izzigo_Channels": {
         "url": "https://tata.jeanjofi.workers.dev/izzigo.m3u"
     },
