@@ -10,7 +10,7 @@ import urllib.request
 from pathlib import Path
 from typing import Optional
 
-from cookie_feed import cookie_from_value, resolve_cookie
+from cookie_feed import CookieUnavailable, cookie_from_value, load_premium_overrides, resolve_cookie
 
 
 CHANNEL_FEED_URLS = (
@@ -75,14 +75,20 @@ def main() -> int:
         channels = channels[:args.limit]
 
     fallback_cookie = ""
+    premium = None
     if any(not cookie_from_value(entry.get("cookie")) for entry in channels):
         print("2) Fetch fallback __hdnea__ cookie")
-        resolved = resolve_cookie()
-        fallback_cookie = resolved.cookie
-        print(
-            f"   -> {resolved.source} last_updated={resolved.last_updated} "
-            f"exp={resolved.expires_at}"
-        )
+        try:
+            resolved = resolve_cookie()
+            fallback_cookie = resolved.cookie
+            print(
+                f"   -> {resolved.source} last_updated={resolved.last_updated} "
+                f"exp={resolved.expires_at}"
+            )
+        except CookieUnavailable:
+            print("   no global cookie; using premiumplugx per-channel cookies")
+            premium = load_premium_overrides()
+            fallback_cookie = premium.fallback_cookie()
     else:
         print("2) Use cookies from channel feed")
 
@@ -91,11 +97,24 @@ def main() -> int:
     seen: set[tuple[str, str]] = set()
     written = 0
     skipped = 0
+    premium_applied = 0
+    last_resort = 0
     for entry in channels:
         channel_id = str(entry.get("id") or "").strip()
         stream_url = str(entry.get("url") or entry.get("mpd") or "").strip()
         logo = str(entry.get("logo") or "").strip()
-        cookie = cookie_from_value(entry.get("cookie")) or fallback_cookie
+        cookie = cookie_from_value(entry.get("cookie"))
+        if premium:
+            match = premium.lookup(stream_url)
+            if match:
+                stream_url = match.url
+                cookie = match.cookie
+                premium_applied += 1
+            elif not cookie and fallback_cookie:
+                cookie = fallback_cookie
+                last_resort += 1
+        elif fallback_cookie:
+            cookie = cookie or fallback_cookie
         key_id = str(entry.get("keyId") or "").strip().lower()
         key = str(entry.get("key") or "").strip().lower()
         if not stream_url or not cookie:
@@ -124,7 +143,10 @@ def main() -> int:
         written += 1
 
     OUT_M3U.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"   wrote {OUT_M3U} ({written} channels, {skipped} skipped)")
+    extra = ""
+    if premium_applied or last_resort:
+        extra = f", {premium_applied} premiumplugx matches, {last_resort} last-resort cookies"
+    print(f"   wrote {OUT_M3U} ({written} channels, {skipped} skipped{extra})")
     return 0
 
 

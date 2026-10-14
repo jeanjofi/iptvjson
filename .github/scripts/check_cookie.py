@@ -8,7 +8,7 @@ import sys
 import urllib.error
 from pathlib import Path
 
-from cookie_feed import CookieUnavailable, resolve_cookie
+from cookie_feed import CookieUnavailable, load_premium_overrides, resolve_cookie
 
 STATE = Path(".github/state/cookie.stamp")
 
@@ -34,9 +34,17 @@ def main() -> int:
     try:
         stamp = fetch_stamp()
     except CookieUnavailable as error:
-        print(f"{error}; keeping the last playlist")
-        write_changed("false")
-        return 0
+        print(f"{error}")
+        pack = load_premium_overrides()
+        if not pack.by_slug:
+            print("premiumplugx has no live cookies; keeping the last playlist")
+            write_changed("false")
+            return 0
+        stamp = pack.stamp()
+        print(
+            f"Using premiumplugx last_updated={pack.last_updated} "
+            f"channels={len(pack.by_slug)}"
+        )
 
     previous = STATE.read_text(encoding="utf-8") if STATE.exists() else ""
     changed = force or stamp != previous
