@@ -4,11 +4,9 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import ssl
 import sys
 import urllib.error
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Optional
 
@@ -28,8 +26,6 @@ JSON_UA = (
     "Chrome/123.0.0.0 Safari/537.36"
 )
 TIMEOUT = 30
-MPD_TIMEOUT = 8
-MPD_WORKERS = 12
 OUT_M3U = Path("jo.m3u")
 
 SLUG_TRIM_SUFFIX = re.compile(r"_(MOB|BTS|HD|FHD|UHD|MOB_HD|WV_DRM)$", re.I)
@@ -51,55 +47,10 @@ def slug_from_url(url: str) -> Optional[str]:
 
 
 PAIR_RE = re.compile(r"\b([0-9a-fA-F]{32}):([0-9a-fA-F]{32})\b")
-MPD_KID_RE = re.compile(
-    r'(?:cenc:)?(?:default_)?[Kk][Ii][Dd]="(?:urn:uuid:)?([^"]+)"'
-)
 
 
 def parse_key_pairs(premium_keys: str) -> list[tuple[str, str]]:
     return [(kid.lower(), secret.lower()) for kid, secret in PAIR_RE.findall(premium_keys or "")]
-
-
-def hex_kid(value: str) -> str:
-    return re.sub(r"[^0-9a-f]", "", value.lower())
-
-
-def signed_stream_url(url: str, cookie: str) -> str:
-    token = cookie.split("__hdnea__=", 1)[1]
-    separator = "&" if "?" in url else "?"
-    return f"{url}{separator}__hdnea__={token}"
-
-
-def fetch_mpd_kids(url: str, cookie: str, user_agent: str, origin: str, referer: str) -> list[str]:
-    headers = {"User-Agent": user_agent or JSON_UA, "Cookie": cookie}
-    if origin:
-        headers["Origin"] = origin
-    if referer:
-        headers["Referer"] = referer
-    request = urllib.request.Request(signed_stream_url(url, cookie), headers=headers)
-    text = ""
-    try:
-        with urllib.request.urlopen(request, timeout=MPD_TIMEOUT) as response:
-            text = response.read().decode("utf-8", errors="replace")
-    except Exception as error:
-        reason = str(getattr(error, "reason", error))
-        if "CERTIFICATE_VERIFY_FAILED" in reason or "certificate verify failed" in reason:
-            try:
-                insecure = ssl._create_unverified_context()
-                with urllib.request.urlopen(request, timeout=MPD_TIMEOUT, context=insecure) as response:
-                    text = response.read().decode("utf-8", errors="replace")
-            except Exception:
-                return []
-        else:
-            return []
-    kids: list[str] = []
-    seen: set[str] = set()
-    for match in MPD_KID_RE.finditer(text):
-        kid = hex_kid(match.group(1))
-        if len(kid) == 32 and kid not in seen:
-            seen.add(kid)
-            kids.append(kid)
-    return kids
 
 
 def pick_clearkey(
@@ -108,16 +59,10 @@ def pick_clearkey(
     key: str,
     mpd_kids: Optional[list[str]] = None,
 ) -> str:
-    """One kid:key for this player. Prefer the KID the MPD actually asks for."""
+    """Write every Premium kid:key. The player now loads all of them."""
     pairs = parse_key_pairs(premium_keys)
-    by_kid = {kid: secret for kid, secret in pairs}
-    for kid in mpd_kids or []:
-        if kid in by_kid:
-            return f"{kid}:{by_kid[kid]}"
-    if key_id in by_kid:
-        return f"{key_id}:{by_kid[key_id]}"
     if pairs:
-        return f"{pairs[0][0]}:{pairs[0][1]}"
+        return ",".join(f"{kid}:{secret}" for kid, secret in pairs)
     if re.fullmatch(r"[0-9a-f]{32}", key_id) and re.fullmatch(r"[0-9a-f]{32}", key):
         return f"{key_id}:{key}"
     return ""
@@ -212,35 +157,6 @@ def main() -> int:
             "category": str(entry.get("category") or "JIO Live").strip() or "JIO Live",
         })
 
-    mpd_kids: dict[str, list[str]] = {}
-    to_probe = [
-        row for row in pending
-        if row["match"] and len(parse_key_pairs(row["match"].license_key)) > 1
-    ]
-    if to_probe:
-        print(f"   probing {len(to_probe)} MPDs for the matching ClearKey kid")
-
-        def probe(row: dict) -> tuple[str, list[str]]:
-            match = row["match"]
-            kids = fetch_mpd_kids(
-                row["stream_url"],
-                row["cookie"],
-                match.user_agent,
-                match.origin,
-                match.referer,
-            )
-            return row["stream_url"], kids
-
-        with ThreadPoolExecutor(max_workers=MPD_WORKERS) as pool:
-            futures = [pool.submit(probe, row) for row in to_probe]
-            found = 0
-            for future in as_completed(futures):
-                url, kids = future.result()
-                mpd_kids[url] = kids
-                if kids:
-                    found += 1
-        print(f"   MPD kids found for {found}/{len(to_probe)} channels")
-
     print("4) Write M3U")
     lines = ["#EXTM3U"]
     written = 0
@@ -250,7 +166,6 @@ def main() -> int:
             match.license_key if match else "",
             row["key_id"],
             row["key"],
-            mpd_kids.get(row["stream_url"]),
         )
         if not license_key:
             skipped += 1
