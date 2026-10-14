@@ -33,8 +33,24 @@ ACL_RE = re.compile(r"(?:^|~)acl=([^~]+)(?:~|$)")
 GLOBAL_ACLS = frozenset({"/*", "*", "/bpk-tv/*"})
 CHANNEL_FEEDS = (
     ("binge-giotv", BINGE_URL),
-    ("sonujson", SONU_URL),    
+    ("sonujson", SONU_URL),
 )
+SOURCE_ALIASES = {
+    "": None,
+    "auto": None,
+    "global": "global",
+    "default": "global",
+    "meta": "global",
+    "allinonereborn": "global",
+    "premium": "premiumplugx",
+    "premiumplugx": "premiumplugx",
+    "binge": "binge-giotv",
+    "binge-giotv": "binge-giotv",
+    "sonu": "sonujson",
+    "sonujson": "sonujson",
+}
+AUTO_OVERLAY_NAME_RE = re.compile(r"^(zee\b|star\s*sports)", re.I)
+_PACKS: dict[str, "PremiumPack"] = {}
 
 
 class CookieUnavailable(ValueError):
@@ -225,6 +241,34 @@ def norm_name(name: str) -> str:
     return re.sub(r"[^a-z0-9]", "", name.lower())
 
 
+def is_auto_overlay_channel(name: str, url: str = "") -> bool:
+    """Star Sports and Zee fail on the global token; overlay those by default."""
+    if AUTO_OVERLAY_NAME_RE.search((name or "").strip()):
+        return True
+    core = slug_core(stream_slug(url))
+    return core.startswith("zee") or core.startswith("starsports")
+
+
+def resolve_entry_source(entry: dict) -> str:
+    raw = str(
+        entry.get("cookieSource")
+        or entry.get("tokenSource")
+        or entry.get("source")
+        or ""
+    ).strip().lower()
+    if raw in SOURCE_ALIASES:
+        mapped = SOURCE_ALIASES[raw]
+        if mapped:
+            return mapped
+    elif raw:
+        return SOURCE_ALIASES.get(raw, raw)
+    name = str(entry.get("name") or "")
+    url = str(entry.get("url") or entry.get("mpd") or "")
+    if is_auto_overlay_channel(name, url):
+        return "premiumplugx"
+    return "global"
+
+
 def _clean_premium_url(line: str) -> str:
     url = line.strip()
     if "|cookie=" in url:
@@ -389,6 +433,13 @@ class PremiumPack:
             lines.append(f"{slug} {item.cookie}")
         return "\n".join(lines) + "\n"
 
+    def overlay_stamp(self) -> str:
+        lines = [f"premiumplugx-overlay\n{self.last_updated}"]
+        for slug, item in sorted(self.by_slug.items()):
+            if is_auto_overlay_channel(item.name, item.url):
+                lines.append(f"{slug} {item.cookie}")
+        return "\n".join(lines) + "\n"
+
 
 def load_premium_overrides() -> PremiumPack:
     print("   trying premiumplugx per-channel fallback")
@@ -407,3 +458,76 @@ def load_premium_overrides() -> PremiumPack:
         f"(last_updated={last_updated}; now={now_ist}; latest_exp={exp_ist})"
     )
     return PremiumPack(last_updated, by_slug)
+
+
+def load_json_overrides(source: str, url: str) -> PremiumPack:
+    print(f"   trying {source} per-channel overlay")
+    try:
+        data = fetch_json(url)
+    except (OSError, ValueError, json.JSONDecodeError, urllib.error.URLError) as error:
+        print(f"   {source} feed failed ({error})")
+        return PremiumPack("", {})
+    if not isinstance(data, dict):
+        print(f"   {source} feed is not a JSON object")
+        return PremiumPack("", {})
+    last_updated = str(data.get("last_updated") or data.get("updatedAt") or "").strip()
+    skipped_expired = 0
+    by_slug: dict[str, PremiumOverride] = {}
+    for item in data.get("channels") or []:
+        if not isinstance(item, dict):
+            continue
+        cookie = cookie_from_value(item.get("cookie"))
+        stream = str(item.get("url") or item.get("stream_url") or item.get("mpd") or "").strip()
+        slug = stream_slug(stream)
+        if not cookie or not slug:
+            continue
+        if not is_live(cookie, item.get("cookie_expire")):
+            skipped_expired += 1
+            continue
+        expires_at = cookie_expiry(cookie, item.get("cookie_expire")) or 0
+        previous = by_slug.get(slug.lower())
+        if previous and previous.expires_at >= expires_at:
+            continue
+        key_id = str(item.get("keyId") or item.get("key_id") or "").strip().lower()
+        key = str(item.get("key") or "").strip().lower()
+        license_key = ""
+        if re.fullmatch(r"[0-9a-f]{32}", key_id) and re.fullmatch(r"[0-9a-f]{32}", key):
+            license_key = f"{key_id}:{key}"
+        by_slug[slug.lower()] = PremiumOverride(
+            cookie,
+            stream,
+            slug,
+            expires_at,
+            license_key,
+            "",
+            "",
+            "",
+            str(item.get("name") or ""),
+        )
+    latest_exp = max((item.expires_at for item in by_slug.values()), default=0)
+    now_ist = datetime.now(IST).strftime("%d %b %Y, %I:%M:%S %p IST")
+    exp_ist = _fmt_ist(latest_exp) if latest_exp else "unknown"
+    print(
+        f"   {source}: {len(by_slug)} live path cookies, "
+        f"{skipped_expired} expired "
+        f"(last_updated={last_updated}; now={now_ist}; latest_exp={exp_ist})"
+    )
+    return PremiumPack(last_updated, by_slug)
+
+
+def load_source_pack(source: str) -> PremiumPack:
+    mapped = SOURCE_ALIASES.get(source, source) or source
+    cached = _PACKS.get(mapped)
+    if cached is not None:
+        return cached
+    if mapped == "premiumplugx":
+        pack = load_premium_overrides()
+    elif mapped == "binge-giotv":
+        pack = load_json_overrides("binge-giotv", BINGE_URL)
+    elif mapped == "sonujson":
+        pack = load_json_overrides("sonujson", SONU_URL)
+    else:
+        print(f"   unknown cookieSource {source!r}; no overlay pack")
+        pack = PremiumPack("", {})
+    _PACKS[mapped] = pack
+    return pack

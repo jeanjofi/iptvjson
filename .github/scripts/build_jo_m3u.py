@@ -7,14 +7,24 @@ import re
 import sys
 import urllib.error
 import urllib.request
+from collections import Counter
 from pathlib import Path
 from typing import Optional
 
-from cookie_feed import CookieUnavailable, cookie_from_value, load_premium_overrides, resolve_cookie
+from cookie_feed import (
+    CookieUnavailable,
+    cookie_from_value,
+    load_source_pack,
+    resolve_cookie,
+    resolve_entry_source,
+)
 
 
+REPO_ROOT = Path(__file__).resolve().parents[2]
+LOCAL_META = REPO_ROOT / "meta_mb.json"
 CHANNEL_FEED_URLS = (
-      "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/meta_mb.json",
+    str(LOCAL_META) if LOCAL_META.is_file() else
+    "https://raw.githubusercontent.com/jeanjofi/iptvjson/main/meta_mb.json",
     # "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json",
 )
 COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
@@ -36,6 +46,9 @@ SLUG_FROM_URL = re.compile(
 
 
 def fetch_text(url: str) -> str:
+    path = Path(url)
+    if path.is_file():
+        return path.read_text(encoding="utf-8")
     request = urllib.request.Request(url, headers={"User-Agent": JSON_UA})
     with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
         return response.read().decode("utf-8", errors="replace")
@@ -80,6 +93,20 @@ def channel_name(url: str, channel_id: str) -> str:
     )
 
 
+def overlay_match(entry: dict, stream_url: str, source: str):
+    pack = load_source_pack(source)
+    name = str(entry.get("name") or "")
+    match = pack.lookup(stream_url, name)
+    if match:
+        return match, source
+    if source == "premiumplugx":
+        binge = load_source_pack("binge-giotv")
+        match = binge.lookup(stream_url, name)
+        if match:
+            return match, "binge-giotv"
+    return None, source
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build the JO M3U playlist.")
     parser.add_argument("--limit", type=int, default=0, help="Process only the first N channels.")
@@ -94,22 +121,23 @@ def main() -> int:
         channels.extend(entry for entry in feed if isinstance(entry, dict))
         print(f"   -> {len(feed)} entries from {feed_url}")
     if args.limit > 0:
-        channels = channels[:args.limit]
+        channels = channels[: args.limit]
 
     fallback_cookie = ""
-    premium = None
+    global_ok = False
     if any(not cookie_from_value(entry.get("cookie")) for entry in channels):
         print("2) Fetch fallback __hdnea__ cookie")
         try:
             resolved = resolve_cookie()
             fallback_cookie = resolved.cookie
+            global_ok = True
             print(
                 f"   -> {resolved.source} last_updated={resolved.last_updated} "
                 f"exp={resolved.expires_at}"
             )
         except CookieUnavailable:
             print("   no global cookie; using premiumplugx per-channel cookies")
-            premium = load_premium_overrides()
+            premium = load_source_pack("premiumplugx")
             fallback_cookie = premium.fallback_cookie()
     else:
         print("2) Use cookies from channel feed")
@@ -118,22 +146,25 @@ def main() -> int:
     pending: list[dict] = []
     seen: set[tuple[str, str]] = set()
     skipped = 0
-    premium_applied = 0
+    overlay_counts: Counter[str] = Counter()
     last_resort = 0
     for entry in channels:
         channel_id = str(entry.get("id") or "").strip()
         stream_url = str(entry.get("url") or entry.get("mpd") or "").strip()
         logo = str(entry.get("logo") or "").strip()
         cookie = cookie_from_value(entry.get("cookie"))
+        source = resolve_entry_source(entry)
+        if source == "global" and not global_ok:
+            source = "premiumplugx"
         match = None
-        if premium:
-            match = premium.lookup(stream_url, str(entry.get("name") or ""))
+        if source != "global":
+            match, matched_source = overlay_match(entry, stream_url, source)
             if match:
                 stream_url = match.url
                 cookie = match.cookie
-                premium_applied += 1
-            elif not cookie and fallback_cookie:
-                cookie = fallback_cookie
+                overlay_counts[matched_source] += 1
+            elif fallback_cookie:
+                cookie = cookie or fallback_cookie
                 last_resort += 1
         elif fallback_cookie:
             cookie = cookie or fallback_cookie
@@ -198,8 +229,11 @@ def main() -> int:
 
     OUT_M3U.write_text("\n".join(lines) + "\n", encoding="utf-8")
     extra = ""
-    if premium_applied or last_resort:
-        extra = f", {premium_applied} premiumplugx matches, {last_resort} last-resort cookies"
+    if overlay_counts or last_resort:
+        overlay_bits = ", ".join(
+            f"{count} {name}" for name, count in sorted(overlay_counts.items())
+        )
+        extra = f", {overlay_bits or '0 overlays'}, {last_resort} last-resort cookies"
     print(f"   wrote {OUT_M3U} ({written} channels, {skipped} skipped{extra})")
     return 0
 

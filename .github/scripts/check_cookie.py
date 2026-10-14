@@ -8,18 +8,90 @@ import sys
 import urllib.error
 from pathlib import Path
 
-from cookie_feed import CookieUnavailable, load_premium_overrides, resolve_cookie
+from cookie_feed import (
+    CookieUnavailable,
+    load_source_pack,
+    resolve_cookie,
+    resolve_entry_source,
+)
 
 STATE = Path(".github/state/cookie.stamp")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+META_CANDIDATES = (Path("meta_mb.json"), REPO_ROOT / "meta_mb.json")
 
 
-def fetch_stamp() -> str:
-    resolved = resolve_cookie()
-    print(
-        f"Using {resolved.source} last_updated={resolved.last_updated} "
-        f"exp={resolved.expires_at}"
-    )
-    return f"{resolved.source}\n{resolved.last_updated}\n{resolved.cookie}\n"
+def load_meta_channels() -> list[dict]:
+    for path in META_CANDIDATES:
+        if path.is_file():
+            feed = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(feed, list):
+                return [entry for entry in feed if isinstance(entry, dict)]
+    return []
+
+
+def overlay_stamp(global_ok: bool) -> str:
+    channels = load_meta_channels()
+    premium = load_source_pack("premiumplugx")
+    if not global_ok:
+        return premium.stamp() if premium.by_slug else ""
+
+    needed: set[str] = set()
+    overlay_entries: list[tuple[str, dict]] = []
+    if channels:
+        for entry in channels:
+            source = resolve_entry_source(entry)
+            if source == "global":
+                continue
+            needed.add(source)
+            overlay_entries.append((source, entry))
+    else:
+        return premium.overlay_stamp()
+
+    packs = {"premiumplugx": premium}
+    for source in needed:
+        if source not in packs:
+            packs[source] = load_source_pack(source)
+
+    lines = ["overlay"]
+    for source, entry in overlay_entries:
+        pack = packs.get(source)
+        if not pack:
+            continue
+        match = pack.lookup(str(entry.get("url") or ""), str(entry.get("name") or ""))
+        if match:
+            lines.append(f"{source} {match.slug} {match.cookie}")
+    return "\n".join(lines) + "\n"
+
+
+def fetch_stamp() -> str | None:
+    parts: list[str] = []
+    global_ok = False
+    try:
+        resolved = resolve_cookie()
+        global_ok = True
+        print(
+            f"Using {resolved.source} last_updated={resolved.last_updated} "
+            f"exp={resolved.expires_at}"
+        )
+        parts.append(f"{resolved.source}\n{resolved.last_updated}\n{resolved.cookie}\n")
+    except CookieUnavailable as error:
+        print(f"{error}")
+
+    extra = overlay_stamp(global_ok)
+    if extra:
+        if global_ok:
+            print("Including hybrid overlay cookies in stamp")
+        else:
+            pack = load_source_pack("premiumplugx")
+            print(
+                f"Using premiumplugx last_updated={pack.last_updated} "
+                f"channels={len(pack.by_slug)}"
+            )
+        parts.append(extra)
+    elif not global_ok:
+        print("premiumplugx has no live cookies; keeping the last playlist")
+        return None
+    return "".join(parts)
 
 
 def main() -> int:
@@ -31,20 +103,10 @@ def main() -> int:
             with open(github_output, "a", encoding="utf-8") as handle:
                 handle.write(f"changed={value}\n")
 
-    try:
-        stamp = fetch_stamp()
-    except CookieUnavailable as error:
-        print(f"{error}")
-        pack = load_premium_overrides()
-        if not pack.by_slug:
-            print("premiumplugx has no live cookies; keeping the last playlist")
-            write_changed("false")
-            return 0
-        stamp = pack.stamp()
-        print(
-            f"Using premiumplugx last_updated={pack.last_updated} "
-            f"channels={len(pack.by_slug)}"
-        )
+    stamp = fetch_stamp()
+    if stamp is None:
+        write_changed("false")
+        return 0
 
     previous = STATE.read_text(encoding="utf-8") if STATE.exists() else ""
     changed = force or stamp != previous
