@@ -46,6 +46,28 @@ def slug_from_url(url: str) -> Optional[str]:
     return match.group(1) or match.group(2) or match.group(3) if match else None
 
 
+PAIR_RE = re.compile(r"\b([0-9a-fA-F]{32}):([0-9a-fA-F]{32})\b")
+
+
+def inline_clearkey(premium_keys: str, key_id: str, key: str) -> str:
+    """This player accepts one kid:key. A comma list is treated as a license URL."""
+    pairs = [(kid.lower(), secret.lower()) for kid, secret in PAIR_RE.findall(premium_keys or "")]
+    if key_id and key:
+        for kid, secret in pairs:
+            if kid == key_id:
+                return f"{kid}:{secret}"
+        if re.fullmatch(r"[0-9a-f]{32}", key_id) and re.fullmatch(r"[0-9a-f]{32}", key):
+            # Keep meta pair as last fallback when Premium has no matching kid.
+            if not pairs:
+                return f"{key_id}:{key}"
+    if pairs:
+        kid, secret = pairs[0]
+        return f"{kid}:{secret}"
+    if re.fullmatch(r"[0-9a-f]{32}", key_id) and re.fullmatch(r"[0-9a-f]{32}", key):
+        return f"{key_id}:{key}"
+    return ""
+
+
 def channel_name(url: str, channel_id: str) -> str:
     slug = slug_from_url(url) or f"Channel {channel_id}"
     name = SLUG_TRIM_SUFFIX.sub("", slug).replace("_", " ")
@@ -118,12 +140,14 @@ def main() -> int:
             cookie = cookie or fallback_cookie
         key_id = str(entry.get("keyId") or "").strip().lower()
         key = str(entry.get("key") or "").strip().lower()
-        license_key = match.license_key if match and match.license_key else ""
+        license_key = inline_clearkey(
+            match.license_key if match else "",
+            key_id,
+            key,
+        )
         if not license_key:
-            if not re.fullmatch(r"[0-9a-f]{32}", key_id) or not re.fullmatch(r"[0-9a-f]{32}", key):
-                skipped += 1
-                continue
-            license_key = f"{key_id}:{key}"
+            skipped += 1
+            continue
         if not stream_url or not cookie or not channel_id:
             skipped += 1
             continue
