@@ -14,7 +14,7 @@ from typing import NamedTuple, Optional
 IST = timezone(timedelta(hours=5, minutes=30))
 
 PRIMARY_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
-SONU_URL = "https://sonujson-v3.pages.dev/Data/sports.json"
+SONU_URL = "https://sonujson-v5.pages.dev/Data/sports.json"
 BINGE_URL = "https://binge-giotv.pages.dev/data/id.json"
 JSON_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -27,8 +27,8 @@ EXP_RE = re.compile(r"(?:^|~)exp=(\d+)(?:~|$)")
 ACL_RE = re.compile(r"(?:^|~)acl=([^~]+)(?:~|$)")
 GLOBAL_ACLS = frozenset({"/*", "*", "/bpk-tv/*"})
 CHANNEL_FEEDS = (
-    ("sonujson", SONU_URL),
     ("binge-giotv", BINGE_URL),
+    ("sonujson", SONU_URL),    
 )
 
 
