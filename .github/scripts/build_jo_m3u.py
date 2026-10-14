@@ -104,8 +104,9 @@ def main() -> int:
         stream_url = str(entry.get("url") or entry.get("mpd") or "").strip()
         logo = str(entry.get("logo") or "").strip()
         cookie = cookie_from_value(entry.get("cookie"))
+        match = None
         if premium:
-            match = premium.lookup(stream_url)
+            match = premium.lookup(stream_url, str(entry.get("name") or ""))
             if match:
                 stream_url = match.url
                 cookie = match.cookie
@@ -117,10 +118,13 @@ def main() -> int:
             cookie = cookie or fallback_cookie
         key_id = str(entry.get("keyId") or "").strip().lower()
         key = str(entry.get("key") or "").strip().lower()
-        if not stream_url or not cookie:
-            skipped += 1
-            continue
-        if not channel_id or not re.fullmatch(r"[0-9a-f]{32}", key_id) or not re.fullmatch(r"[0-9a-f]{32}", key):
+        license_key = match.license_key if match and match.license_key else ""
+        if not license_key:
+            if not re.fullmatch(r"[0-9a-f]{32}", key_id) or not re.fullmatch(r"[0-9a-f]{32}", key):
+                skipped += 1
+                continue
+            license_key = f"{key_id}:{key}"
+        if not stream_url or not cookie or not channel_id:
             skipped += 1
             continue
         identity = (channel_id, stream_url)
@@ -131,15 +135,27 @@ def main() -> int:
         token = cookie.split("__hdnea__=", 1)[1]
         stream_url = f"{stream_url}{separator}__hdnea__={token}"
         category = str(entry.get("category") or "JIO Live").strip() or "JIO Live"
-        lines.extend([
+        user_agent = (match.user_agent if match and match.user_agent else PLAYER_UA)
+        http_headers = {"cookie": cookie}
+        if match:
+            if match.origin:
+                http_headers["Origin"] = match.origin
+            if match.referer:
+                http_headers["Referer"] = match.referer
+        tag_lines = [
             "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-            f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}",
-            f"#EXTVLCOPT:http-user-agent={PLAYER_UA}",
-            f"#EXTHTTP:{json.dumps({'cookie': cookie}, separators=(',', ':'))}",
+            f"#KODIPROP:inputstream.adaptive.license_key={license_key}",
+            f"#EXTVLCOPT:http-user-agent={user_agent}",
+        ]
+        if match and match.referer:
+            tag_lines.append(f"#EXTVLCOPT:http-referrer={match.referer}")
+        tag_lines.extend([
+            f"#EXTHTTP:{json.dumps(http_headers, separators=(',', ':'))}",
             f'#EXTINF:-1 tvg-id="{channel_id}" tvg-logo="{logo}" group-title="{category}",{channel_name(stream_url, channel_id)}',
             stream_url,
             "",
         ])
+        lines.extend(tag_lines)
         written += 1
 
     OUT_M3U.write_text("\n".join(lines) + "\n", encoding="utf-8")

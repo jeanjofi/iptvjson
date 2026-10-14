@@ -53,6 +53,11 @@ class PremiumOverride(NamedTuple):
     url: str
     slug: str
     expires_at: int
+    license_key: str = ""
+    user_agent: str = ""
+    referer: str = ""
+    origin: str = ""
+    name: str = ""
 
 
 SLUG_RE = re.compile(r"/bpk-tv/([^/]+)/", re.I)
@@ -61,6 +66,7 @@ COOKIE_RE = re.compile(
     r"(__hdnea__=st=\d+~exp=\d+~acl=[^~\s]+~hmac=[0-9a-fA-F]+)"
 )
 GENERATED_RE = re.compile(r"Generated\s+(.+?)\s*$", re.I)
+TVG_NAME_RE = re.compile(r'tvg-name="([^"]+)"', re.I)
 
 
 def fetch_text(url: str, timeout: int = TIMEOUT) -> str:
@@ -215,6 +221,10 @@ def slug_core(slug: str) -> str:
     return re.sub(r"[^a-z0-9]", "", core.lower())
 
 
+def norm_name(name: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", name.lower())
+
+
 def _clean_premium_url(line: str) -> str:
     url = line.strip()
     if "|cookie=" in url:
@@ -230,14 +240,31 @@ def _cookie_start(cookie: str) -> int:
 def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]:
     header_updated = ""
     pending_cookie = ""
+    pending_license = ""
+    pending_ua = ""
+    pending_referer = ""
+    pending_origin = ""
+    pending_name = ""
     skipped_expired = 0
     by_slug: dict[str, PremiumOverride] = {}
+
+    def reset_pending(keep_name: bool = False) -> None:
+        nonlocal pending_cookie, pending_license, pending_ua, pending_referer, pending_origin, pending_name
+        pending_cookie = pending_license = pending_ua = pending_referer = pending_origin = ""
+        if not keep_name:
+            pending_name = ""
+
     for raw in text.splitlines():
         line = raw.strip()
         if not header_updated:
             generated = GENERATED_RE.search(line)
             if generated:
                 header_updated = generated.group(1).strip()
+        if line.startswith("#EXTINF"):
+            name_match = TVG_NAME_RE.search(line)
+            pending_name = name_match.group(1).strip() if name_match else ""
+            reset_pending(keep_name=True)
+            continue
         if line.startswith("http"):
             url = _clean_premium_url(line)
             slug = stream_slug(url)
@@ -245,7 +272,14 @@ def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]
             cookie = cookie_from_value(
                 cookie_match.group(1) if cookie_match else pending_cookie
             )
-            pending_cookie = ""
+            extras = (
+                pending_license,
+                pending_ua,
+                pending_referer,
+                pending_origin,
+                pending_name,
+            )
+            reset_pending()
             if not slug or not cookie:
                 continue
             if not is_live(cookie):
@@ -255,7 +289,35 @@ def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]
             previous = by_slug.get(slug.lower())
             if previous and previous.expires_at >= expires_at:
                 continue
-            by_slug[slug.lower()] = PremiumOverride(cookie, url, slug, expires_at)
+            by_slug[slug.lower()] = PremiumOverride(
+                cookie, url, slug, expires_at, *extras
+            )
+            continue
+        lower = line.lower()
+        if lower.startswith("#kodiprop:inputstream.adaptive.license_key="):
+            pending_license = line.split("=", 1)[1].strip()
+            continue
+        if lower.startswith("#extvlcopt:http-user-agent="):
+            pending_ua = line.split("=", 1)[1].strip()
+            continue
+        if lower.startswith("#extvlcopt:http-referrer="):
+            pending_referer = line.split("=", 1)[1].strip()
+            continue
+        if lower.startswith("#extvlcopt:http-extra-headers=") and "origin:" in lower:
+            origin_at = lower.rfind("origin:")
+            pending_origin = line[origin_at + len("origin:"):].strip()
+            continue
+        if line.startswith("#EXTHTTP:"):
+            try:
+                payload = json.loads(line.split(":", 1)[1])
+            except json.JSONDecodeError:
+                payload = {}
+            if isinstance(payload, dict):
+                pending_origin = str(payload.get("Origin") or pending_origin)
+                pending_referer = str(payload.get("Referer") or pending_referer)
+                cookie = cookie_from_value(payload.get("Cookie") or payload.get("cookie"))
+                if cookie:
+                    pending_cookie = cookie
             continue
         cookie_match = COOKIE_RE.search(line)
         if cookie_match:
@@ -285,40 +347,39 @@ class PremiumPack:
         self.last_updated = last_updated
         self.by_slug = by_slug
         self.by_core: dict[str, PremiumOverride] = {}
+        self.by_name: dict[str, PremiumOverride] = {}
         for item in by_slug.values():
             core = slug_core(item.slug)
-            if not core:
-                continue
-            previous = self.by_core.get(core)
-            if previous and previous.expires_at >= item.expires_at:
-                continue
-            self.by_core[core] = item
+            if core:
+                previous = self.by_core.get(core)
+                if not previous or item.expires_at > previous.expires_at:
+                    self.by_core[core] = item
+            key = norm_name(item.name)
+            if key:
+                previous = self.by_name.get(key)
+                if not previous or item.expires_at > previous.expires_at:
+                    self.by_name[key] = item
 
-    def lookup(self, url: str) -> Optional[PremiumOverride]:
+    def lookup(self, url: str, name: str = "") -> Optional[PremiumOverride]:
         slug = stream_slug(url)
-        if not slug:
-            return None
-        found = self.by_slug.get(slug.lower())
-        if found:
-            return found
-        return self.by_core.get(slug_core(slug))
+        if slug:
+            found = self.by_slug.get(slug.lower()) or self.by_core.get(slug_core(slug))
+            if found:
+                return found
+        if name:
+            return self.by_name.get(norm_name(name))
+        return None
 
     def fallback_cookie(self) -> str:
-        """Prefer a live global ACL cookie; else the newest live path cookie."""
-        if not self.by_slug:
-            return ""
+        """Only a live global ACL cookie is safe on unmatched channels."""
         global_ones = [item for item in self.by_slug.values() if is_global_acl(item.cookie)]
-        if global_ones:
-            chosen = max(global_ones, key=lambda item: item.expires_at)
-            print(
-                f"   unmatched fallback: global ACL from {chosen.slug} "
-                f"exp={_fmt_ist(chosen.expires_at)}"
-            )
-            return chosen.cookie
-        chosen = max(self.by_slug.values(), key=lambda item: item.expires_at)
+        if not global_ones:
+            print("   unmatched fallback: no live global ACL cookie; unmatched rows stay skipped")
+            return ""
+        chosen = max(global_ones, key=lambda item: item.expires_at)
         print(
-            f"   unmatched fallback: latest cookie from {chosen.slug} "
-            f"acl={cookie_acl(chosen.cookie)} exp={_fmt_ist(chosen.expires_at)}"
+            f"   unmatched fallback: global ACL from {chosen.slug} "
+            f"exp={_fmt_ist(chosen.expires_at)}"
         )
         return chosen.cookie
 
