@@ -19,7 +19,9 @@ IST = timezone(timedelta(hours=5, minutes=30))
 PRIMARY_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 SONU_URL = "https://sonujson-v5.pages.dev/Data/sports.json"
 BINGE_URL = "https://binge-giotv.pages.dev/data/id.json"
-PREMIUM_URL = "https://premiumplugx.top/jiostb/mjelo.php?view=raw"
+# PREMIUM_URL = "https://premiumplugx.top/jiostb/mjelo.php?view=raw"
+PREMIUM_URL = "https://plugxvipplaylist.lovable.app/api/playlist"
+
 JSON_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
