@@ -7,7 +7,7 @@
                 "name": "Sun TV (1080p)",
                 "title": "Sun TV (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_TV_HD.png",
-                "url": "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/VCQ4ADX96VH4G8PY7URBWRQU/6621/index.m3u8"
+                "url":"https://d2px1d6ssc60fw.cloudfront.net/SunTV/SunTV-HDR10-IN-index.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
@@ -21,7 +21,7 @@
                 "name": "Zee Tamil (1080p)",
                 "title": "Zee Tamil (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Tamil_HD.png",
-                "url": "http://87.255.35.150:18553/index.ts"
+                "url": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Tamil_HD/hls/Zee_Tamil_HD.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
@@ -35,7 +35,7 @@
                 "name": "Sun Music (1080p)",
                 "title": "Sun Music (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Music_HD.png",
-                "url": "http://15.235.144.106:14055/"
+                "url": "https://d2o8pibksxtln6.cloudfront.net/live/media/Sun_Music_HD/hls/Sun_Music_HD.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
@@ -49,7 +49,7 @@
                 "name": "Colors Tamil (1080p)",
                 "title": "Colors Tamil (1080p)",
                 "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Tamil_HD.png",
-                "url": "http://103.140.254.2:3500/live/429.m3u8"
+                "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8"
             },
             {
                 "category": "Jofi Tamil HD",
