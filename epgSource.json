@@ -1,3 +1,5 @@
 {
-    "url": "https://mitthu786.github.io/tvepg/jiotv/epg.xml.gz"
+    "mode": "auto",
+    "url": "https://mitthu786.github.io/tvepg/jiotv/epg.xml.gz",
+    "per_channel_epg_url": "https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?offset={offset}&channel_id={tvg-id}"
 }
