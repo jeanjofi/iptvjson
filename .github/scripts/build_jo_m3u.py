@@ -93,6 +93,11 @@ def channel_name(url: str, channel_id: str) -> str:
     )
 
 
+def display_name(feed_name: str, url: str, channel_id: str) -> str:
+    name = re.sub(r"\s+", " ", (feed_name or "").strip())
+    return name or channel_name(url, channel_id)
+
+
 def overlay_match(entry: dict, stream_url: str, source: str):
     pack = load_source_pack(source)
     name = str(entry.get("name") or "")
@@ -185,6 +190,7 @@ def main() -> int:
             "match": match,
             "key_id": key_id,
             "key": key,
+            "name": str(entry.get("name") or "").strip(),
             "category": str(entry.get("category") or "JIO Live").strip() or "JIO Live",
         })
 
@@ -220,7 +226,7 @@ def main() -> int:
             tag_lines.append(f"#EXTVLCOPT:http-referrer={match.referer}")
         tag_lines.extend([
             f"#EXTHTTP:{json.dumps(http_headers, separators=(',', ':'))}",
-            f'#EXTINF:-1 tvg-id="{row["channel_id"]}" tvg-logo="{row["logo"]}" group-title="{row["category"]}",{channel_name(stream_url, row["channel_id"])}',
+            f'#EXTINF:-1 tvg-id="{row["channel_id"]}" tvg-logo="{row["logo"]}" group-title="{row["category"]}",{display_name(row["name"], stream_url, row["channel_id"])}',
             stream_url,
             "",
         ])

@@ -1080,7 +1080,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/BVG.png"
     },
     {
-        "name": "MoviesNow HD",
+        "name": "Movies Now HD",
         "id": "151",
         "category": "Ac_English",
         "url": "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd",
@@ -1089,7 +1089,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Movies_Now_HD.png"
     },
     {
-        "name": "MN+_HD",
+        "name": "MN+ HD",
         "id": "477",
         "category": "Ac_English",
         "url": "https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd",
@@ -1098,7 +1098,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/MNPLUS.png"
     },
     {
-        "name": "MNX_HD",
+        "name": "MNX HD",
         "id": "877",
         "category": "Ac_English",
         "url": "https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd",
@@ -6949,6 +6949,70 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vijay_Takkar.png"
     },
     {
+        "name": "Zee Tamil HD",
+        "id": "1356",
+        "category": "Aa_Tamil",
+        "cookieSource": "premiumplugx",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeTamilHD_MOB/WDVLive/index.mpd",
+        "keyId": "e9dd4aa4accd53188659c4a7b45bd8c4",
+        "key": "920ff1a99835cfeb26d4c0db04ee58bd",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeTamilHD.png"
+    },
+    {
+        "name": "Sun Life",
+        "id": "682",
+        "category": "Aa_Tamil",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sun_Life_MOB/WDVLive/index.mpd",
+        "keyId": "03fff2c1ecea574b98da00b05c2a0be9",
+        "key": "41670b42142fa8ba6bd3cf9fc2ae8cf5",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sun_Life.png"
+    },
+    {
+        "name": "Raj TV",
+        "id": "707",
+        "category": "Aa_Tamil",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_TV_MOB/WDVLive/index.mpd",
+        "keyId": "1f0a57e1b999520d99fc92b43630e722",
+        "key": "fa59423030d70507ec1cac2cfac2050d",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_TV.png"
+    },
+    {
+        "name": "Raj Musix",
+        "id": "748",
+        "category": "Aa_Tamil",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_Musix_MOB/WDVLive/index.mpd",
+        "keyId": "d5968d25bb125bd6a8a1afe4b45d8711",
+        "key": "ecb4f2a37bb7511baf2a3a93cdef375e",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_Musix.png"
+    },
+    {
+        "name": "Raj Digital Plus",
+        "id": "683",
+        "category": "Aa_Tamil",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_Digital_Plus_MOB/WDVLive/index.mpd",
+        "keyId": "2773e9650f9b5f6ba411dfd53cdf7912",
+        "key": "57e6dcc6387ceace62737326811a1ef5",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_Digital_Plus.png"
+    },
+    {
+        "name": "Polimer TV",
+        "id": "705",
+        "category": "Aa_Tamil",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Polimer_TV_MOB/WDVLive/index.mpd",
+        "keyId": "null",
+        "key": "null",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Polimer_TV.png"
+    },
+    {
+        "name": "Adithya TV",
+        "id": "709",
+        "category": "Aa_Tamil",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Adithya_TV_MOB/WDVLive/index.mpd",
+        "keyId": "b7d2d1228b275e219c9cdb282038d4c3",
+        "key": "d75d95afc4a181803d2188456a052477",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Adithya_TV.png"
+    },
+    {
         "name": "Kalaignar TV",
         "id": "1209",
         "category": "Aa_Tamil",
@@ -7039,58 +7103,13 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_News_24x7.png"
     },
     {
-        "name": "Sun Life",
-        "id": "682",
+        "name": "Madha TV",
+        "id": "1655",
         "category": "Aa_Tamil",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sun_Life_MOB/WDVLive/index.mpd",
-        "keyId": "03fff2c1ecea574b98da00b05c2a0be9",
-        "key": "41670b42142fa8ba6bd3cf9fc2ae8cf5",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sun_Life.png"
-    },
-    {
-        "name": "Raj Digital Plus",
-        "id": "683",
-        "category": "Aa_Tamil",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_Digital_Plus_MOB/WDVLive/index.mpd",
-        "keyId": "2773e9650f9b5f6ba411dfd53cdf7912",
-        "key": "57e6dcc6387ceace62737326811a1ef5",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_Digital_Plus.png"
-    },
-    {
-        "name": "Polimer TV",
-        "id": "705",
-        "category": "Aa_Tamil",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Polimer_TV_MOB/WDVLive/index.mpd",
-        "keyId": "null",
-        "key": "null",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Polimer_TV.png"
-    },
-    {
-        "name": "Raj TV",
-        "id": "707",
-        "category": "Aa_Tamil",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_TV_MOB/WDVLive/index.mpd",
-        "keyId": "1f0a57e1b999520d99fc92b43630e722",
-        "key": "fa59423030d70507ec1cac2cfac2050d",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_TV.png"
-    },
-    {
-        "name": "Makkal TV",
-        "id": "708",
-        "category": "Aa_Tamil",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Makkal_TV_MOB/WDVLive/index.mpd",
-        "keyId": "3ff69909b2a95c038b6ff13c2e7d20ca",
-        "key": "57adacb2033070c8315e2210489127a9",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Makkal_TV.png"
-    },
-    {
-        "name": "Adithya TV",
-        "id": "709",
-        "category": "Aa_Tamil",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Adithya_TV_MOB/WDVLive/index.mpd",
-        "keyId": "b7d2d1228b275e219c9cdb282038d4c3",
-        "key": "d75d95afc4a181803d2188456a052477",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Adithya_TV.png"
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Madha_TV_MOB/WDVLive/index.mpd",
+        "keyId": "ca00d42782cd5ff49724a4d7ebab404b",
+        "key": "4a813a3162b99513cdf22005549bd978",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Madha_TV.png"
     },
     {
         "name": "DD5 Podhigai",
@@ -7109,15 +7128,6 @@
         "keyId": "a6e475d6fbba53c2a6737662e5c06f01",
         "key": "c38f7613812e643c11402bdaca2ab816",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vasanth_TV.png"
-    },
-    {
-        "name": "Raj Musix",
-        "id": "748",
-        "category": "Aa_Tamil",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_Musix_MOB/WDVLive/index.mpd",
-        "keyId": "d5968d25bb125bd6a8a1afe4b45d8711",
-        "key": "ecb4f2a37bb7511baf2a3a93cdef375e",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_Musix.png"
     },
     {
         "name": "Peppers TV",
@@ -7246,6 +7256,15 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Madhimugam_TV.png"
     },
     {
+        "name": "Makkal TV",
+        "id": "708",
+        "category": "Aa_Tamil",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Makkal_TV_MOB/WDVLive/index.mpd",
+        "keyId": "3ff69909b2a95c038b6ff13c2e7d20ca",
+        "key": "57adacb2033070c8315e2210489127a9",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Makkal_TV.png"
+    },
+    {
         "name": "Vendhar TV",
         "id": "857",
         "category": "Aa_Tamil",
@@ -7327,16 +7346,6 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Aastha_Tamil.png"
     },
     {
-        "name": "Zee Tamil HD",
-        "id": "1356",
-        "category": "Aa_Tamil",
-        "cookieSource": "premiumplugx",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeTamilHD_MOB/WDVLive/index.mpd",
-        "keyId": "e9dd4aa4accd53188659c4a7b45bd8c4",
-        "key": "920ff1a99835cfeb26d4c0db04ee58bd",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeTamilHD.png"
-    },
-    {
         "name": "SVBC2",
         "id": "1417",
         "category": "Aa_Tamil",
@@ -7380,15 +7389,6 @@
         "keyId": "80ff89cbc91a55a087bccbdfc45acc1d",
         "key": "ea3de51dcc665bce0c12ca93ac8c9cce",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/MK_Six.png"
-    },
-    {
-        "name": "Madha TV",
-        "id": "1655",
-        "category": "Aa_Tamil",
-        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Madha_TV_MOB/WDVLive/index.mpd",
-        "keyId": "ca00d42782cd5ff49724a4d7ebab404b",
-        "key": "4a813a3162b99513cdf22005549bd978",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Madha_TV.png"
     },
     {
         "name": "SVBC",
