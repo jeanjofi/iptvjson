@@ -2,6 +2,7 @@
 """Resolve a live, globally usable __hdnea__ cookie from ordered feeds."""
 from __future__ import annotations
 
+import base64
 import json
 import os
 import re
@@ -9,6 +10,7 @@ import ssl
 import tempfile
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -85,6 +87,8 @@ COOKIE_RE = re.compile(
 )
 GENERATED_RE = re.compile(r"Generated\s+(.+?)\s*$", re.I)
 TVG_NAME_RE = re.compile(r'tvg-name="([^"]+)"', re.I)
+PAIR_RE = re.compile(r"\b([0-9a-fA-F]{32}):([0-9a-fA-F]{32})\b")
+CLEARKEYS_RE = re.compile(r"#\s*clearkeys\b", re.I)
 
 
 def fetch_text(url: str, timeout: int = TIMEOUT) -> str:
@@ -275,7 +279,76 @@ def _clean_premium_url(line: str) -> str:
     url = line.strip()
     if "|cookie=" in url:
         url = url.split("|cookie=", 1)[0]
+    if "?__hdnea__=" in url:
+        url = url.split("?__hdnea__=", 1)[0]
     return url.rstrip("?&")
+
+
+def _b64url_hex(value: str) -> str:
+    raw = (value or "").strip()
+    if not raw:
+        return ""
+    try:
+        data = base64.urlsafe_b64decode(raw + "=" * (-len(raw) % 4))
+    except Exception:
+        return ""
+    return data.hex()
+
+
+def normalize_license_key(value: str) -> str:
+    """Accept hex kid:key, JWK JSON, or `# clearkeys` comments. Return hex pairs."""
+    text = (value or "").strip()
+    if not text:
+        return ""
+    pairs = PAIR_RE.findall(text)
+    if pairs:
+        return ",".join(f"{kid.lower()}:{secret.lower()}" for kid, secret in pairs)
+    blob = text
+    if "license_key=" in blob:
+        blob = blob.split("license_key=", 1)[1].strip()
+    if blob.startswith("{") or '"keys"' in blob:
+        try:
+            payload = json.loads(blob)
+        except json.JSONDecodeError:
+            payload = None
+        if isinstance(payload, dict):
+            out: list[str] = []
+            for item in payload.get("keys") or []:
+                if not isinstance(item, dict):
+                    continue
+                kid = _b64url_hex(str(item.get("kid") or item.get("key_id") or ""))
+                secret = _b64url_hex(str(item.get("k") or item.get("key") or ""))
+                if len(kid) == 32 and len(secret) == 32:
+                    out.append(f"{kid}:{secret}")
+            if out:
+                return ",".join(out)
+    return ""
+
+
+def _extinf_name(line: str) -> str:
+    named = TVG_NAME_RE.search(line)
+    if named:
+        return named.group(1).strip()
+    comma = line.rfind(",")
+    return line[comma + 1 :].strip() if comma >= 0 else ""
+
+
+def _apply_stream_headers(value: str, pending: dict[str, str]) -> None:
+    for key, raw in urllib.parse.parse_qsl(value, keep_blank_values=True):
+        lowered = key.lower()
+        if lowered == "cookie":
+            cookie = cookie_from_value(raw)
+            if cookie:
+                pending["cookie"] = cookie
+        elif lowered in {"user-agent", "user_agent"}:
+            if raw.strip():
+                pending["ua"] = raw.strip()
+        elif lowered == "referer":
+            if raw.strip():
+                pending["referer"] = raw.strip()
+        elif lowered == "origin":
+            if raw.strip():
+                pending["origin"] = raw.strip()
 
 
 def _cookie_start(cookie: str) -> int:
@@ -285,45 +358,53 @@ def _cookie_start(cookie: str) -> int:
 
 def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]:
     header_updated = ""
-    pending_cookie = ""
-    pending_license = ""
-    pending_ua = ""
-    pending_referer = ""
-    pending_origin = ""
-    pending_name = ""
+    pending = {
+        "cookie": "",
+        "license": "",
+        "ua": "",
+        "referer": "",
+        "origin": "",
+        "name": "",
+    }
     skipped_expired = 0
     by_slug: dict[str, PremiumOverride] = {}
 
-    def reset_pending(keep_name: bool = False) -> None:
-        nonlocal pending_cookie, pending_license, pending_ua, pending_referer, pending_origin, pending_name
-        pending_cookie = pending_license = pending_ua = pending_referer = pending_origin = ""
-        if not keep_name:
-            pending_name = ""
+    def reset_pending() -> None:
+        pending.update(
+            cookie="", license="", ua="", referer="", origin="", name=""
+        )
+
+    def remember_license(raw: str) -> None:
+        normalized = normalize_license_key(raw)
+        if normalized:
+            pending["license"] = normalized
 
     for raw in text.splitlines():
         line = raw.strip()
+        if not line:
+            continue
         if not header_updated:
             generated = GENERATED_RE.search(line)
             if generated:
                 header_updated = generated.group(1).strip()
         if line.startswith("#EXTINF"):
-            name_match = TVG_NAME_RE.search(line)
-            pending_name = name_match.group(1).strip() if name_match else ""
-            reset_pending(keep_name=True)
+            name = _extinf_name(line)
+            if name:
+                pending["name"] = name
             continue
         if line.startswith("http"):
             url = _clean_premium_url(line)
             slug = stream_slug(url)
             cookie_match = COOKIE_RE.search(line)
             cookie = cookie_from_value(
-                cookie_match.group(1) if cookie_match else pending_cookie
+                cookie_match.group(1) if cookie_match else pending["cookie"]
             )
             extras = (
-                pending_license,
-                pending_ua,
-                pending_referer,
-                pending_origin,
-                pending_name,
+                pending["license"],
+                pending["ua"],
+                pending["referer"],
+                pending["origin"],
+                pending["name"],
             )
             reset_pending()
             if not slug or not cookie:
@@ -340,18 +421,29 @@ def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]
             )
             continue
         lower = line.lower()
-        if lower.startswith("#kodiprop:inputstream.adaptive.license_key="):
-            pending_license = line.split("=", 1)[1].strip()
+        if "license_key=" in lower:
+            remember_license(line.split("license_key=", 1)[1].strip())
+            continue
+        if CLEARKEYS_RE.search(line):
+            remember_license(line)
+            continue
+        if "stream_headers=" in lower:
+            _apply_stream_headers(line.split("stream_headers=", 1)[1].strip(), pending)
             continue
         if lower.startswith("#extvlcopt:http-user-agent="):
-            pending_ua = line.split("=", 1)[1].strip()
+            pending["ua"] = line.split("=", 1)[1].strip()
             continue
         if lower.startswith("#extvlcopt:http-referrer="):
-            pending_referer = line.split("=", 1)[1].strip()
+            pending["referer"] = line.split("=", 1)[1].strip()
+            continue
+        if lower.startswith("#extvlcopt:http-cookie="):
+            cookie = cookie_from_value(line.split("=", 1)[1].strip())
+            if cookie:
+                pending["cookie"] = cookie
             continue
         if lower.startswith("#extvlcopt:http-extra-headers=") and "origin:" in lower:
             origin_at = lower.rfind("origin:")
-            pending_origin = line[origin_at + len("origin:"):].strip()
+            pending["origin"] = line[origin_at + len("origin:"):].strip()
             continue
         if line.startswith("#EXTHTTP:"):
             try:
@@ -359,15 +451,18 @@ def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]
             except json.JSONDecodeError:
                 payload = {}
             if isinstance(payload, dict):
-                pending_origin = str(payload.get("Origin") or pending_origin)
-                pending_referer = str(payload.get("Referer") or pending_referer)
+                pending["origin"] = str(payload.get("Origin") or pending["origin"])
+                pending["referer"] = str(payload.get("Referer") or pending["referer"])
+                ua = str(payload.get("User-Agent") or payload.get("user-agent") or "").strip()
+                if ua:
+                    pending["ua"] = ua
                 cookie = cookie_from_value(payload.get("Cookie") or payload.get("cookie"))
                 if cookie:
-                    pending_cookie = cookie
+                    pending["cookie"] = cookie
             continue
         cookie_match = COOKIE_RE.search(line)
         if cookie_match:
-            pending_cookie = cookie_match.group(1)
+            pending["cookie"] = cookie_match.group(1)
     latest_st = max((_cookie_start(item.cookie) for item in by_slug.values()), default=0)
     last_updated = _fmt_ist(latest_st) if latest_st else header_updated
     return last_updated, by_slug, skipped_expired

@@ -15,6 +15,7 @@ from cookie_feed import (
     CookieUnavailable,
     cookie_from_value,
     load_source_pack,
+    normalize_license_key,
     resolve_cookie,
     resolve_entry_source,
 )
@@ -63,7 +64,8 @@ PAIR_RE = re.compile(r"\b([0-9a-fA-F]{32}):([0-9a-fA-F]{32})\b")
 
 
 def parse_key_pairs(premium_keys: str) -> list[tuple[str, str]]:
-    return [(kid.lower(), secret.lower()) for kid, secret in PAIR_RE.findall(premium_keys or "")]
+    normalized = normalize_license_key(premium_keys) or premium_keys or ""
+    return [(kid.lower(), secret.lower()) for kid, secret in PAIR_RE.findall(normalized)]
 
 
 def pick_clearkey(
