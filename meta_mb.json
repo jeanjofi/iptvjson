@@ -4460,7 +4460,7 @@
         "name": "Zee Action",
         "id": "488",
         "category": "Movies",
-        "cookieSource": "premiumplugx", 
+        "cookieSource": "premiumplugx",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeAction_MOB/WDVLive/index.mpd",
         "keyId": "80e87d88c856547a917ed83f62656cd7",
         "key": "c68fcd4330e5f188793df509bb5e19a6",
@@ -6906,6 +6906,15 @@
         "keyId": "5a6b703b87a75a728a8079ff3c5aa991",
         "key": "21295df12a0e76c1c15389b19cb85f21",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Jaya_Max.png"
+    },
+    {
+        "name": "Sony Vizha",
+        "id": "3622",
+        "category": "Aa_Tamil",
+        "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/SonyVizha_MOB/WDVLive/index.mpd",
+        "keyId": "fedc939f3c6b52c782d20b0a459d6ac6",
+        "key": "5c03dfa28b790cdda468a01a1da7873c",
+        "logo": "https://img.media.jio.com/tvpimages/69/33/304281_1792404598072_l_medium.jpg"
     },
     {
         "name": "Vijay Super",
