@@ -2473,6 +2473,7 @@
         "name": "And TV HD",
         "id": "472",
         "category": "Ad_Entertainment",
+        "cookieSource": "premiumplugx",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/AndTVHD_MOB/WDVLive/index.mpd",
         "keyId": "3698f70a682b503599cbc0fcae1f4df4",
         "key": "91a7ebf70d1fd76f59b9970c9525dad7",
