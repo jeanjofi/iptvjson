@@ -78,15 +78,20 @@ class PremiumOverride(NamedTuple):
     referer: str = ""
     origin: str = ""
     name: str = ""
+    tvg_id: str = ""
 
 
-SLUG_RE = re.compile(r"/bpk-tv/([^/]+)/", re.I)
-VARIANT_RE = re.compile(r"_(MOB|BTS|WV_DRM)$", re.I)
+SLUG_RE = re.compile(
+    r"/bpk-tv/([^/]+)/|/([^/]+)/index\.(?:mpd|m3u8)|/([^/]+)/master\.(?:mpd|m3u8)",
+    re.I,
+)
+VARIANT_RE = re.compile(r"_(MOB|BTS|WV_DRM|STB)$", re.I)
 COOKIE_RE = re.compile(
     r"(__hdnea__=st=\d+~exp=\d+~acl=[^~\s]+~hmac=[0-9a-fA-F]+)"
 )
 GENERATED_RE = re.compile(r"Generated\s+(.+?)\s*$", re.I)
 TVG_NAME_RE = re.compile(r'tvg-name="([^"]+)"', re.I)
+TVG_ID_RE = re.compile(r'tvg-id="([^"]+)"', re.I)
 PAIR_RE = re.compile(r"\b([0-9a-fA-F]{32}):([0-9a-fA-F]{32})\b")
 CLEARKEYS_RE = re.compile(r"#\s*clearkeys\b", re.I)
 
@@ -235,7 +240,9 @@ def resolve_cookie() -> ResolvedCookie:
 
 def stream_slug(url: str) -> str:
     match = SLUG_RE.search(url)
-    return match.group(1) if match else ""
+    if not match:
+        return ""
+    return next((group for group in match.groups() if group), "")
 
 
 def slug_core(slug: str) -> str:
@@ -244,7 +251,19 @@ def slug_core(slug: str) -> str:
 
 
 def norm_name(name: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", name.lower())
+    text = (name or "").lower().replace("&", "and").replace("+", "plus")
+    return re.sub(r"[^a-z0-9]", "", text)
+
+
+def name_keys(name: str) -> list[str]:
+    key = norm_name(name)
+    if not key:
+        return []
+    keys = [key]
+    stripped = re.sub(r"(uhd|fhd|hd)$", "", key)
+    if stripped and stripped != key:
+        keys.append(stripped)
+    return keys
 
 
 def is_auto_overlay_channel(name: str, url: str = "") -> bool:
@@ -333,6 +352,11 @@ def _extinf_name(line: str) -> str:
     return line[comma + 1 :].strip() if comma >= 0 else ""
 
 
+def _extinf_id(line: str) -> str:
+    match = TVG_ID_RE.search(line)
+    return match.group(1).strip() if match else ""
+
+
 def _apply_stream_headers(value: str, pending: dict[str, str]) -> None:
     for key, raw in urllib.parse.parse_qsl(value, keep_blank_values=True):
         lowered = key.lower()
@@ -365,13 +389,14 @@ def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]
         "referer": "",
         "origin": "",
         "name": "",
+        "id": "",
     }
     skipped_expired = 0
     by_slug: dict[str, PremiumOverride] = {}
 
     def reset_pending() -> None:
         pending.update(
-            cookie="", license="", ua="", referer="", origin="", name=""
+            cookie="", license="", ua="", referer="", origin="", name="", id=""
         )
 
     def remember_license(raw: str) -> None:
@@ -389,8 +414,11 @@ def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]
                 header_updated = generated.group(1).strip()
         if line.startswith("#EXTINF"):
             name = _extinf_name(line)
+            tvg_id = _extinf_id(line)
             if name:
                 pending["name"] = name
+            if tvg_id:
+                pending["id"] = tvg_id
             continue
         if line.startswith("http"):
             url = _clean_premium_url(line)
@@ -405,9 +433,15 @@ def _parse_premium_m3u(text: str) -> tuple[str, dict[str, PremiumOverride], int]
                 pending["referer"],
                 pending["origin"],
                 pending["name"],
+                pending["id"],
             )
+            tvg_id = pending["id"]
             reset_pending()
-            if not slug or not cookie:
+            if not cookie:
+                continue
+            if not slug:
+                slug = f"id-{tvg_id}" if tvg_id else ""
+            if not slug:
                 continue
             if not is_live(cookie):
                 skipped_expired += 1
@@ -489,26 +523,40 @@ class PremiumPack:
         self.by_slug = by_slug
         self.by_core: dict[str, PremiumOverride] = {}
         self.by_name: dict[str, PremiumOverride] = {}
+        self.by_id: dict[str, PremiumOverride] = {}
         for item in by_slug.values():
             core = slug_core(item.slug)
-            if core:
+            if core and not item.slug.lower().startswith("id-"):
                 previous = self.by_core.get(core)
                 if not previous or item.expires_at > previous.expires_at:
                     self.by_core[core] = item
-            key = norm_name(item.name)
-            if key:
+            for key in name_keys(item.name):
                 previous = self.by_name.get(key)
                 if not previous or item.expires_at > previous.expires_at:
                     self.by_name[key] = item
+            tvg_id = (item.tvg_id or "").strip()
+            if tvg_id:
+                previous = self.by_id.get(tvg_id)
+                if not previous or item.expires_at > previous.expires_at:
+                    self.by_id[tvg_id] = item
 
-    def lookup(self, url: str, name: str = "") -> Optional[PremiumOverride]:
+    def lookup(
+        self, url: str, name: str = "", channel_id: str = ""
+    ) -> Optional[PremiumOverride]:
+        cid = (channel_id or "").strip()
+        if cid:
+            found = self.by_id.get(cid)
+            if found:
+                return found
         slug = stream_slug(url)
         if slug:
             found = self.by_slug.get(slug.lower()) or self.by_core.get(slug_core(slug))
             if found:
                 return found
-        if name:
-            return self.by_name.get(norm_name(name))
+        for key in name_keys(name):
+            found = self.by_name.get(key)
+            if found:
+                return found
         return None
 
     def fallback_cookie(self) -> str:
@@ -600,6 +648,7 @@ def load_json_overrides(source: str, url: str) -> PremiumPack:
             "",
             "",
             str(item.get("name") or ""),
+            str(item.get("id") or item.get("channel_id") or "").strip(),
         )
     latest_exp = max((item.expires_at for item in by_slug.values()), default=0)
     now_ist = datetime.now(IST).strftime("%d %b %Y, %I:%M:%S %p IST")

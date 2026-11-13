@@ -103,12 +103,13 @@ def display_name(feed_name: str, url: str, channel_id: str) -> str:
 def overlay_match(entry: dict, stream_url: str, source: str):
     pack = load_source_pack(source)
     name = str(entry.get("name") or "")
-    match = pack.lookup(stream_url, name)
+    channel_id = str(entry.get("id") or "")
+    match = pack.lookup(stream_url, name, channel_id)
     if match:
         return match, source
     if source == "premiumplugx":
         binge = load_source_pack("binge-giotv")
-        match = binge.lookup(stream_url, name)
+        match = binge.lookup(stream_url, name, channel_id)
         if match:
             return match, "binge-giotv"
     return None, source

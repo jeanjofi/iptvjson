@@ -57,7 +57,11 @@ def overlay_stamp(global_ok: bool) -> str:
         pack = packs.get(source)
         if not pack:
             continue
-        match = pack.lookup(str(entry.get("url") or ""), str(entry.get("name") or ""))
+        match = pack.lookup(
+            str(entry.get("url") or ""),
+            str(entry.get("name") or ""),
+            str(entry.get("id") or ""),
+        )
         if match:
             lines.append(f"{source} {match.slug} {match.cookie}")
     return "\n".join(lines) + "\n"
