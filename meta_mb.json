@@ -6723,7 +6723,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/UIPMPentathlonWC.png"
     },
     {
-        "name": "Sony Sports 1",
+        "name": "Sony Sports Ten 1 HD",
         "id": "33722",
         "category": "Ae_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ten_HD_MOB/WDVLive/index.mpd",
@@ -6732,7 +6732,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_1.png"
     },
     {
-        "name": "Sony Sports 2",
+        "name": "Sony Sports Ten 2 HD",
         "id": "3373",
         "category": "Ae_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ten2_HD_MOB/WDVLive/index.mpd",
@@ -6741,7 +6741,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_2.png"
     },
     {
-        "name": "Sony Sports 3",
+        "name": "Sony Sports Ten 3",
         "id": "33744",
         "category": "Ae_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ten3_HD_MOB/WDVLive/index.mpd",
@@ -6750,7 +6750,7 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_3.png"
     },
     {
-        "name": "Sony Sports 4 Tamil",
+        "name": "Sony Sports Ten 4 Tamil",
         "id": "3397",
         "category": "Ae_Sports",
         "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Ten_4_Tamil_MOB/WDVLive/index.mpd",
