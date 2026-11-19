@@ -22,7 +22,8 @@ PRIMARY_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 SONU_URL = "https://sonujson-v7.pages.dev/Data/sports.json"
 BINGE_URL = "https://binge-giotv.pages.dev/data/id.json"
 # PREMIUM_URL = "https://premiumplugx.top/jiostb/mjelo.php?view=raw"
-PREMIUM_URL = "https://jtvplusm3u.knvh02v9pi6dct.workers.dev/playlist.m3u"
+#PREMIUM_URL = "https://jtvplusm3u.knvh02v9pi6dct.workers.dev/playlist.m3u"
+PREMIUM_URL = "https://jiostbplus.saregojo99.workers.dev"
 
 JSON_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
