@@ -295,12 +295,36 @@ def resolve_entry_source(entry: dict) -> str:
     return "global"
 
 
+def unwrap_stream_url(url: str) -> str:
+    """Turn worker /proxy?url= wrappers back into the real CDN URL."""
+    raw = (url or "").strip()
+    if not raw:
+        return ""
+    if raw.startswith("/") and PREMIUM_URL:
+        raw = urllib.parse.urljoin(PREMIUM_URL.rstrip("/") + "/", raw.lstrip("/"))
+    parsed = urllib.parse.urlsplit(raw)
+    query = urllib.parse.parse_qs(parsed.query)
+    for key in ("url", "u", "src", "stream"):
+        inner = (query.get(key) or [""])[0].strip()
+        if inner.startswith("http"):
+            return unwrap_stream_url(urllib.parse.unquote(inner))
+    path = urllib.parse.unquote(parsed.path or "")
+    marker = "/proxy/"
+    if marker in path:
+        tail = path.split(marker, 1)[1]
+        if tail.startswith("http"):
+            return unwrap_stream_url(tail)
+    return raw
+
+
 def _clean_premium_url(line: str) -> str:
-    url = line.strip()
+    url = unwrap_stream_url(line.strip())
     if "|cookie=" in url:
         url = url.split("|cookie=", 1)[0]
     if "?__hdnea__=" in url:
         url = url.split("?__hdnea__=", 1)[0]
+    if "&__hdnea__=" in url:
+        url = url.split("&__hdnea__=", 1)[0]
     return url.rstrip("?&")
 
 

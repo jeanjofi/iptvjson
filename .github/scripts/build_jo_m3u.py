@@ -18,6 +18,7 @@ from cookie_feed import (
     normalize_license_key,
     resolve_cookie,
     resolve_entry_source,
+    unwrap_stream_url,
 )
 
 
@@ -168,7 +169,7 @@ def main() -> int:
         if source != "global":
             match, matched_source = overlay_match(entry, stream_url, source)
             if match:
-                stream_url = match.url
+                stream_url = unwrap_stream_url(match.url)
                 cookie = match.cookie
                 overlay_counts[matched_source] += 1
             elif fallback_cookie:
@@ -210,9 +211,10 @@ def main() -> int:
         if not license_key:
             skipped += 1
             continue
-        separator = "&" if "?" in row["stream_url"] else "?"
+        base_url = unwrap_stream_url(row["stream_url"])
+        separator = "&" if "?" in base_url else "?"
         token = row["cookie"].split("__hdnea__=", 1)[1]
-        stream_url = f"{row['stream_url']}{separator}__hdnea__={token}"
+        stream_url = f"{base_url}{separator}__hdnea__={token}"
         user_agent = (match.user_agent if match and match.user_agent else PLAYER_UA)
         http_headers = {"cookie": row["cookie"]}
         if match:
