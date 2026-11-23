@@ -11,6 +11,7 @@ from pathlib import Path
 from cookie_feed import (
     CookieUnavailable,
     load_source_pack,
+    overlay_source_names,
     resolve_cookie,
     resolve_entry_source,
 )
@@ -54,16 +55,24 @@ def overlay_stamp(global_ok: bool) -> str:
 
     lines = ["overlay"]
     for source, entry in overlay_entries:
-        pack = packs.get(source)
-        if not pack:
-            continue
-        match = pack.lookup(
-            str(entry.get("url") or ""),
-            str(entry.get("name") or ""),
-            str(entry.get("id") or ""),
-        )
+        match = None
+        matched_source = source
+        order = [source, *(item for item in overlay_source_names() if item != source)]
+        for candidate in order:
+            pack = packs.get(candidate)
+            if pack is None:
+                pack = load_source_pack(candidate)
+                packs[candidate] = pack
+            match = pack.lookup(
+                str(entry.get("url") or ""),
+                str(entry.get("name") or ""),
+                str(entry.get("id") or ""),
+            )
+            if match:
+                matched_source = candidate
+                break
         if match:
-            lines.append(f"{source} {match.slug} {match.cookie}")
+            lines.append(f"{matched_source} {match.slug} {match.cookie}")
     return "\n".join(lines) + "\n"
 
 

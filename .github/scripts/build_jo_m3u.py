@@ -16,6 +16,7 @@ from cookie_feed import (
     cookie_from_value,
     load_source_pack,
     normalize_license_key,
+    overlay_source_names,
     resolve_cookie,
     resolve_entry_source,
     unwrap_stream_url,
@@ -102,17 +103,14 @@ def display_name(feed_name: str, url: str, channel_id: str) -> str:
 
 
 def overlay_match(entry: dict, stream_url: str, source: str):
-    pack = load_source_pack(source)
     name = str(entry.get("name") or "")
     channel_id = str(entry.get("id") or "")
-    match = pack.lookup(stream_url, name, channel_id)
-    if match:
-        return match, source
-    if source == "premiumplugx":
-        binge = load_source_pack("binge-giotv")
-        match = binge.lookup(stream_url, name, channel_id)
+    order = [source, *(item for item in overlay_source_names() if item != source)]
+    for candidate in order:
+        pack = load_source_pack(candidate)
+        match = pack.lookup(stream_url, name, channel_id)
         if match:
-            return match, "binge-giotv"
+            return match, candidate
     return None, source
 
 
