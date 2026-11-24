@@ -17,7 +17,7 @@ premiumplugx ZeeAnmol_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/Zee
 premiumplugx ZeeTV_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/ZeeTV_BTS/WDVLive/*~hmac=cf282c10d9fd1cbadafc006d0db3575d6338a7f51aab6f9a09c42d6f0122ad79
 premiumplugx BigMagic_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/BigMagic_BTS/WDVLive/*~hmac=a5d1f3edccc1e3d28144ae5d5ca5256e4fc6c11bcc0e52794dfd2840419056eb
 premiumplugx Zee_24_Kalak_MOB __hdnea__=st=1795507277~exp=1795528877~acl=/*~hmac=49a1ffe001f37eff52f450585f6c64ca82932e1d7b18c2a37d8ae0b77ce58415
-premiumplugx ZeeKannadaHD_BTS __hdnea__=st=1795502424~exp=1795524024~acl=/bpk-tv/ZeeKannadaHD_BTS/WDVLive/*~hmac=abe2038c236a9af1e2921565f07789a4affdb874600d3b1d704f795569481444
+premiumplugx ZeeKannada_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/ZeeKannada_BTS/WDVLive/*~hmac=ffebb96553959f5a6336d5357e24c277b5630fa28dcdcd0bc01895727830b5c8
 premiumplugx ZeeKannadaHD_BTS __hdnea__=st=1795502424~exp=1795524024~acl=/bpk-tv/ZeeKannadaHD_BTS/WDVLive/*~hmac=abe2038c236a9af1e2921565f07789a4affdb874600d3b1d704f795569481444
 premiumplugx ZeePowerHD_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/ZeePowerHD_BTS/WDVLive/*~hmac=a33bca86a2e7ea98a4f20b5b05fb84039e2b0f0b9bfc1ee97a9584fb3aa8f847
 premiumplugx Zee_Kannada_News_MOB __hdnea__=st=1795507277~exp=1795528877~acl=/*~hmac=49a1ffe001f37eff52f450585f6c64ca82932e1d7b18c2a37d8ae0b77ce58415
@@ -34,10 +34,10 @@ premiumplugx ZeeAction_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/Ze
 premiumplugx AndXploreHD_BTS __hdnea__=st=1795507277~exp=1795528877~acl=/*~hmac=49a1ffe001f37eff52f450585f6c64ca82932e1d7b18c2a37d8ae0b77ce58415
 premiumplugx ZeeClassicSD_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/ZeeClassicSD_BTS/WDVLive/*~hmac=0d8e87e7151fad211e67102a0ceca0b94ecd4a8415ccce3765dcd1828e4694c9
 premiumplugx AndPictures_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/AndPictures_BTS/WDVLive/*~hmac=8cc84f3663e9e2a2a6ea320901cdb3cc971000ca96c1251676c32999312d9a4f
-premiumplugx ZeeAnmolCinema2_MOB __hdnea__=st=1795507546~exp=1795529146~acl=/*~hmac=588c24a0b5e92d0765320c79902f77bd5defa44cb0042b2af3baa31698beaa23
+premiumplugx ZeeAnmolCinema2_MOB __hdnea__=st=1795509587~exp=1795531187~acl=/*~hmac=97349202d12151a67f77dc5a4bdb661a17452e163362463bf45b523f0ec8f3fa
 premiumplugx ZeeAnmolCinema_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=736cad8691d1e24211358aadd4db88867f1bc0b7e9992d465cb08a4c46171b04
 premiumplugx ZeeZing_BTS __hdnea__=st=1795502420~exp=1795524020~acl=/bpk-tv/ZeeZing_BTS/WDVLive/*~hmac=920dae21c61bf599d988134bbcaf88153879d2c9822014470d86aa57711a5a6e
-premiumplugx Zee_News_MOB __hdnea__=st=1795507546~exp=1795529146~acl=/*~hmac=588c24a0b5e92d0765320c79902f77bd5defa44cb0042b2af3baa31698beaa23
+premiumplugx Zee_News_BTS __hdnea__=st=1795502421~exp=1795524021~acl=/bpk-tv/Zee_News_BTS/WDVLive/*~hmac=d3fa4523d1ad4c1dc5c0572e6aaa025cc61b884f05b9f657471bc3c08f2082f5
 premiumplugx Living_Foodz_MOB __hdnea__=st=1795507277~exp=1795528877~acl=/*~hmac=49a1ffe001f37eff52f450585f6c64ca82932e1d7b18c2a37d8ae0b77ce58415
 premiumplugx Zee_SANGAM_MOB __hdnea__=st=1795507277~exp=1795528877~acl=/*~hmac=49a1ffe001f37eff52f450585f6c64ca82932e1d7b18c2a37d8ae0b77ce58415
 premiumplugx Zee_News_MP_Chattisgarh_MOB __hdnea__=st=1795507277~exp=1795528877~acl=/*~hmac=49a1ffe001f37eff52f450585f6c64ca82932e1d7b18c2a37d8ae0b77ce58415
