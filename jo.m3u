@@ -3047,9 +3047,9 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/AndPictures_BTS/WDVLive/index.mpd?__hdnea
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=521f555c43e25d75a2a532a35358cee6:8822f0168bbf58fb70f4171c92ad61bb
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1795561983~exp=1795583583~acl=/*~hmac=71626f18a78f10863323111ab9c17578ba2d548bd095dd6e447de49f7e912565"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1795564389~exp=1795585989~acl=/*~hmac=3ce1cb407566d727c616bdbc70e1aa91fc96c3fcdf8add1252aa11ae787d786b"}
 #EXTINF:-1 tvg-id="2761" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeAnmolCinema2.png" group-title="Movies",Zee Anmol Cinema 2
-https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeAnmolCinema2_MOB/WDVLive/index.mpd?__hdnea__=st=1795561983~exp=1795583583~acl=/*~hmac=71626f18a78f10863323111ab9c17578ba2d548bd095dd6e447de49f7e912565
+https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeAnmolCinema2_MOB/WDVLive/index.mpd?__hdnea__=st=1795564389~exp=1795585989~acl=/*~hmac=3ce1cb407566d727c616bdbc70e1aa91fc96c3fcdf8add1252aa11ae787d786b
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8fc0af62fa9b55dd9767e9a7ec2a6abd:9269f6161b3e544c13fcfe28cc8addde
