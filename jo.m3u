@@ -3047,9 +3047,9 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/AndPictures_BTS/WDVLive/index.mpd?__hdnea
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=521f555c43e25d75a2a532a35358cee6:8822f0168bbf58fb70f4171c92ad61bb
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1795793186~exp=1795879586~acl=/*~hmac=defc430d704ca71526b3f547b4a3df7af2509fff38d243812dd65450781c1bbd"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1795794182~exp=1795880582~acl=/*~hmac=e32772d6fd170bdba9d56c62a6f54f5269cc4be5f620fd098c4a7afdee3d72f9"}
 #EXTINF:-1 tvg-id="2761" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeAnmolCinema2.png" group-title="Movies",Zee Anmol Cinema 2
-https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeAnmolCinema2_MOB/WDVLive/index.mpd?__hdnea__=st=1795793186~exp=1795879586~acl=/*~hmac=defc430d704ca71526b3f547b4a3df7af2509fff38d243812dd65450781c1bbd
+https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeAnmolCinema2_MOB/WDVLive/index.mpd?__hdnea__=st=1795794182~exp=1795880582~acl=/*~hmac=e32772d6fd170bdba9d56c62a6f54f5269cc4be5f620fd098c4a7afdee3d72f9
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8fc0af62fa9b55dd9767e9a7ec2a6abd:9269f6161b3e544c13fcfe28cc8addde
@@ -3285,9 +3285,9 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/News_Nation_MOB/WDVLive/index.mpd?__hdnea
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=643816b8692553f7af08ed5dbe9585bb:e2136ac8b8b57f625140e586fc8224c8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.4 (Linux;Android 13) ygx/24.1 ExoPlayerLib/4.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1795793186~exp=1795879586~acl=/*~hmac=defc430d704ca71526b3f547b4a3df7af2509fff38d243812dd65450781c1bbd"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1795794182~exp=1795880582~acl=/*~hmac=e32772d6fd170bdba9d56c62a6f54f5269cc4be5f620fd098c4a7afdee3d72f9"}
 #EXTINF:-1 tvg-id="504" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_News.png" group-title="News",Zee News
-https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_News_MOB/WDVLive/index.mpd?__hdnea__=st=1795793186~exp=1795879586~acl=/*~hmac=defc430d704ca71526b3f547b4a3df7af2509fff38d243812dd65450781c1bbd
+https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_News_MOB/WDVLive/index.mpd?__hdnea__=st=1795794182~exp=1795880582~acl=/*~hmac=e32772d6fd170bdba9d56c62a6f54f5269cc4be5f620fd098c4a7afdee3d72f9
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7f84485ed9f1565c906f4710bb00b176:26c92d1ad610ae018ef51fcb9fe615f8
